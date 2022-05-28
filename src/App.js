@@ -1,25 +1,27 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Home from "./pages/home";
+import Menu from "./pages/menu";
+import MenuDetails from "./pages/menuDetails";
+import Logo from "./components/logo";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/Racy.js</code> and save to drink.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <Logo />
+        <Switch>
+          <Route path="/" exact>
+            <Home />
+          </Route>
+          <Route path="/menu" exact>
+            <Menu />
+          </Route>
+          <Route path="/menu-details/:lang" exact children={<MenuDetails />} />
+        </Switch>
+      </div>
+    </Router>
   );
 }
 

@@ -1,0 +1,40 @@
+.category{
+    margin-top: 10px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    font-family: 'Water Brush', cursive;
+    
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-size: 40px;
+}
+.cost{
+    padding-right: 20px;
+
+}
+
+.overflow{
+    padding-top: 120px;
+    overflow: scroll;
+    height: 100vh;
+}
+
+.wineCard{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+.wineName{
+    font-family: 'Merienda', cursive;
+    font-size: 25px;
+    padding-left: 20px;
+}
+
+.winePrice{
+    padding-right: 20px;
+    font-family: 'Merienda', cursive;
+    font-size: 25px;
+}

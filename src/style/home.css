@@ -1,0 +1,76 @@
+.home{
+    /* position: absolute; */
+    height: 100vh;
+    display: flex;
+    background: linear-gradient(rgb(255, 255, 255), antiquewhite);
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    
+}
+.indizzoContainer{
+    background-color: transparent;
+}
+.indirizzo{
+    background-color: transparent;
+    margin: 10px;
+    font-size: x-large;
+    font-family: 'Merienda', cursive;
+    
+}
+.i1{
+    margin-top: 40px;
+    padding-bottom: 0px;
+}
+.i2{
+    padding-top: 0px;
+}
+.giorni{
+    background-color: transparent;
+    font-size: large;
+    font-family: 'Merienda', cursive;
+    padding: 10px;
+}
+.orari{
+    background-color: transparent;
+    font-size: large;
+    font-family: 'Merienda', cursive;
+    padding: 50px;
+}
+.menuContainer{
+    background-color: transparent;
+    margin-bottom: 0px;
+}
+.menu{
+    width: 100%;
+    padding: 40px 90px;
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-family: 'Merienda', cursive;
+}
+.socialContainer{
+    display: flex;
+    justify-content: center;
+}
+.social{
+    margin-top: 200px;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    width: 90%;
+    border-radius: 40px;
+    margin: 0px 0px;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.9),rgba(255, 255, 255, 0.0001));
+    backdrop-filter: blur(3rem);
+}
+
+
+.icon{
+    color: black;
+    background-color: antiquewhite;
+}
