@@ -69,7 +69,7 @@ const Category = ({ categoria, cost, sfuso }) => {
         {cost && <p className="cost"> € {cost}</p>}
         {sfuso && (
           <div className="cost">
-            <img src={btbc} height="35px" />
+            <img src={btbc} height="35px" alt="bottle/drink" />
           </div>
         )}
       </div>
