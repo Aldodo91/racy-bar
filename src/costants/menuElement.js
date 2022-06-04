@@ -218,7 +218,7 @@ export const softDrink = [
 export const food = [
   {
     nome: "Coca-cola",
-    cost: 5,
+    prezzo: 5,
   },
 ];
 export const noAlcol = [
