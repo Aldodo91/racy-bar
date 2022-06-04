@@ -15,16 +15,22 @@ export default ({ lang }) => {
         Signature
       </a>
       <a className="menu-item" href="#noAlcol" onClick={close}>
-        {it ? "Analcolici" : "No Alcool"}
+        MockTail
       </a>
-      <a className="menu-item" href="#Rwhine" onClick={close}>
-        {it ? "Vini Rossi" : "Red Wine"}
+      <a className="menu-item" href="#wine" onClick={close}>
+        {it ? "Vini" : "Wine"}
       </a>
-      <a className="menu-item" href="#Wwine" onClick={close}>
-        {it ? "Vini Bianchi" : "White wine"}
+      <a className="menu-item" href="#distillati" onClick={close}>
+        {it ? "Distillati" : "Spirits"}
       </a>
-      <a className="menu-item" href="#RoseWine" onClick={close}>
-        {it ? "Vini Rose" : "Rose wine"}
+      <a className="menu-item" href="#softDrink" onClick={close}>
+        Soft Drink
+      </a>
+      <a className="menu-item" href="#caffetteria" onClick={close}>
+        {it ? "Caffetteria" : "Coffee"}
+      </a>
+      <a className="menu-item" href="#food" onClick={close}>
+        Food
       </a>
     </Menu>
   );

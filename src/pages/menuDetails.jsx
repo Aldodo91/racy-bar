@@ -4,6 +4,22 @@ import { useParams } from "react-router-dom";
 import MenuElement from "../components/menuElement";
 import {
   signature,
+  sprits,
+  gin,
+  vodka,
+  rum,
+  tequila,
+  scothWisky,
+  bourbonWhiskey,
+  ryeWiskey,
+  japaniseWisky,
+  irishWisky,
+  cognac,
+  armagnac,
+  caffetteria,
+  softDrink,
+  food,
+  noAlcol,
   redWine,
   roseWine,
   whiteWine,
@@ -24,49 +40,57 @@ const MenuDetails = () => {
 
       <div className="overflow">
         <div id="signature">
-          <Category categoria="Signature Coctails" cost="30" />
-          {signature.map((element) => (
-            <MenuElement
-              key={Math.random() * 10}
-              element={element}
-              lang={lang}
-            />
-          ))}
+          <BigSelection
+            category={signature}
+            nome="Signature Cocktails"
+            cost={30}
+          />
         </div>
+        <BigSelection category={sprits} nome="Spritz" cost={20} />
         <div id="noAlcol">
-          <Category
-            apply
-            categoria={langIt ? "Non Alcolici" : "Not Alcol"}
-            cost="20"
+          <BigSelection category={noAlcol} nome="Mocktail" cost={10} />
+        </div>
+        <div id="wine">
+          <SmallSection
+            category={whiteWine}
+            nome={langIt ? "Bianchi" : "White wine"}
+            isWine={true}
           />
-          {signature.slice(0, 3).map((element) => (
-            <MenuElement
-              key={Math.random() * 10}
-              element={element}
-              lang={lang}
-            />
-          ))}
-        </div>
-        <div id="Rwhine">
-          <Category categoria={langIt ? "Rossi" : "Red wine"} sfuso={true} />
-          {redWine.map((w) => (
-            <WineElement key={Math.random() * 10} wine={w} />
-          ))}
-        </div>
-        <div id="Wwine">
-          <Category
-            categoria={langIt ? "Bianchi" : "White wine"}
-            sfuso={true}
+          <SmallSection
+            category={roseWine}
+            nome={langIt ? "Rose" : "Rose wine"}
+            isWine={true}
           />
-          {whiteWine.map((w) => (
-            <WineElement key={Math.random() * 10} wine={w} />
-          ))}
+          <SmallSection
+            category={redWine}
+            nome={langIt ? "Rossi" : "Red wine"}
+            isWine={true}
+          />
         </div>
-        <div id="RoseWine">
-          <Category categoria={langIt ? "Rose" : "Rosè wine"} sfuso={true} />
-          {roseWine.map((w) => (
-            <WineElement key={Math.random() * 10} wine={w} />
-          ))}
+        <div id="distillati">
+          <SmallSection category={gin} nome="Gin" />
+          <SmallSection category={vodka} nome="Vodka" />
+          <SmallSection category={rum} nome="Rum" />
+          <SmallSection category={tequila} nome="Tequila" />
+          <SmallSection category={scothWisky} nome="Scoth Whisky" />
+          <SmallSection category={bourbonWhiskey} nome="Bourbon Whiskey" />
+          <SmallSection category={ryeWiskey} nome="Rye Whiskey" />
+          <SmallSection category={japaniseWisky} nome="Japanese Whisky" />
+          <SmallSection category={irishWisky} nome="Irish Whisky" />
+          <SmallSection category={cognac} nome="Cognac" />
+          <SmallSection category={armagnac} nome="Armagnac" />
+        </div>
+        <div id="softDrink">
+          <SmallSection category={softDrink} nome="Soft Drink" />
+        </div>
+        <div id="caffetteria">
+          <SmallSection
+            category={caffetteria}
+            nome={langIt ? "Caffetteria" : "Coffee"}
+          />
+        </div>
+        <div id="food">
+          <SmallSection category={food} nome="Food" />
         </div>
       </div>
     </>
@@ -79,15 +103,25 @@ const WineElement = ({ wine }) => {
       <div className="wineCard">
         <div className="wineName">{wine.nome}</div>
         <div className="winePrice">
-          <span>{wine.bottleCost}/</span>
-          <span>{wine.glassCost}</span>
+          <span>€ {wine.bottleCost}</span>
+          {wine.glassCost && <span>/{wine.glassCost}</span>}
         </div>
       </div>
     </>
   );
 };
 
-const Category = ({ apply, categoria, cost, sfuso }) => {
+const CommonElement = ({ element }) => {
+  return (
+    <>
+      <div className="wineCard">
+        <div className="wineName">{element.nome}</div>
+        <div className="winePrice">€ {element.prezzo}</div>
+      </div>
+    </>
+  );
+};
+const Category = ({ categoria, cost, sfuso }) => {
   return (
     <>
       <div className="category">
@@ -103,6 +137,37 @@ const Category = ({ apply, categoria, cost, sfuso }) => {
         <div className="divider"></div>
       </center>
     </>
+  );
+};
+
+const SmallSection = ({ category, nome, isWine }) => {
+  return category && category.length ? (
+    <>
+      <Category categoria={nome} sfuso={isWine} />
+
+      {isWine
+        ? category.map((element) => (
+            <WineElement key={Math.random() * 10} wine={element} />
+          ))
+        : category.map((element) => (
+            <CommonElement key={Math.random() * 200} element={element} />
+          ))}
+    </>
+  ) : (
+    <div></div>
+  );
+};
+const BigSelection = ({ category, nome, lang, cost }) => {
+  return (
+    category &&
+    category.length && (
+      <>
+        <Category categoria={nome} cost={cost} />
+        {category.map((element) => (
+          <MenuElement key={Math.random() * 10} element={element} lang={lang} />
+        ))}
+      </>
+    )
   );
 };
 
