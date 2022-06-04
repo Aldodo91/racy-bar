@@ -17,9 +17,6 @@ const MenuElement = ({ element, lang }) => {
           </div>
         </div>
       </div>
-      <center>
-        <div className="divider"></div>
-      </center>
     </>
   );
 };

@@ -1,11 +1,13 @@
 .home{
     /* position: absolute; */
-    height: 100vh;
+    height: calc(100vh - 160px);
     display: flex;
+    overflow: hidden;
     background: linear-gradient(rgb(255, 255, 255), antiquewhite);
     flex-direction: column;
     justify-content: space-evenly;
-    width: 100%;
+    width: 100%; 
+    padding-bottom: 60px;   
     
 }
 .indizzoContainer{
@@ -39,7 +41,7 @@
 }
 .menuContainer{
     background-color: transparent;
-    margin-bottom: 0px;
+    margin-bottom: 60px;
 }
 .menu{
     width: 100%;
@@ -52,6 +54,9 @@
 .socialContainer{
     display: flex;
     justify-content: center;
+    position: fixed;
+    width: 100vw;
+    bottom: 10px;
 }
 .social{
     margin-top: 200px;

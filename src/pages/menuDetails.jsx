@@ -9,36 +9,65 @@ import {
   whiteWine,
 } from "../costants/menuElement";
 import "../style/menuDetails.css";
+import Hambuerger from "../components/hamburger";
 
 const MenuDetails = () => {
   const { lang } = useParams();
-  React.useEffect(() => {
-    document.getElementById("title").style.backgroundColor = "#fff";
-  });
   const langIt = lang === "it";
   return (
     <>
+      <Hambuerger
+        lang={lang}
+        pageWrapId={"page-wrap"}
+        outerContainerId={"outer-container"}
+      />
+
       <div className="overflow">
-        <Category categoria="Signature Coctails" cost="30" />
-        {signature.map((element) => (
-          <MenuElement key={Math.random() * 10} element={element} lang={lang} />
-        ))}
-        <Category categoria={langIt ? "Non Alcolici" : "Not Alcol"} cost="20" />
-        {signature.slice(0, 3).map((element) => (
-          <MenuElement key={Math.random() * 10} element={element} lang={lang} />
-        ))}
-        <Category categoria={langIt ? "Rossi" : "Red wine"} sfuso={true} />
-        {redWine.map((w) => (
-          <WineElement key={Math.random() * 10} wine={w} />
-        ))}
-        <Category categoria={langIt ? "Bianchi" : "White wine"} sfuso={true} />
-        {whiteWine.map((w) => (
-          <WineElement key={Math.random() * 10} wine={w} />
-        ))}
-        <Category categoria={langIt ? "Rose" : "Rosè wine"} sfuso={true} />
-        {roseWine.map((w) => (
-          <WineElement key={Math.random() * 10} wine={w} />
-        ))}
+        <div id="signature">
+          <Category categoria="Signature Coctails" cost="30" />
+          {signature.map((element) => (
+            <MenuElement
+              key={Math.random() * 10}
+              element={element}
+              lang={lang}
+            />
+          ))}
+        </div>
+        <div id="noAlcol">
+          <Category
+            apply
+            categoria={langIt ? "Non Alcolici" : "Not Alcol"}
+            cost="20"
+          />
+          {signature.slice(0, 3).map((element) => (
+            <MenuElement
+              key={Math.random() * 10}
+              element={element}
+              lang={lang}
+            />
+          ))}
+        </div>
+        <div id="Rwhine">
+          <Category categoria={langIt ? "Rossi" : "Red wine"} sfuso={true} />
+          {redWine.map((w) => (
+            <WineElement key={Math.random() * 10} wine={w} />
+          ))}
+        </div>
+        <div id="Wwine">
+          <Category
+            categoria={langIt ? "Bianchi" : "White wine"}
+            sfuso={true}
+          />
+          {whiteWine.map((w) => (
+            <WineElement key={Math.random() * 10} wine={w} />
+          ))}
+        </div>
+        <div id="RoseWine">
+          <Category categoria={langIt ? "Rose" : "Rosè wine"} sfuso={true} />
+          {roseWine.map((w) => (
+            <WineElement key={Math.random() * 10} wine={w} />
+          ))}
+        </div>
       </div>
     </>
   );
@@ -58,12 +87,9 @@ const WineElement = ({ wine }) => {
   );
 };
 
-const Category = ({ categoria, cost, sfuso }) => {
+const Category = ({ apply, categoria, cost, sfuso }) => {
   return (
     <>
-      <center>
-        <div className="divider"></div>
-      </center>
       <div className="category">
         {categoria}
         {cost && <p className="cost"> € {cost}</p>}

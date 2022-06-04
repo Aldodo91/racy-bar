@@ -9,7 +9,7 @@ import Logo from "./components/logo";
 function App() {
   return (
     <Router>
-      <div className="App">
+      <div className="App" id="outer-container">
         <Logo />
         <Switch>
           <Route path="/" exact>

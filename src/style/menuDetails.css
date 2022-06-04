@@ -5,8 +5,7 @@
     justify-content: space-between;
     padding-left: 20px;
     font-family: 'Water Brush', cursive;
-    
-    padding-top: 4px;
+    padding-top: 20px;
     padding-bottom: 4px;
     font-size: 40px;
 }
@@ -16,9 +15,8 @@
 }
 
 .overflow{
-    padding-top: 120px;
     overflow: scroll;
-    height: 100vh;
+    height: calc(100vh - 170px);
 }
 
 .wineCard{
