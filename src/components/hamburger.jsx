@@ -2,7 +2,7 @@ import React from "react";
 import { scaleDown as Menu } from "react-burger-menu";
 import "../style/hamburger.css";
 
-export default ({ lang }) => {
+const Sidebar = ({ lang }) => {
   const it = lang === "it";
   const close = () => {
     document
@@ -35,3 +35,5 @@ export default ({ lang }) => {
     </Menu>
   );
 };
+
+export default Sidebar;
