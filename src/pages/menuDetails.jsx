@@ -43,6 +43,7 @@ const MenuDetails = () => {
           <BigSelection
             category={signature}
             nome="Signature Cocktails"
+            lang={langIt ? "it" : "en"}
             cost={30}
           />
         </div>
