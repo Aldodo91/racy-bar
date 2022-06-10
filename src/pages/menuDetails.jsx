@@ -103,7 +103,7 @@ const WineElement = ({ wine }) => {
       <div className="wineCard">
         <div className="wineName">{wine.nome}</div>
         <div className="winePrice">
-          <span>€ {wine.bottleCost}</span>
+          <span>{wine.bottleCost}</span>
           {wine.glassCost && <span>/{wine.glassCost}</span>}
         </div>
       </div>
@@ -129,7 +129,10 @@ const Category = ({ categoria, cost, sfuso }) => {
         {cost && <p className="cost"> € {cost}</p>}
         {sfuso && (
           <div className="cost">
-            <img src={btbc} height="35px" alt="bottle/drink" />
+            <div>
+              €
+              <img src={btbc} height="35px" alt="bottle/drink" />
+            </div>
           </div>
         )}
       </div>

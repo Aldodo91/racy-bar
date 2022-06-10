@@ -8,7 +8,7 @@ const MenuElement = ({ element, lang }) => {
     <>
       <div className="drinkSpace">
         <div className="drinkCard">
-          <img className="image" src={img} width="145px" alt="" />
+          <img className="image" src={img} width="105px" alt="" />
           <div className="details">
             <div className="titleCard">{nome}</div>
             <h5 className="recepie">

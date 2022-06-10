@@ -4,10 +4,11 @@
     display: flex;
     justify-content: space-between;
     padding-left: 20px;
-    font-family: 'Water Brush', cursive;
+    font-family: 'Baskervville', serif;
     padding-top: 30px;
     padding-bottom: 4px;
-    font-size: 40px;
+    font-size: 2.2rem;
+    width: 100vw;
 }
 .cost{
     padding-right: 20px;
