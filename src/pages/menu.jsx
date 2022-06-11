@@ -5,15 +5,17 @@ import "../style/menu.css";
 const Menu = () => {
   return (
     <>
-      <div className="buttonContainer">
-        <Link to="/menu-details/it" className="bigButton">
-          Italiano
-        </Link>
+      <center>
+        <div className="buttonContainer">
+          <Link to="/menu-details/it" className="bigButton">
+            Italiano
+          </Link>
 
-        <Link to="/menu-details/en" className="bigButton">
-          English
-        </Link>
-      </div>
+          <Link to="/menu-details/en" className="bigButton">
+            English
+          </Link>
+        </div>
+      </center>
     </>
   );
 };
