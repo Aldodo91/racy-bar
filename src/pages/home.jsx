@@ -16,11 +16,7 @@ const Home = () => {
           <div className="giorni">Closed on Tuesday</div>
         </div>
         <div className="menuContainer">
-          <Link
-            className="menu bigButton"
-            to="/menu"
-            style={{ marginBottom: "160px" }}
-          >
+          <Link className="menu bigButton" to="/menu">
             Menu
           </Link>
         </div>

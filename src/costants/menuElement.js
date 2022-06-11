@@ -39,6 +39,14 @@ export const sprits = [
       en: "Water, Ice, Lemon, adad, ancora, fada, afafa, verda",
     },
   },
+  {
+    img: b1,
+    nome: "Aperol Spritz",
+    ricetta: {
+      it: "Acqua, Ghiaccio, Limone, Coca-cola, arancia, zucchero",
+      en: "Water, Ice, Lemon, adad, ancora, fada, afafa, verda",
+    },
+  },
 ];
 export const signature = [
   {
@@ -51,94 +59,6 @@ export const signature = [
   },
   {
     img: b5,
-    nome: "Pina Colada",
-    ricetta: {
-      it: "Acqua, Ghiaccio, Limone, coca-cola, arancia, zucchero",
-      en: "Water, Ice, Lemon, adad, ancora, fada, afafa, verda",
-    },
-  },
-  {
-    img: b2,
-    nome: "Pina Colada",
-    ricetta: {
-      it: "Acqua, Ghiaccio, Limone, coca-cola, arancia, zucchero",
-      en: "Water, Ice, Lemon, adad, ancora, fada, afafa, verda",
-    },
-  },
-  {
-    img: b11,
-    nome: "Pina Colada",
-    ricetta: {
-      it: "Acqua, Ghiaccio, Limone, coca-cola, arancia, zucchero",
-      en: "Water, Ice, Lemon, adad, ancora, fada, afafa, verda",
-    },
-  },
-  {
-    img: b10,
-    nome: "Pina Colada",
-    ricetta: {
-      it: "Acqua, Ghiaccio, Limone, coca-cola, arancia, zucchero",
-      en: "Water, Ice, Lemon, adad, ancora, fada, afafa, verda",
-    },
-  },
-  {
-    img: b8,
-    nome: "Pina Colada",
-    ricetta: {
-      it: "Acqua, Ghiaccio, Limone, coca-cola, arancia, zucchero",
-      en: "Water, Ice, Lemon, adad, ancora, fada, afafa, verda",
-    },
-  },
-  {
-    img: b3,
-    nome: "Pina Colada",
-    ricetta: {
-      it: "Acqua, Ghiaccio, Limone, coca-cola, arancia, zucchero",
-      en: "Water, Ice, Lemon, adad, ancora, fada, afafa, verda",
-    },
-  },
-  {
-    img: b4,
-    nome: "Aperol Spritz",
-    ricetta: {
-      it: "Acqua, Ghiaccio, Limone, coca-cola, arancia, zucchero",
-      en: "Water, Ice, Lemon, adad, ancora, fada, afafa, verda",
-    },
-  },
-  {
-    img: b6,
-    nome: "Pina Colada",
-    ricetta: {
-      it: "Acqua, Ghiaccio, Limone, coca-cola, arancia, zucchero",
-      en: "Water, Ice, Lemon, adad, ancora, fada, afafa, verda",
-    },
-  },
-  {
-    img: b7,
-    nome: "Pina Colada",
-    ricetta: {
-      it: "Acqua, Ghiaccio, Limone, coca-cola, arancia, zucchero",
-      en: "Water, Ice, Lemon, adad, ancora, fada, afafa, verda",
-    },
-  },
-  {
-    img: b8,
-    nome: "Pina Colada",
-    ricetta: {
-      it: "Acqua, Ghiaccio, Limone, coca-cola, arancia, zucchero",
-      en: "Water, Ice, Lemon, adad, ancora, fada, afafa, verda",
-    },
-  },
-  {
-    img: b9,
-    nome: "Pina Colada",
-    ricetta: {
-      it: "Acqua, Ghiaccio, Limone, coca-cola, arancia, zucchero",
-      en: "Water, Ice, Lemon, adad, ancora, fada, afafa, verda",
-    },
-  },
-  {
-    img: b10,
     nome: "Pina Colada",
     ricetta: {
       it: "Acqua, Ghiaccio, Limone, coca-cola, arancia, zucchero",
@@ -222,6 +142,22 @@ export const food = [
   },
 ];
 export const noAlcol = [
+  {
+    img: b1,
+    nome: "Pina Colada",
+    ricetta: {
+      it: "Acqua, Ghiaccio, Limone, coca-cola, arancia, zucchero",
+      en: "Water, Ice, Lemon, adad, ancora, fada, afafa, verda",
+    },
+  },
+  {
+    img: b1,
+    nome: "Pina Colada",
+    ricetta: {
+      it: "Acqua, Ghiaccio, Limone, coca-cola, arancia, zucchero",
+      en: "Water, Ice, Lemon, adad, ancora, fada, afafa, verda",
+    },
+  },
   {
     img: b1,
     nome: "Pina Colada",

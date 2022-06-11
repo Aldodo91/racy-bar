@@ -94,6 +94,7 @@ const MenuDetails = () => {
           <SmallSection category={food} nome="Food" />
         </div>
       </div>
+      {/* <div style={{ height: "100px" }}></div> */}
     </>
   );
 };
@@ -101,13 +102,15 @@ const MenuDetails = () => {
 const WineElement = ({ wine }) => {
   return (
     <>
-      <div className="wineCard">
-        <div className="wineName">{wine.nome}</div>
-        <div className="winePrice">
-          <span>{wine.bottleCost}</span>
-          {wine.glassCost && <span>/{wine.glassCost}</span>}
+      <center>
+        <div className="wineCard">
+          <div className="wineName">{wine.nome}</div>
+          <div className="winePrice">
+            <span>{wine.bottleCost}</span>
+            {wine.glassCost && <span>/{wine.glassCost}</span>}
+          </div>
         </div>
-      </div>
+      </center>
     </>
   );
 };
@@ -115,29 +118,31 @@ const WineElement = ({ wine }) => {
 const CommonElement = ({ element }) => {
   return (
     <>
-      <div className="wineCard">
-        <div className="wineName">{element.nome}</div>
-        <div className="winePrice">€ {element.prezzo}</div>
-      </div>
+      <center>
+        <div className="wineCard">
+          <div className="wineName">{element.nome}</div>
+          <div className="winePrice">€ {element.prezzo}</div>
+        </div>
+      </center>
     </>
   );
 };
 const Category = ({ categoria, cost, sfuso }) => {
   return (
     <>
-      <div className="category">
-        {categoria}
-        {cost && <p className="cost"> € {cost}</p>}
-        {sfuso && (
-          <div className="cost">
-            <div>
-              €
-              <img src={btbc} height="35px" alt="bottle/drink" />
-            </div>
-          </div>
-        )}
-      </div>
       <center>
+        <div className="category">
+          {categoria}
+          {cost && <p className="cost"> € {cost}</p>}
+          {sfuso && (
+            <div className="cost">
+              <div>
+                €
+                <img src={btbc} height="35px" alt="bottle/drink" />
+              </div>
+            </div>
+          )}
+        </div>
         <div className="divider"></div>
       </center>
     </>
@@ -148,7 +153,6 @@ const SmallSection = ({ category, nome, isWine }) => {
   return category && category.length ? (
     <>
       <Category categoria={nome} sfuso={isWine} />
-
       {isWine
         ? category.map((element) => (
             <WineElement key={Math.random() * 10} wine={element} />
@@ -167,9 +171,17 @@ const BigSelection = ({ category, nome, lang, cost }) => {
     category.length && (
       <>
         <Category categoria={nome} cost={cost} />
-        {category.map((element) => (
-          <MenuElement key={Math.random() * 10} element={element} lang={lang} />
-        ))}
+        <center>
+          <div className="container">
+            {category.map((element) => (
+              <MenuElement
+                key={Math.random() * 10}
+                element={element}
+                lang={lang}
+              />
+            ))}
+          </div>
+        </center>
       </>
     )
   );

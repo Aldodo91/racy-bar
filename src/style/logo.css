@@ -1,12 +1,18 @@
 .logoContainera{
-    height: 100px; 
+    height: 1000px; 
     font-size: 30px;
     letter-spacing: 3px;
-    position: fixed !important;
+    position: static !important;
     width: 100%;
+    top: 0 !important;
     left: 0;
-    background-color: transparent;
+    background-color: black;
+    border: 10px solid red;
+    z-index: 1000;
+    overflow: hidden;
 }
-.logoa {
-    border-bottom: 3px solid black;
+.logo {
+    z-index: 1000;
+    position: fixed;
+    width: 100vw;
 }

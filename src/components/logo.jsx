@@ -12,7 +12,7 @@ const Logo = () => {
       }}
     >
       <Link to="/">
-        <img src={logoW} height="100px" alt="LOGO" />
+        <img className="fix" src={logoW} height="100px" alt="LOGO" />
       </Link>
     </div>
   );

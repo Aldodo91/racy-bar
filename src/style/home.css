@@ -1,16 +1,16 @@
 .home{
-    /* position: absolute; */
-    height: calc(100vh - 160px);
-    display: flex;
-    overflow: hidden;
     background: linear-gradient(rgb(255, 255, 255), antiquewhite);
+    overflow: hidden;
+    position: fixed;
+    bottom: 0px;
+    height: calc(100vh - 100px);
+    display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    width: 100%; 
-    padding-bottom: 60px;   
-    
+    padding-bottom: -100px;
 }
 .indizzoContainer{
+    margin-top: 80px;
     background-color: transparent;
 }
 .indirizzo{
@@ -54,7 +54,7 @@
 .socialContainer{
     display: flex;
     justify-content: center;
-    position: fixed;
+    /* position: fixed; */
     width: 100vw;
     bottom: 10px;
 }
@@ -67,6 +67,7 @@
     align-items: center;
     height: 90px;
     width: 90%;
+    max-width: 800px;
     border-radius: 40px;
     margin: 0px 0px;
     background: linear-gradient(
