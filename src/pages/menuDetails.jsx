@@ -81,9 +81,9 @@ const MenuDetails = () => {
           <SmallSection category={cognac} nome="Cognac" />
           <SmallSection category={armagnac} nome="Armagnac" />
         </div>
-        <div id="softDrink">
+        {/* <div id="softDrink">
           <SmallSection category={softDrink} nome="Soft Drink" />
-        </div>
+        </div> */}
         <div id="caffetteria">
           <SmallSection
             category={caffetteria}

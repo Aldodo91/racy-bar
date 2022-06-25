@@ -71,6 +71,14 @@ export const sprits = [
       en: "Water, Ice, Lemon, adad, ancora, fada, afafa, verda",
     },
   },
+  {
+    img: b1,
+    nome: "Aperol Spritz",
+    ricetta: {
+      it: "Acqua, Ghiaccio, Limone, Coca-cola, arancia, zucchero",
+      en: "Water, Ice, Lemon, adad, ancora, fada, afafa, verda",
+    },
+  },
 ];
 export const signature = [
   {
@@ -181,14 +189,62 @@ export const armagnac = [
 ];
 export const caffetteria = [
   {
-    nome: "nonem",
-    prezzo: 5,
+    nome: "Espresso",
+    prezzo: 1.5,
+  },
+  {
+    nome: "Cappuccino",
+    prezzo: 3,
+  },
+  {
+    nome: "Latte",
+    prezzo: 3,
+  },
+  {
+    nome: "Cortado",
+    prezzo: 2,
+  },
+  {
+    nome: "Americano",
+    prezzo: 3,
+  },
+  {
+    nome: "Doppio Espresso",
+    prezzo: 3,
+  },
+  {
+    nome: "Thè",
+    prezzo: 3,
+  },
+  {
+    nome: "Caffe freddo",
+    prezzo: 3,
+  },
+  {
+    nome: "Yogurt",
+    prezzo: 4,
+  },
+  {
+    nome: "Cornetto",
+    prezzo: 1.5,
+  },
+  {
+    nome: "Spremuta",
+    prezzo: 3.5,
+  },
+  {
+    nome: "Soft drink",
+    prezzo: 2.5,
+  },
+  {
+    nome: "Aperitivo analcolico",
+    prezzo: 1.5,
   },
 ];
 export const softDrink = [
   {
-    nome: "Coca-cola",
-    prezzo: 5,
+    nome: "Aperitivo analcolico",
+    prezzo: 3,
   },
 ];
 export const food = [

@@ -23,9 +23,9 @@ const Sidebar = ({ lang }) => {
       <a className="menu-item" href="#distillati" onClick={close}>
         {it ? "Distillati" : "Spirits"}
       </a>
-      <a className="menu-item" href="#softDrink" onClick={close}>
+      {/* <a className="menu-item" href="#softDrink" onClick={close}>
         Soft Drink
-      </a>
+      </a> */}
       <a className="menu-item" href="#caffetteria" onClick={close}>
         {it ? "Caffetteria" : "Coffee"}
       </a>
