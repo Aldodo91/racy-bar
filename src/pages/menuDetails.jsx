@@ -4,25 +4,25 @@ import { useParams } from "react-router-dom";
 import MenuElement from "../components/menuElement";
 import {
   signature,
-  sprits,
+  toShare,
   gin,
   vodka,
   rum,
   tequila,
   scothWisky,
-  bourbonWhiskey,
-  ryeWiskey,
+  usa,
   japaniseWisky,
   irishWisky,
   cognac,
-  armagnac,
   caffetteria,
-  softDrink,
   food,
   noAlcol,
   redWine,
   roseWine,
   whiteWine,
+  grappa,
+  bollicine,
+  birra,
 } from "../costants/menuElement";
 import "../style/menuDetails.css";
 import Hambuerger from "../components/hamburger";
@@ -44,12 +44,12 @@ const MenuDetails = () => {
             category={signature}
             nome="Signature Cocktails"
             lang={langIt ? "it" : "en"}
-            cost={30}
+            cost={10}
           />
         </div>
-        <BigSelection category={sprits} nome="Spritz" cost={20} />
+        {/* <BigSelection category={toShare} nome="Spritz" cost={20} /> */}
         <div id="noAlcol">
-          <BigSelection category={noAlcol} nome="Mocktail" cost={10} />
+          <BigSelection category={noAlcol} nome="Mocktail" cost={7} />
         </div>
         <div id="wine">
           <SmallSection
@@ -59,7 +59,7 @@ const MenuDetails = () => {
           />
           <SmallSection
             category={roseWine}
-            nome={langIt ? "Rose" : "Rose wine"}
+            nome={langIt ? "Rosè" : "Rose wine"}
             isWine={true}
           />
           <SmallSection
@@ -67,23 +67,25 @@ const MenuDetails = () => {
             nome={langIt ? "Rossi" : "Red wine"}
             isWine={true}
           />
+          <SmallSection
+            category={bollicine}
+            nome={langIt ? "Bollicine" : "Sparkling"}
+            isWine={true}
+          />
+          <SmallSection category={birra} nome={langIt ? "Birre" : "Beers"} />
         </div>
         <div id="distillati">
           <SmallSection category={gin} nome="Gin" />
           <SmallSection category={vodka} nome="Vodka" />
           <SmallSection category={rum} nome="Rum" />
-          <SmallSection category={tequila} nome="Tequila" />
+          <SmallSection category={tequila} nome="Tequila & Mezcal" />
           <SmallSection category={scothWisky} nome="Scoth Whisky" />
-          <SmallSection category={bourbonWhiskey} nome="Bourbon Whiskey" />
-          <SmallSection category={ryeWiskey} nome="Rye Whiskey" />
+          <SmallSection category={usa} nome="USA Whisky" />
           <SmallSection category={japaniseWisky} nome="Japanese Whisky" />
           <SmallSection category={irishWisky} nome="Irish Whisky" />
-          <SmallSection category={cognac} nome="Cognac" />
-          <SmallSection category={armagnac} nome="Armagnac" />
+          <SmallSection category={cognac} nome="Cognac & Calvados" />
+          <SmallSection category={grappa} nome="Grappa" />
         </div>
-        {/* <div id="softDrink">
-          <SmallSection category={softDrink} nome="Soft Drink" />
-        </div> */}
         <div id="caffetteria">
           <SmallSection
             category={caffetteria}
@@ -91,10 +93,14 @@ const MenuDetails = () => {
           />
         </div>
         <div id="food">
-          <SmallSection category={food} nome="Food" />
+          <BigSelection
+            category={food}
+            lang={langIt ? "it" : "en"}
+            nome="Food"
+            cost={""}
+          />
         </div>
       </div>
-      {/* <div style={{ height: "100px" }}></div> */}
     </>
   );
 };
@@ -157,9 +163,11 @@ const SmallSection = ({ category, nome, isWine }) => {
         ? category.map((element) => (
             <WineElement key={Math.random() * 10} wine={element} />
           ))
-        : category.map((element) => (
-            <CommonElement key={Math.random() * 200} element={element} />
-          ))}
+        : category
+            .sort((a, b) => a.prezzo - b.prezzo)
+            .map((element) => (
+              <CommonElement key={Math.random() * 200} element={element} />
+            ))}
     </>
   ) : (
     <div></div>
