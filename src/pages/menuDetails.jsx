@@ -47,7 +47,11 @@ const MenuDetails = () => {
             cost={10}
           />
         </div>
-        {/* <BigSelection category={toShare} nome="Spritz" cost={20} /> */}
+        <BigSelection
+          category={toShare}
+          nome={langIt ? "Da Dividere" : "To Share"}
+          cost={24}
+        />
         <div id="noAlcol">
           <BigSelection category={noAlcol} nome="Mocktail" cost={7} />
         </div>
