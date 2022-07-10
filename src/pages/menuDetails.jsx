@@ -49,8 +49,9 @@ const MenuDetails = () => {
         </div>
         <BigSelection
           category={toShare}
-          nome={langIt ? "Da Dividere" : "To Share"}
+          nome="To Share"
           cost={24}
+          toShare={true}
         />
         <div id="noAlcol">
           <BigSelection category={noAlcol} nome="Mocktail" cost={7} />
@@ -137,12 +138,15 @@ const CommonElement = ({ element }) => {
     </>
   );
 };
-const Category = ({ categoria, cost, sfuso }) => {
+const Category = ({ categoria, cost, sfuso, toShare }) => {
   return (
     <>
       <center>
         <div className="category">
-          {categoria}
+          <div>
+            {categoria}
+            {toShare && <div className="toShare">4 persone</div>}
+          </div>
           {cost && <p className="cost"> € {cost}</p>}
           {sfuso && (
             <div className="cost">
@@ -177,12 +181,12 @@ const SmallSection = ({ category, nome, isWine }) => {
     <div></div>
   );
 };
-const BigSelection = ({ category, nome, lang, cost }) => {
+const BigSelection = ({ category, nome, lang, cost, toShare }) => {
   return (
     category &&
     category.length && (
       <>
-        <Category categoria={nome} cost={cost} />
+        <Category categoria={nome} cost={cost} toShare={toShare} />
         <center>
           <div className="container">
             {category.map((element) => (

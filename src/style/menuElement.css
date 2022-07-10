@@ -37,6 +37,9 @@
     padding-top: 30px;
     text-align: left;
 } 
+.toShare{
+    font-size: 15px;
+}
 
 .recepie{
     display: flex;
