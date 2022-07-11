@@ -44,7 +44,7 @@ export const toShare = [
     img: b1,
     nome: "50 Shades of Grey Goose",
     ricetta: {
-      it: "Vodka, Lampone, Cranberry, Prosecco",
+      it: "Vodka, Lampone, Mirtillo, Prosecco",
       en: "Vodka, Raspberry, Cranberry, Prosecco",
     },
   },
