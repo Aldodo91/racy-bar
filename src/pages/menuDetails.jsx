@@ -52,9 +52,15 @@ const MenuDetails = () => {
           nome="To Share"
           cost={24}
           toShare={true}
+          lang={langIt ? "it" : "en"}
         />
         <div id="noAlcol">
-          <BigSelection category={noAlcol} nome="Mocktail" cost={7} />
+          <BigSelection
+            category={noAlcol}
+            nome="Mocktails"
+            cost={7}
+            lang={langIt ? "it" : "en"}
+          />
         </div>
         <div id="wine">
           <SmallSection
@@ -84,7 +90,7 @@ const MenuDetails = () => {
           <SmallSection category={vodka} nome="Vodka" />
           <SmallSection category={rum} nome="Rum" />
           <SmallSection category={tequila} nome="Tequila & Mezcal" />
-          <SmallSection category={scothWisky} nome="Scoth Whisky" />
+          <SmallSection category={scothWisky} nome="Scotch Whisky" />
           <SmallSection category={usa} nome="USA Whisky" />
           <SmallSection category={japaniseWisky} nome="Japanese Whisky" />
           <SmallSection category={irishWisky} nome="Irish Whisky" />
@@ -147,7 +153,7 @@ const Category = ({ categoria, cost, sfuso, toShare }) => {
             {categoria}
             {toShare && <div className="toShare">4 persone</div>}
           </div>
-          {cost && <p className="cost"> € {cost}</p>}
+          {cost && <p className="cost"> {cost}</p>}
           {sfuso && (
             <div className="cost">
               <div>
@@ -164,6 +170,22 @@ const Category = ({ categoria, cost, sfuso, toShare }) => {
 };
 
 const SmallSection = ({ category, nome, isWine }) => {
+  const addRacyGin = () => {
+    return [
+      {
+        nome: "Racy Dolcevita",
+        prezzo: 9,
+      },
+      {
+        nome: "Racy citrusy",
+        prezzo: 9,
+      },
+    ];
+  };
+  const order =
+    nome === "Gin"
+      ? [...addRacyGin(), ...category.sort((a, b) => a.prezzo - b.prezzo)]
+      : category.sort((a, b) => a.prezzo - b.prezzo);
   return category && category.length ? (
     <>
       <Category categoria={nome} sfuso={isWine} />
@@ -171,11 +193,9 @@ const SmallSection = ({ category, nome, isWine }) => {
         ? category.map((element) => (
             <WineElement key={Math.random() * 10} wine={element} />
           ))
-        : category
-            .sort((a, b) => a.prezzo - b.prezzo)
-            .map((element) => (
-              <CommonElement key={Math.random() * 200} element={element} />
-            ))}
+        : order.map((element) => (
+            <CommonElement key={Math.random() * 200} element={element} />
+          ))}
     </>
   ) : (
     <div></div>

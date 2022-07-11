@@ -102,8 +102,8 @@ export const signature = [
     img: b5,
     nome: "Naples",
     ricetta: {
-      it: "Vodka & Rum alla cannella, Espresso, Sangue Morlacco, Nocciola",
-      en: "Cinnamon Vodka & Rum, Espresso, Sangue Morlacco, Hezel",
+      it: "Vodka & Rum alla cannella, Espresso, Ciliegia, Nocciola",
+      en: "Cinnamon Vodka & Rum, Espresso, Cherry, Hezel",
     },
   },
   // {
@@ -173,14 +173,6 @@ export const signature = [
 ];
 
 export const gin = [
-  {
-    nome: "Racy Dolcevita",
-    prezzo: 9,
-  },
-  {
-    nome: "Racy citrusy",
-    prezzo: 9,
-  },
   {
     nome: "Berto",
     prezzo: 7,
@@ -318,7 +310,7 @@ export const rum = [
     prezzo: 6,
   },
   {
-    nome: "Dum Don Papa 7yo",
+    nome: "Don Papa 7yo",
     prezzo: 8,
   },
   {
@@ -352,7 +344,7 @@ export const tequila = [
     prezzo: 9,
   },
   {
-    nome: "Herradua Reposado",
+    nome: "Herradura Reposado",
     prezzo: 9,
   },
   {
@@ -462,19 +454,11 @@ export const caffetteria = [
     prezzo: 3,
   },
   {
-    nome: "Latte",
-    prezzo: 3,
-  },
-  {
     nome: "Cortado",
     prezzo: 2,
   },
   {
     nome: "Americano",
-    prezzo: 3,
-  },
-  {
-    nome: "Doppio Espresso",
     prezzo: 3,
   },
   {
@@ -499,11 +483,7 @@ export const caffetteria = [
   },
   {
     nome: "Soft drink",
-    prezzo: 2.5,
-  },
-  {
-    nome: "Aperitivo analcolico",
-    prezzo: 1.5,
+    prezzo: 3,
   },
 ];
 export const birra = [
@@ -637,7 +617,7 @@ export const whiteWine = [
     glassCost: 7,
   },
   {
-    nome: "CHardonnay Cantina Mori",
+    nome: "Chardonnay Cantina Mori",
     bottleCost: 28,
     glassCost: 7,
   },

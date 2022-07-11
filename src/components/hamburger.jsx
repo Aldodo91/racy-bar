@@ -15,7 +15,7 @@ const Sidebar = ({ lang }) => {
         Signature
       </a>
       <a className="menu-item" href="#noAlcol" onClick={close}>
-        MockTail
+        MockTails
       </a>
       <a className="menu-item" href="#wine" onClick={close}>
         {it ? "Vini" : "Wine"}
