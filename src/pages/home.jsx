@@ -25,7 +25,7 @@ const Home = () => {
           <div className="giorni">Closed on Tuesday</div>
         </div>
         <div className="menuContainer">
-          <Link className="menu bigButton" to="/menu">
+          <Link className="bigButton menu Menu" to="/menu">
             Menu
           </Link>
         </div>

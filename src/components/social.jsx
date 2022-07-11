@@ -19,15 +19,23 @@ const Social = () => {
             }}
             target="_blank"
           >
-            <FontAwesomeIcon className="icon" icon={brands("facebook")} />
+            <FontAwesomeIcon
+              size="lg"
+              className="icon"
+              icon={brands("facebook")}
+            />
           </Link>
           <Link
             to={{
-              pathname: "https://instagram.com",
+              pathname: "https://www.instagram.com/racy.cocktailbar/",
             }}
             target="_blank"
           >
-            <FontAwesomeIcon className="icon" icon={brands("instagram")} />
+            <FontAwesomeIcon
+              size="lg"
+              className="icon"
+              icon={brands("instagram")}
+            />
           </Link>
           <Link
             to={{
@@ -35,7 +43,7 @@ const Social = () => {
             }}
             target="_blank"
           >
-            <FontAwesomeIcon className="icon" icon={regular("map")} />
+            <FontAwesomeIcon size="lg" className="icon" icon={regular("map")} />
           </Link>
           <Link
             to={{
@@ -43,7 +51,11 @@ const Social = () => {
             }}
             target="_blank"
           >
-            <FontAwesomeIcon className="icon" icon={regular("envelope")} />
+            <FontAwesomeIcon
+              size="lg"
+              className="icon"
+              icon={regular("envelope")}
+            />
           </Link>
           <Link
             to={{
@@ -51,7 +63,7 @@ const Social = () => {
             }}
             target="_blank"
           >
-            <FontAwesomeIcon className="icon" icon={solid("phone")} />
+            <FontAwesomeIcon size="lg" className="icon" icon={solid("phone")} />
           </Link>
         </div>
       </div>

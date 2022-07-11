@@ -61,6 +61,7 @@
     /* position: fixed; */
     width: 100vw;
     bottom: 10px;
+    
 }
 .social{
     margin-top: 200px;
@@ -73,14 +74,14 @@
     width: 90%;
     max-width: 800px;
     border-radius: 40px;
-    margin: 0px 0px;
+    margin: 0px 0px 10px;
     background: linear-gradient(
-        rgba(255, 255, 255, 0.9),rgba(255, 255, 255, 0.0001));
+        rgb(255, 255, 255),rgba(255, 255, 255, 0.447));
     backdrop-filter: blur(3rem);
 }
 
 
 .icon{
     color: black;
-    background-color: antiquewhite;
+    background: rgba(241, 9, 9, 0);
 }
