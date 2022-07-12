@@ -341,7 +341,7 @@ export const tequila = [
   },
   {
     nome: "El Charro silver",
-    prezzo: 9,
+    prezzo: 6,
   },
   {
     nome: "Herradura Reposado",
@@ -404,7 +404,7 @@ export const usa = [
     prezzo: 11,
   },
   {
-    nome: "Jack Daneil",
+    nome: "Jack Daniel",
     prezzo: 6,
   },
 ];
@@ -412,7 +412,7 @@ export const usa = [
 export const japaniseWisky = [];
 export const irishWisky = [
   {
-    nome: "Jameson 100cl",
+    nome: "Jameson",
     prezzo: 6,
   },
 ];
@@ -436,7 +436,7 @@ export const cognac = [
 ];
 export const grappa = [
   {
-    nome: "Grappa Nonino 100CL",
+    nome: "Grappa Nonino",
     prezzo: 4,
   },
   {
@@ -462,7 +462,7 @@ export const caffetteria = [
     prezzo: 3,
   },
   {
-    nome: "Thè",
+    nome: "Tea",
     prezzo: 3,
   },
   {
@@ -544,7 +544,7 @@ export const noAlcol = [
     img: b1,
     nome: "Sacramento",
     ricetta: {
-      it: "Cramberry, Lamponi, Soda ",
+      it: "Mirtillo, Lamponi, Soda ",
       en: "Cramberry, Raspberry, Soda",
     },
   },
@@ -588,7 +588,7 @@ export const redWine = [
     glassCost: 7,
   },
   {
-    nome: "Mojo 57",
+    nome: "Moio 57",
     bottleCost: 30,
     glassCost: 8,
   },
