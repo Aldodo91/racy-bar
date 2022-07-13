@@ -33,7 +33,7 @@ import scrigno from "../assets/glass/scrigno.webp";
 export const toShare = [
   // immagine Biancha vuota (cambia nome della categoria ex spriz)
   {
-    img: bc,
+    img: null,
     nome: "Racy Spritz",
     ricetta: {
       it: "Racy Aperitivo, Prosecco, Frutta fresca",
@@ -41,7 +41,7 @@ export const toShare = [
     },
   },
   {
-    img: mela,
+    img: null,
     nome: "50 Shades of Grey Goose",
     ricetta: {
       it: "Vodka, Lampone, Mirtillo, Prosecco",
@@ -508,8 +508,8 @@ export const food = [
     nome: "Summer Salad",
     prezzo: 7,
     ricetta: {
-      it: "Italiano",
-      en: "Inglese",
+      it: "Anguria, Feta, Citronette",
+      en: "Watermelon, Feta cheese, Citronette",
     },
   },
   {
@@ -517,8 +517,8 @@ export const food = [
     nome: "Humus di Rapa Rossa",
     prezzo: 7,
     ricetta: {
-      it: "Italiano",
-      en: "Inglese",
+      it: "Ceci, Rapa rossa, Tahina, Limone",
+      en: "Chickpeas, Beetroot, Tahini, Fresh lemon juice",
     },
   },
   {
@@ -526,8 +526,8 @@ export const food = [
     nome: "Tris di Bruschette",
     prezzo: 7,
     ricetta: {
-      it: "Italiano",
-      en: "Inglese",
+      it: "Pomodorini e pesto di basilico, Peperoni arrostiti, Burrata mortadella e pesto di pistacchio",
+      en: "",
     },
   },
 ];
