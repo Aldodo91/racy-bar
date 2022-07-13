@@ -1,14 +1,14 @@
-import b1 from "../assets/glass/1.jpg";
-import b2 from "../assets/glass/2.jpg";
-import b3 from "../assets/glass/3.jpg";
-import b4 from "../assets/glass/4.jpg";
-import b5 from "../assets/glass/5.jpg";
-import b6 from "../assets/glass/6.jpg";
-import b7 from "../assets/glass/7.jpg";
-import b8 from "../assets/glass/8.jpg";
-import b9 from "../assets/glass/9.jpg";
-import b10 from "../assets/glass/10.jpg";
-import b11 from "../assets/glass/11.jpg";
+import bc from "../assets/glass/corto.webp";
+import mela from "../assets/glass/mela.webp";
+import uccello from "../assets/glass/uccello.webp";
+import bl from "../assets/glass/lungo.webp";
+import calice from "../assets/glass/calice.webp";
+import imbuto from "../assets/glass/imbuto.webp";
+import martini from "../assets/glass/martini.webp";
+import moro from "../assets/glass/moro.webp";
+import nude from "../assets/glass/nude.webp";
+import scodella from "../assets/glass/scodella.webp";
+import scrigno from "../assets/glass/scrigno.webp";
 
 /*
   Ordine : 
@@ -33,7 +33,7 @@ import b11 from "../assets/glass/11.jpg";
 export const toShare = [
   // immagine Biancha vuota (cambia nome della categoria ex spriz)
   {
-    img: b1,
+    img: bc,
     nome: "Racy Spritz",
     ricetta: {
       it: "Racy Aperitivo, Prosecco, Frutta fresca",
@@ -41,7 +41,7 @@ export const toShare = [
     },
   },
   {
-    img: b1,
+    img: mela,
     nome: "50 Shades of Grey Goose",
     ricetta: {
       it: "Vodka, Lampone, Mirtillo, Prosecco",
@@ -51,7 +51,7 @@ export const toShare = [
 ];
 export const signature = [
   {
-    img: b1,
+    img: bc,
     nome: "Venice",
     ricetta: {
       it: "Pesca fresca, Prosecco, Love",
@@ -59,7 +59,7 @@ export const signature = [
     },
   },
   {
-    img: b5,
+    img: mela,
     nome: "Cancún",
     ricetta: {
       it: "Tequila, Limone, Mandorla piccante",
@@ -67,7 +67,7 @@ export const signature = [
     },
   },
   {
-    img: b5,
+    img: uccello,
     nome: "Montréal",
     ricetta: {
       it: "Bourbon, Maple al limone, Smoke bitter",
@@ -75,7 +75,7 @@ export const signature = [
     },
   },
   {
-    img: b5,
+    img: bl,
     nome: "Hong Kong",
     ricetta: {
       it: "Racy herbal liqueur, Chinotto, Limone",
@@ -91,7 +91,7 @@ export const signature = [
   //   },
   // },
   {
-    img: b5,
+    img: calice,
     nome: "L.A.",
     ricetta: {
       it: "Boubon, Ancho Reyes, Amaro 18, Chinotto",
@@ -99,7 +99,7 @@ export const signature = [
     },
   },
   {
-    img: b5,
+    img: moro,
     nome: "Naples",
     ricetta: {
       it: "Vodka & Rum alla cannella, Espresso, Ciliegia, Nocciola",
@@ -123,7 +123,7 @@ export const signature = [
   //   },
   // },
   {
-    img: b5,
+    img: nude,
     nome: "Sydney",
     ricetta: {
       it: "Gin, Anguria, Sour, Prosecco",
@@ -131,7 +131,7 @@ export const signature = [
     },
   },
   {
-    img: b5,
+    img: scodella,
     nome: "Folgore",
     ricetta: {
       it: "Vodka & Gin agli agrumi, Riboflavina, Tonica",
@@ -155,7 +155,7 @@ export const signature = [
   //   },
   // },
   {
-    img: b5,
+    img: scrigno,
     nome: "Rio",
     ricetta: {
       it: "Cachaça, Limone, Fiori di sambuco, Butterfly pea",
@@ -533,7 +533,7 @@ export const food = [
 ];
 export const noAlcol = [
   {
-    img: b1,
+    img: imbuto,
     nome: "Shanghai",
     ricetta: {
       it: "Menta, Chinotto, Limone",
@@ -541,7 +541,7 @@ export const noAlcol = [
     },
   },
   {
-    img: b1,
+    img: martini,
     nome: "Sacramento",
     ricetta: {
       it: "Mirtillo, Lamponi, Soda ",
@@ -557,7 +557,7 @@ export const noAlcol = [
   //   },
   // },
   {
-    img: b1,
+    img: uccello,
     nome: "Melbourne",
     ricetta: {
       it: "Anguria, Sour, Soda",
