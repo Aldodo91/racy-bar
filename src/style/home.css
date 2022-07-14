@@ -43,6 +43,9 @@
     font-family: 'Merienda', cursive;
     padding: 50px;
 }
+.orari-inside{
+    background: transparent;
+}
 .menuContainer{
     background-color: transparent;
     margin-bottom: 60px;

@@ -21,8 +21,8 @@ const Home = () => {
           </Link>
         </div>
         <div className="orari">
-          <p>Open every day</p>
-          <p>6.30 | 00.00</p>
+          <p className="orari-inside">Open every day</p>
+          <p className="orari-inside">6.30 | 00.00</p>
           <div className="giorni">Closed on Monday until 6pm</div>
         </div>
         <div className="menuContainer">
