@@ -9,6 +9,7 @@ import moro from "../assets/glass/moro.webp";
 import nude from "../assets/glass/nude.webp";
 import scodella from "../assets/glass/scodella.webp";
 import scrigno from "../assets/glass/scrigno.webp";
+import moka from "../assets/glass/moka.webp";
 
 /*
   Ordine : 
@@ -51,7 +52,7 @@ export const toShare = [
 ];
 export const signature = [
   {
-    img: bc,
+    img: calice,
     nome: "Venice",
     ricetta: {
       it: "Pesca fresca, Prosecco, Love",
@@ -59,7 +60,7 @@ export const signature = [
     },
   },
   {
-    img: mela,
+    img: bc,
     nome: "Cancún",
     ricetta: {
       it: "Tequila, Limone, Mandorla piccante",
@@ -67,7 +68,7 @@ export const signature = [
     },
   },
   {
-    img: uccello,
+    img: scrigno,
     nome: "Montréal",
     ricetta: {
       it: "Bourbon, Maple al limone, Smoke bitter",
@@ -75,7 +76,7 @@ export const signature = [
     },
   },
   {
-    img: bl,
+    img: moro,
     nome: "Hong Kong",
     ricetta: {
       it: "Racy herbal liqueur, Chinotto, Limone",
@@ -91,7 +92,7 @@ export const signature = [
   //   },
   // },
   {
-    img: calice,
+    img: scodella,
     nome: "L.A.",
     ricetta: {
       it: "Boubon, Ancho Reyes, Amaro 18, Chinotto",
@@ -99,7 +100,7 @@ export const signature = [
     },
   },
   {
-    img: moro,
+    img: moka,
     nome: "Naples",
     ricetta: {
       it: "Vodka & Rum alla cannella, Espresso, Ciliegia, Nocciola",
@@ -123,7 +124,7 @@ export const signature = [
   //   },
   // },
   {
-    img: nude,
+    img: scodella,
     nome: "Sydney",
     ricetta: {
       it: "Gin, Anguria, Sour, Prosecco",
@@ -131,7 +132,7 @@ export const signature = [
     },
   },
   {
-    img: scodella,
+    img: bc,
     nome: "Folgore",
     ricetta: {
       it: "Vodka & Gin agli agrumi, Riboflavina, Tonica",
@@ -155,7 +156,7 @@ export const signature = [
   //   },
   // },
   {
-    img: scrigno,
+    img: bl,
     nome: "Rio",
     ricetta: {
       it: "Cachaça, Limone, Fiori di sambuco, Butterfly pea",
@@ -533,7 +534,7 @@ export const food = [
 ];
 export const noAlcol = [
   {
-    img: imbuto,
+    img: bl,
     nome: "Shanghai",
     ricetta: {
       it: "Menta, Chinotto, Limone",
@@ -541,7 +542,7 @@ export const noAlcol = [
     },
   },
   {
-    img: martini,
+    img: nude,
     nome: "Sacramento",
     ricetta: {
       it: "Mirtillo, Lamponi, Soda ",
@@ -557,7 +558,7 @@ export const noAlcol = [
   //   },
   // },
   {
-    img: uccello,
+    img: bl,
     nome: "Melbourne",
     ricetta: {
       it: "Anguria, Sour, Soda",
