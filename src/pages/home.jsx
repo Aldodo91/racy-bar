@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../style/home.css";
 import Social from "../components/social";
-import { position } from "../costants/links";
+import { links, position } from "../costants/links";
 
 const Home = () => {
   return (
@@ -12,7 +12,7 @@ const Home = () => {
           <Link
             className="tdNone"
             to={{
-              pathname: position,
+              pathname: links.maps,
             }}
             target="_blank"
           >

@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { position } from "../costants/links";
+import { links } from "../costants/links";
 import {
   solid,
   regular,
@@ -15,7 +15,7 @@ const Social = () => {
         <div className="social">
           <Link
             to={{
-              pathname: "https://facebook.com",
+              pathname: links.fb,
             }}
             target="_blank"
           >
@@ -27,7 +27,7 @@ const Social = () => {
           </Link>
           <Link
             to={{
-              pathname: "https://www.instagram.com/racy.cocktailbar/",
+              pathname: links.instagram,
             }}
             target="_blank"
           >
@@ -39,7 +39,7 @@ const Social = () => {
           </Link>
           <Link
             to={{
-              pathname: position,
+              pathname: links.maps,
             }}
             target="_blank"
           >
@@ -47,7 +47,7 @@ const Social = () => {
           </Link>
           <Link
             to={{
-              pathname: "mailto:carlo.dorso@hotmail.com",
+              pathname: links.mail,
             }}
             target="_blank"
           >
@@ -59,7 +59,7 @@ const Social = () => {
           </Link>
           <Link
             to={{
-              pathname: "tel:+393661268282",
+              pathname: links.tel,
             }}
             target="_blank"
           >
