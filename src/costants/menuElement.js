@@ -33,14 +33,14 @@ import moka from "../assets/glass/moka.webp";
 */
 export const toShare = [
   // immagine Biancha vuota (cambia nome della categoria ex spriz)
-  {
-    img: null,
-    nome: "Racy Spritz",
-    ricetta: {
-      it: "Racy Aperitivo, Prosecco, Frutta fresca",
-      en: "Racy Aperitivo, Prosecco, Fresh fruit",
-    },
-  },
+  // {
+  //   img: null,
+  //   nome: "Racy Spritz",
+  //   ricetta: {
+  //     it: "Racy Aperitivo, Prosecco, Frutta fresca",
+  //     en: "Racy Aperitivo, Prosecco, Fresh fruit",
+  //   },
+  // },
   {
     img: null,
     nome: "50 Shades of Grey Goose",
@@ -92,21 +92,21 @@ export const signature = [
   //   },
   // },
   {
-    img: scodella,
+    img: nude,
     nome: "L.A.",
     ricetta: {
       it: "Boubon, Ancho Reyes, Amaro 18, Chinotto",
       en: "Boubon, Ancho Reyes, Amaro 18, Chinotto",
     },
   },
-  {
-    img: moka,
-    nome: "Naples",
-    ricetta: {
-      it: "Vodka & Rum alla cannella, Espresso, Ciliegia, Nocciola",
-      en: "Cinnamon Vodka & Rum, Espresso, Cherry, Hezel",
-    },
-  },
+  // {
+  //   img: moka,
+  //   nome: "Naples",
+  //   ricetta: {
+  //     it: "Vodka & Rum alla cannella, Espresso, Ciliegia, Nocciola",
+  //     en: "Cinnamon Vodka & Rum, Espresso, Cherry, Hezel",
+  //   },
+  // },
   // {
   //   img: b5,
   //   nome: "Mykonos",
@@ -124,7 +124,7 @@ export const signature = [
   //   },
   // },
   {
-    img: scodella,
+    img: nude,
     nome: "Sydney",
     ricetta: {
       it: "Gin, Anguria, Sour, Prosecco",
@@ -132,7 +132,7 @@ export const signature = [
     },
   },
   {
-    img: bc,
+    img: bl,
     nome: "Folgore",
     ricetta: {
       it: "Vodka & Gin agli agrumi, Riboflavina, Tonica",
@@ -470,17 +470,17 @@ export const caffetteria = [
     nome: "Caffe freddo",
     prezzo: 3,
   },
-  {
-    nome: "Yogurt",
-    prezzo: 4,
-  },
+  // {
+  //   nome: "Yogurt",
+  //   prezzo: 4,
+  // },
   {
     nome: "Cornetto",
     prezzo: 1.5,
   },
   {
     nome: "Spremuta",
-    prezzo: 3.5,
+    prezzo: 4,
   },
   {
     nome: "Soft drink",
@@ -524,11 +524,11 @@ export const food = [
   },
   {
     img: null,
-    nome: "Tris di Bruschette",
+    nome: "Bruschette",
     prezzo: 7,
     ricetta: {
-      it: "Pomodorini e pesto di basilico, Peperoni arrostiti, Burrata mortadella e pesto di pistacchio",
-      en: "",
+      it: "Peperoni arrostiti",
+      en: "Roasted red peppers",
     },
   },
 ];
@@ -541,14 +541,14 @@ export const noAlcol = [
       en: "Hand-pickhed Mint, Chinotto, Fresh lemon juice",
     },
   },
-  {
-    img: nude,
-    nome: "Sacramento",
-    ricetta: {
-      it: "Mirtillo, Lamponi, Soda ",
-      en: "Cramberry, Raspberry, Soda",
-    },
-  },
+  // {
+  //   img: nude,
+  //   nome: "Sacramento",
+  //   ricetta: {
+  //     it: "Mirtillo, Lamponi, Soda ",
+  //     en: "Cramberry, Raspberry, Soda",
+  //   },
+  // },
   // {
   //   img: b5,
   //   nome: "Santo Domingo",
