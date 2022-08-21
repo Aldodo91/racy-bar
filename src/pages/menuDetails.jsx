@@ -44,7 +44,7 @@ const MenuDetails = () => {
             category={signature}
             nome="Signature Cocktails"
             lang={langIt ? "it" : "en"}
-            cost={10}
+            cost={12}
           />
         </div>
         <BigSelection
@@ -176,10 +176,10 @@ const SmallSection = ({ category, nome, isWine }) => {
         nome: "Racy Dolcevita",
         prezzo: 9,
       },
-      {
-        nome: "Racy citrusy",
-        prezzo: 9,
-      },
+      // {
+      //   nome: "Racy citrusy",
+      //   prezzo: 9,
+      // },
     ];
   };
   const order =
