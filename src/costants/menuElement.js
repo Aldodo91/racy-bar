@@ -59,14 +59,14 @@ export const signature = [
       en: "Fresh peach, Prosecco, Love",
     },
   },
-  {
-    img: bc,
-    nome: "Cancún",
-    ricetta: {
-      it: "Tequila, Limone, Mandorla piccante",
-      en: "Tequila, Fresh lemon juice, Spicy almond",
-    },
-  },
+  // {
+  //   img: bc,
+  //   nome: "Cancún",
+  //   ricetta: {
+  //     it: "Tequila, Limone, Mandorla piccante",
+  //     en: "Tequila, Fresh lemon juice, Spicy almond",
+  //   },
+  // },
   {
     img: scrigno,
     nome: "Montréal",
