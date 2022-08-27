@@ -54,17 +54,17 @@ const Social = () => {
             <FontAwesomeIcon
               size="lg"
               className="icon"
-              icon={regular("envelope")}
+              icon={solid("envelope")}
             />
           </Link>
-          <Link
+          {/* <Link
             to={{
               pathname: links.tel,
             }}
             target="_blank"
           >
             <FontAwesomeIcon size="lg" className="icon" icon={solid("phone")} />
-          </Link>
+          </Link> */}
         </div>
       </div>
     </center>
