@@ -495,6 +495,11 @@ export const caffetteria = [
     prezzo: 3,
   },
 ];
+export const latteVegetale = {
+  nome: "Latte vegetale",
+  tipi: ["Avena", "Soia", "Cocco", "Mandarla"],
+  prezzo: "+0.50",
+};
 export const birra = [
   {
     nome: "Umbri Bianca cappelli",
