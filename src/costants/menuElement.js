@@ -10,7 +10,6 @@ import nude from "../assets/glass/nude.webp";
 import scodella from "../assets/glass/scodella.webp";
 import scrigno from "../assets/glass/scrigno.webp";
 import moka from "../assets/glass/moka.webp";
-// added from rasberry 
 
 /*
   Ordine : 
@@ -60,14 +59,14 @@ export const signature = [
       en: "Fresh peach, Prosecco, Love",
     },
   },
-  // {
-  //   img: bc,
-  //   nome: "Cancún",
-  //   ricetta: {
-  //     it: "Tequila, Limone, Mandorla piccante",
-  //     en: "Tequila, Fresh lemon juice, Spicy almond",
-  //   },
-  // },
+  {
+    img: bc,
+    nome: "Cancún",
+    ricetta: {
+      it: "Tequila, Limone, Mandorla piccante",
+      en: "Tequila, Fresh lemon juice, Spicy almond",
+    },
+  },
   {
     img: scrigno,
     nome: "Montréal",
@@ -93,21 +92,21 @@ export const signature = [
   //   },
   // },
   {
-    img: nude,
+    img: martini,
     nome: "L.A.",
     ricetta: {
       it: "Boubon, Ancho Reyes, Amaro 18, Chinotto",
       en: "Boubon, Ancho Reyes, Amaro 18, Chinotto",
     },
   },
-  // {
-  //   img: moka,
-  //   nome: "Naples",
-  //   ricetta: {
-  //     it: "Vodka & Rum alla cannella, Espresso, Ciliegia, Nocciola",
-  //     en: "Cinnamon Vodka & Rum, Espresso, Cherry, Hezel",
-  //   },
-  // },
+  {
+    img: moka,
+    nome: "Naples",
+    ricetta: {
+      it: "Rum, Ciocolato, Caffè, Nocciola",
+      en: "Rum, chocolate, Cofee, Hezel",
+    },
+  },
   // {
   //   img: b5,
   //   nome: "Mykonos",
@@ -125,7 +124,7 @@ export const signature = [
   //   },
   // },
   {
-    img: nude,
+    img: martini,
     nome: "Sydney",
     ricetta: {
       it: "Gin, Anguria, Sour, Prosecco",
@@ -456,6 +455,10 @@ export const caffetteria = [
     prezzo: 3,
   },
   {
+    nome: "Latte Macchiato",
+    prezzo: 3,
+  },
+  {
     nome: "Cortado",
     prezzo: 2,
   },
@@ -478,6 +481,10 @@ export const caffetteria = [
   {
     nome: "Cornetto",
     prezzo: 1.5,
+  },
+  {
+    nome: "Mini Cornetto",
+    prezzo: 1,
   },
   {
     nome: "Spremuta",
