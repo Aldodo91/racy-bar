@@ -14,7 +14,13 @@ const MenuElement = ({ element, lang }) => {
             <div style={{ width: 50 }}></div>
           )}
           <div className="details">
-            <div className="titleCard">{nome}</div>
+            <div className="titleCard">
+              {nome
+                ? nome
+                : lang === "it"
+                ? "Specialità del giorno"
+                : "Daily specials"}
+            </div>
             <h5 className="recepie">
               {lang === "it" ? ricetta.it : ricetta.en}
             </h5>
