@@ -517,31 +517,31 @@ export const softDrink = [
   },
 ];
 export const food = [
+  // {
+  //   img: null,
+  //   nome: "Summer Salad",
+  //   prezzo: 7,
+  //   ricetta: {
+  //     it: "Anguria, Feta, Citronette",
+  //     en: "Watermelon, Feta cheese, Citronette",
+  //   },
+  // },
+  // {
+  //   img: null,
+  //   nome: "Humus di Rapa Rossa",
+  //   prezzo: 7,
+  //   ricetta: {
+  //     it: "Ceci, Rapa rossa, Tahina, Limone",
+  //     en: "Chickpeas, Beetroot, Tahini, Fresh lemon juice",
+  //   },
+  // },
   {
     img: null,
-    nome: "Summer Salad",
+    nome: "",
     prezzo: 7,
     ricetta: {
-      it: "Anguria, Feta, Citronette",
-      en: "Watermelon, Feta cheese, Citronette",
-    },
-  },
-  {
-    img: null,
-    nome: "Humus di Rapa Rossa",
-    prezzo: 7,
-    ricetta: {
-      it: "Ceci, Rapa rossa, Tahina, Limone",
-      en: "Chickpeas, Beetroot, Tahini, Fresh lemon juice",
-    },
-  },
-  {
-    img: null,
-    nome: "Bruschette",
-    prezzo: 7,
-    ricetta: {
-      it: "Peperoni arrostiti",
-      en: "Roasted red peppers",
+      it: "Selezione del giorno, secondo stagione.",
+      en: "Seasonal selection of the day.",
     },
   },
 ];
@@ -647,9 +647,8 @@ export const whiteWine = [
 ];
 export const roseWine = [
   {
-    nome: "Vetere Bio S. Salvatore",
-    bottleCost: 30,
-    glassCost: 8,
+    nome: "Vetere Bio S. Salvatore 37cl",
+    bottleCost: 20,
   },
 ];
 export const bollicine = [

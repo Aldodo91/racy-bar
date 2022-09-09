@@ -2,9 +2,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../style/home.css";
 import Social from "../components/social";
-import { links, position } from "../costants/links";
+import { links } from "../costants/links";
 
 const Home = () => {
+  const [tempClosed] = React.useState(false);
   return (
     <>
       <div className="home">
@@ -24,6 +25,7 @@ const Home = () => {
           <p className="orari-inside">Open every day</p>
           <p className="orari-inside">7.00 | 02.00</p>
           <div className="giorni">Closed on Monday until 6pm</div>
+          {tempClosed && <TemporaryClosed />}
         </div>
         <div className="menuContainer">
           <Link className="bigButton menu Menu" to="/menu">
@@ -33,6 +35,25 @@ const Home = () => {
         <Social />
       </div>
     </>
+  );
+};
+const TemporaryClosed = () => {
+  return (
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "row",
+        justifyContent: "center",
+        borderRadius: "15px",
+        marginTop: "20px",
+        backgroundColor: "white",
+        boxShadow: "10px 19px 22px -12px rgb(0 0 0 / 13%)",
+      }}
+    >
+      <div className="giorni alert">
+        We are close today Thursday 8th September See you tomorrow!
+      </div>
+    </div>
   );
 };
 
