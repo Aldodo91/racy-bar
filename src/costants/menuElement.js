@@ -1,38 +1,4 @@
-import bc from "../assets/glass/corto.webp";
-import mela from "../assets/glass/mela.webp";
-import uccello from "../assets/glass/uccello.webp";
-import bl from "../assets/glass/lungo.webp";
-import calice from "../assets/glass/calice.webp";
-import imbuto from "../assets/glass/imbuto.webp";
-import martini from "../assets/glass/martini.webp";
-import moro from "../assets/glass/moro.webp";
-import nude from "../assets/glass/nude.webp";
-import scodella from "../assets/glass/scodella.webp";
-import scrigno from "../assets/glass/scrigno.webp";
-import moka from "../assets/glass/moka.webp";
-
-/*
-  Ordine : 
-  - signature 
-  - Sprits
-  - mocktail
-  - vini (bianchi, rose, rossi, spumanti);
-  - // distillati (Gin, Vodka, Rum, Tequila, Scoth Whisky, Bourbon Whiskey, Rye Whiskey, Japanese Whisky, Irish Whisky, Cognac, Armagnac,) 
-  - softDrink
-  - Caffetteria 
-  - Food
-
-  Ordine Sidebad: 
-  - Signature 
-  - Mocktail 
-  - Vini | Wine 
-  - Distillati | Spirits
-  - Soft Drink
-  - Caffetteria | Coffee
-  - Food 
-*/
 export const toShare = [
-  // immagine Biancha vuota (cambia nome della categoria ex spriz)
   // {
   //   img: null,
   //   nome: "Racy Spritz",
@@ -49,128 +15,6 @@ export const toShare = [
       en: "Vodka, Raspberry, Cranberry, Prosecco",
     },
   },
-];
-export const signature = [
-  {
-    img: calice,
-    nome: "Venice",
-    ricetta: {
-      it: "Pesca fresca, Prosecco, Love",
-      en: "Fresh peach, Prosecco, Love",
-    },
-  },
-  {
-    img: bc,
-    nome: "Cancún",
-    ricetta: {
-      it: "Tequila, Limone, Mandorla piccante",
-      en: "Tequila, Fresh lemon juice, Spicy almond",
-    },
-  },
-  {
-    img: scrigno,
-    nome: "Montréal",
-    ricetta: {
-      it: "Bourbon, Maple al limone, Smoke bitter",
-      en: "Bourbon, Lemon maple syrup, Smoke bitter",
-    },
-  },
-  {
-    img: moro,
-    nome: "Hong Kong",
-    ricetta: {
-      it: "Racy herbal liqueur, Chinotto, Limone",
-      en: "Racy herbal liqueur, Chinotto, Fresh lemon juice",
-    },
-  },
-  // {
-  //   img: b5,
-  //   nome: "San Juan",
-  //   ricetta: {
-  //     it: "Rum cannella & chiodi di garofano, Cioccolato bianco & Cocco, Anans",
-  //     en: "Cinnamon & cloves rum, White chocolate & Cocco, Pineapple",
-  //   },
-  // },
-  {
-    img: martini,
-    nome: "L.A.",
-    ricetta: {
-      it: "Boubon, Ancho Reyes, Amaro 18, Chinotto",
-      en: "Boubon, Ancho Reyes, Amaro 18, Chinotto",
-    },
-  },
-  {
-    img: moka,
-    nome: "Naples",
-    ricetta: {
-      it: "Rum, Ciocolato, Caffè, Nocciola",
-      en: "Rum, chocolate, Cofee, Hezel",
-    },
-  },
-  // {
-  //   img: b5,
-  //   nome: "Mykonos",
-  //   ricetta: {
-  //     it: "Ouzo, Racy Amaro, Ginger beer, Limone",
-  //     en: "Ouzo, Racy Amaro, Ginger beer, Fresh lemon juice",
-  //   },
-  // },
-  // {
-  //   img: b5,
-  //   nome: "Tokyo",
-  //   ricetta: {
-  //     it: "Gin Roku, Bitter al tartufo, Vermouth Rosso, Umami",
-  //     en: "Roku Gin, Truffle Bitter, Swee Vermouth, Umami",
-  //   },
-  // },
-  {
-    img: martini,
-    nome: "Sydney",
-    ricetta: {
-      it: "Gin, Anguria, Sour, Prosecco",
-      en: "Gin, Watermelon, Sour, Prosecco",
-    },
-  },
-  {
-    img: bl,
-    nome: "Folgore",
-    ricetta: {
-      it: "Vodka & Gin agli agrumi, Riboflavina, Tonica",
-      en: "Citrusy Vodka & Gin, Riboflavin, Tonic",
-    },
-  },
-  // {
-  //   img: b5,
-  //   nome: "London",
-  //   ricetta: {
-  //     it: "Racy Citrusy Gin, Mela, Menta, Fiori di sanbuco, Cetriolo, Limone",
-  //     en: "Racy Citrusy Gin, Apple, Mint, Elderflower, Cucumber, Fresh lemon juice",
-  //   },
-  // },
-  // {
-  //   img: b5,
-  //   nome: "Lima",
-  //   ricetta: {
-  //     it: "Pisco, Melograno, Limone, Ananas",
-  //     en: "Pisco, Pomegranate, Lemon, Pineapple",
-  //   },
-  // },
-  {
-    img: bl,
-    nome: "Rio",
-    ricetta: {
-      it: "Cachaça, Limone, Fiori di sambuco, Butterfly pea",
-      en: "Cachaça, Fresh lemon juice, Elderflower, Butterfly pea",
-    },
-  },
-  // {
-  //   img: b5,
-  //   nome: "Cannes",
-  //   ricetta: {
-  //     it: "Cognac, Pernod, Sciroppo di Champagne, Peychaud bitter",
-  //     en: "Cognac, Pernod, Champagne syroup, Peychaud bitter",
-  //   },
-  // },
 ];
 
 export const gin = [
@@ -545,56 +389,6 @@ export const food = [
     },
   },
 ];
-export const noAlcol = [
-  {
-    img: bl,
-    nome: "Shanghai",
-    ricetta: {
-      it: "Menta, Chinotto, Limone",
-      en: "Hand-pickhed Mint, Chinotto, Fresh lemon juice",
-    },
-  },
-  // {
-  //   img: nude,
-  //   nome: "Sacramento",
-  //   ricetta: {
-  //     it: "Mirtillo, Lamponi, Soda ",
-  //     en: "Cramberry, Raspberry, Soda",
-  //   },
-  // },
-  // {
-  //   img: b5,
-  //   nome: "Santo Domingo",
-  //   ricetta: {
-  //     it: "Anans, Cioccolato bianco & Cocco",
-  //     en: "Pineapple, White chocolate & Cocco",
-  //   },
-  // },
-  {
-    img: bl,
-    nome: "Melbourne",
-    ricetta: {
-      it: "Anguria, Sour, Soda",
-      en: "Watermelon, Sour, Soda",
-    },
-  },
-  // {
-  //   img: b1,
-  //   nome: "Brighton",
-  //   ricetta: {
-  //     it: "Mela, Menta, Fiori di sanbuco, Cetriolo, Limone",
-  //     en: "Apple, Mint, Elderflower, Cucumber, Fresh lemon juice",
-  //   },
-  // },
-  // {
-  //   img: b1,
-  //   nome: "Ica",
-  //   ricetta: {
-  //     it: "Melograno, Limone, Ananas",
-  //     en: "Pomegranate, Lemon, Pineapple",
-  //   },
-  // },
-];
 export const redWine = [
   {
     nome: "Sangue di Giuda",
@@ -605,6 +399,7 @@ export const redWine = [
     nome: "Moio 57",
     bottleCost: 30,
     glassCost: 8,
+    Atlanta,
   },
   {
     nome: "Chianti Classico Carpineto",
@@ -670,9 +465,3 @@ export const bollicine = [
     bottleCost: 120,
   },
 ];
-
-/**
- * TODO
- * usare la card grande per il food, senza immagine
- * cambiare dimensione voci di menu
- */

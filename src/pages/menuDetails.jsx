@@ -3,7 +3,6 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import MenuElement from "../components/menuElement";
 import {
-  signature,
   toShare,
   gin,
   vodka,
@@ -16,7 +15,6 @@ import {
   cognac,
   caffetteria,
   food,
-  noAlcol,
   redWine,
   roseWine,
   whiteWine,
@@ -27,6 +25,8 @@ import {
 } from "../costants/menuElement";
 import "../style/menuDetails.css";
 import Hambuerger from "../components/hamburger";
+import { signature } from "../costants/signature";
+import { mocktail } from "../costants/mocktail";
 
 const MenuDetails = () => {
   const { lang } = useParams();
@@ -51,13 +51,13 @@ const MenuDetails = () => {
         <BigSelection
           category={toShare}
           nome="To Share"
-          cost={24}
+          cost={28}
           toShare={true}
           lang={langIt ? "it" : "en"}
         />
         <div id="noAlcol">
           <BigSelection
-            category={noAlcol}
+            category={mocktail}
             nome="Mocktails"
             cost={7}
             lang={langIt ? "it" : "en"}
