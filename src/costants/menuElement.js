@@ -399,7 +399,6 @@ export const redWine = [
     nome: "Moio 57",
     bottleCost: 30,
     glassCost: 8,
-    Atlanta,
   },
   {
     nome: "Chianti Classico Carpineto",
