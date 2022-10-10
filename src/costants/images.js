@@ -11,8 +11,10 @@ import scodella from "../assets/glass/scodella.webp";
 import scrigno from "../assets/glass/scrigno.webp";
 import moka from "../assets/glass/moka.webp";
 import vino from "../assets/glass/vino.webp";
+import question from "../assets/glass/int.jpg";
 
 export {
+  question,
   bc,
   mela,
   uccello,

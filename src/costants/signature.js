@@ -13,7 +13,14 @@ export const signature = [
    * * Bourboun Whiskey, Zucca, Zenzero, Limone
    * * Bourboun Wiskey, Pumpkin, Ginger, Lemon
    */
-
+  {
+    img: images.question,
+    nome: "Cocktail roulette",
+    ricetta: {
+      it: "Dimmi ciò che ti piace",
+      en: "Tell me what you like",
+    },
+  },
   {
     img: images.bc,
     nome: "Montella",
