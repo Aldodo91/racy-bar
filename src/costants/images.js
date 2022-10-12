@@ -2,7 +2,7 @@ import bc from "../assets/glass/corto.webp";
 import mela from "../assets/glass/mela.webp";
 import uccello from "../assets/glass/uccello.webp";
 import bl from "../assets/glass/lungo.webp";
-import calice from "../assets/glass/calice.webp";
+import flute from "../assets/glass/calice.webp";
 import imbuto from "../assets/glass/imbuto.webp";
 import martini from "../assets/glass/martini.webp";
 import moro from "../assets/glass/moro.webp";
@@ -19,7 +19,7 @@ export {
   mela,
   uccello,
   bl,
-  calice,
+  flute,
   imbuto,
   martini,
   moka,

@@ -10,7 +10,7 @@ export const mocktail = [
     },
   },
   {
-    img: images.calice,
+    img: images.flute,
     nome: "Fake 75",
     ricetta: {
       it: "Versione analcolica del French 75",

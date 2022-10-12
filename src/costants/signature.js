@@ -22,6 +22,30 @@ export const signature = [
     },
   },
   {
+    img: images.martini,
+    nome: "Sidney 2.0",
+    ricetta: {
+      it: "Gin, Melograno, Bacche",
+      en: "Gin, Pomegranate, berries",
+    },
+  },
+  {
+    img: images.flute,
+    nome: "Chamomile 75",
+    ricetta: {
+      it: "Gin, camomilla, fiori, Prosecco",
+      en: "Gin, chamomile, flowers, prosecco",
+    },
+  },
+  {
+    img: images.martini,
+    nome: "Nocciola sour",
+    ricetta: {
+      it: "Nocciola, sour",
+      en: "Hazelnut, sour",
+    },
+  },
+  {
     img: images.bc,
     nome: "Montella",
     ricetta: {
@@ -30,7 +54,7 @@ export const signature = [
     },
   },
   // {
-  //   img: images.calice,
+  //   img: images.flute,
   //   nome: "Venice",
   //   ricetta: {
   //     it: "Pesca fresca, Prosecco, Love",
