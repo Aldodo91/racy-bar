@@ -27,6 +27,8 @@ import "../style/menuDetails.css";
 import Hambuerger from "../components/hamburger";
 import { signature } from "../costants/signature";
 import { mocktail } from "../costants/mocktail";
+import { special } from "../costants/special";
+import SpecialElement from "../components/special";
 
 const MenuDetails = () => {
   const { lang } = useParams();
@@ -40,6 +42,14 @@ const MenuDetails = () => {
       />
 
       <div className="overflow">
+        <div id="special">
+          <SpecialSelection
+            category={special}
+            nome="Luxury"
+            lang={langIt ? "it" : "en"}
+            cost={20}
+          />
+        </div>
         <div id="signature">
           <BigSelection
             category={signature}
@@ -235,6 +245,28 @@ const BigSelection = ({ category, nome, lang, cost, toShare }) => {
           <div className="container">
             {category.map((element) => (
               <MenuElement
+                key={Math.random() * 10}
+                element={element}
+                lang={lang}
+              />
+            ))}
+          </div>
+        </center>
+      </>
+    )
+  );
+};
+
+const SpecialSelection = ({ category, nome, lang, cost, toShare }) => {
+  return (
+    category &&
+    category.length && (
+      <>
+        <Category categoria={nome} cost={cost} toShare={toShare} />
+        <center>
+          <div className="container">
+            {category.map((element) => (
+              <SpecialElement
                 key={Math.random() * 10}
                 element={element}
                 lang={lang}

@@ -22,19 +22,19 @@ export const signature = [
     },
   },
   {
-    img: images.martini,
-    nome: "Sidney 2.0",
+    img: images.mela,
+    nome: "FALLing in love",
     ricetta: {
-      it: "Gin, Melograno, Bacche",
-      en: "Gin, Pomegranate, berries",
+      it: "Bourbon Whiskey, zucca, cannella, zenzero",
+      en: "Bourbon Whiskey, pumpkin, Cinnamon, ginger",
     },
   },
   {
-    img: images.flute,
-    nome: "Chamomile 75",
+    img: images.bl,
+    nome: "Foresta Rossa",
     ricetta: {
-      it: "Gin, camomilla, fiori, Prosecco",
-      en: "Gin, chamomile, flowers, prosecco",
+      it: "Funghi porcini, vodka, pomodoro, umami",
+      en: "Porcini mushrooms, vodka, tomatoes, umami",
     },
   },
   {
@@ -53,6 +53,23 @@ export const signature = [
       en: "Chestnut, Rhubarb, Vermouth, Lemon",
     },
   },
+  {
+    img: images.martini,
+    nome: "Sidney 2.0",
+    ricetta: {
+      it: "Gin, Melograno, Bacche",
+      en: "Gin, Pomegranate, berries",
+    },
+  },
+  {
+    img: images.flute,
+    nome: "Chamomile 75",
+    ricetta: {
+      it: "Gin, camomilla, fiori, Prosecco",
+      en: "Gin, chamomile, flowers, prosecco",
+    },
+  },
+
   // {
   //   img: images.flute,
   //   nome: "Venice",
