@@ -117,12 +117,7 @@ const MenuDetails = () => {
           <MilkElement element={latteVegetale} />
         </div>
         <div id="food">
-          <BigSelection
-            category={food}
-            lang={langIt ? "it" : "en"}
-            nome="Food"
-            cost={""}
-          />
+          <BigSelection category={food} langIT={langIt} nome="Food" cost={""} />
         </div>
       </div>
     </>
