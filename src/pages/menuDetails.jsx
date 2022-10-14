@@ -1,7 +1,6 @@
-import btbc from "../assets/btbc.png";
 import React from "react";
 import { useParams } from "react-router-dom";
-import MenuElement from "../components/menuElement";
+
 import {
   toShare,
   gin,
@@ -28,7 +27,10 @@ import Hambuerger from "../components/hamburger";
 import { signature } from "../costants/signature";
 import { mocktail } from "../costants/mocktail";
 import { special } from "../costants/special";
-import SpecialElement from "../components/special";
+import MilkElement from "../components/milkElement";
+import SmallSection from "../components/smallSelection";
+import BigSelection from "../components/bigSelecion";
+import SpecialSelection from "../components/specialSelecion";
 
 const MenuDetails = () => {
   const { lang } = useParams();
@@ -125,157 +127,6 @@ const MenuDetails = () => {
         </div>
       </div>
     </>
-  );
-};
-
-const WineElement = ({ wine }) => {
-  return (
-    <>
-      <center>
-        <div className="wineCard">
-          <div className="wineName">{wine.nome}</div>
-          <div className="winePrice">
-            <span>{wine.bottleCost}</span>
-            {wine.glassCost && <span>/{wine.glassCost}</span>}
-          </div>
-        </div>
-      </center>
-    </>
-  );
-};
-
-const MilkElement = ({ element }) => {
-  const [show, setDetail] = React.useState(false);
-
-  return (
-    <>
-      <center>
-        <div className="wineCard">
-          <div className="wineName" onClick={() => setDetail(!show)}>
-            {element.nome}
-            {show &&
-              element.tipi.map((t) => (
-                <div key={Math.random() * 10} className="milkDetail">
-                  {t}
-                </div>
-              ))}
-          </div>
-          <div className="winePrice">€ {element.prezzo}</div>
-        </div>
-      </center>
-    </>
-  );
-};
-const CommonElement = ({ element }) => {
-  return (
-    <>
-      <center>
-        <div className="wineCard">
-          <div className="wineName">{element.nome}</div>
-          <div className="winePrice">€ {element.prezzo}</div>
-        </div>
-      </center>
-    </>
-  );
-};
-const Category = ({ categoria, cost, sfuso, toShare }) => {
-  return (
-    <>
-      <center>
-        <div className="category">
-          <div>
-            {categoria}
-            {toShare && <div className="toShare">4 persone</div>}
-          </div>
-          {cost && <p className="cost"> {cost}</p>}
-          {sfuso && (
-            <div className="cost">
-              <div>
-                €
-                <img src={btbc} height="35px" alt="bottle/drink" />
-              </div>
-            </div>
-          )}
-        </div>
-        <div className="divider"></div>
-      </center>
-    </>
-  );
-};
-
-const SmallSection = ({ category, nome, isWine }) => {
-  const addRacyGin = () => {
-    return [
-      {
-        nome: "Racy Dolcevita",
-        prezzo: 9,
-      },
-      // {
-      //   nome: "Racy citrusy",
-      //   prezzo: 9,
-      // },
-    ];
-  };
-  const order =
-    nome === "Gin"
-      ? [...addRacyGin(), ...category.sort((a, b) => a.prezzo - b.prezzo)]
-      : category.sort((a, b) => a.prezzo - b.prezzo);
-  return category && category.length ? (
-    <>
-      <Category categoria={nome} sfuso={isWine} />
-      {isWine
-        ? category.map((element) => (
-            <WineElement key={Math.random() * 10} wine={element} />
-          ))
-        : order.map((element) => (
-            <CommonElement key={Math.random() * 200} element={element} />
-          ))}
-    </>
-  ) : (
-    <div></div>
-  );
-};
-const BigSelection = ({ category, nome, lang, cost, toShare }) => {
-  return (
-    category &&
-    category.length && (
-      <>
-        <Category categoria={nome} cost={cost} toShare={toShare} />
-        <center>
-          <div className="container">
-            {category.map((element) => (
-              <MenuElement
-                key={Math.random() * 10}
-                element={element}
-                lang={lang}
-              />
-            ))}
-          </div>
-        </center>
-      </>
-    )
-  );
-};
-
-const SpecialSelection = ({ category, nome, lang, cost, toShare }) => {
-  return (
-    category &&
-    category.length && (
-      <>
-        <Category categoria={nome} cost={cost} toShare={toShare} />
-        <center>
-          <div className="container">
-            {category.map((element) => (
-              <SpecialElement
-                key={Math.random() * 10}
-                element={element}
-                lang={lang}
-              />
-            ))}
-          </div>
-        </center>
-      </>
-    )
   );
 };
 

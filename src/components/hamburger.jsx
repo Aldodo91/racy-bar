@@ -11,6 +11,9 @@ const Sidebar = ({ lang }) => {
   };
   return (
     <Menu id="sidebar" isOpen={false}>
+      <a className="menu-item" href="#Special" onClick={close}>
+        Luxury
+      </a>
       <a className="menu-item" href="#signature" onClick={close}>
         Signature
       </a>

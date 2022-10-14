@@ -4,7 +4,6 @@ import "../style/menuElement.css";
 const SpecialElement = ({ element, lang }) => {
   const { img, nome, ricetta } = element;
 
-  console.log("lang", lang);
   return (
     <>
       <div className="drinkSpace">
