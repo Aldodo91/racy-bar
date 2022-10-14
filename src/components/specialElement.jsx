@@ -1,7 +1,7 @@
 import React from "react";
 import "../style/menuElement.css";
 
-const SpecialElement = ({ element, lang }) => {
+const SpecialElement = ({ element, langIT }) => {
   const { img, nome, ricetta } = element;
 
   return (
@@ -14,10 +14,8 @@ const SpecialElement = ({ element, lang }) => {
             <div style={{ width: 50 }}></div>
           )}
           <div className="details">
-            <div className="titleCard">{lang === "it" ? nome.it : nome.en}</div>
-            <h5 className="recepie">
-              {lang === "it" ? ricetta.it : ricetta.en}
-            </h5>
+            <div className="titleCard">{langIT ? nome.it : nome.en}</div>
+            <h5 className="recepie">{langIT ? ricetta.it : ricetta.en}</h5>
           </div>
         </div>
       </div>

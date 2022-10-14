@@ -1,6 +1,5 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-
 import {
   toShare,
   gin,
@@ -48,7 +47,7 @@ const MenuDetails = () => {
           <SpecialSelection
             category={special}
             nome="Luxury"
-            lang={langIt ? "it" : "en"}
+            langIT={langIt}
             cost={20}
           />
         </div>
@@ -56,7 +55,7 @@ const MenuDetails = () => {
           <BigSelection
             category={signature}
             nome="Signature Cocktails"
-            lang={langIt ? "it" : "en"}
+            langIT={langIt}
             cost={12}
           />
         </div>
@@ -65,14 +64,14 @@ const MenuDetails = () => {
           nome="To Share"
           cost={28}
           toShare={true}
-          lang={langIt ? "it" : "en"}
+          langIT={langIt}
         />
         <div id="noAlcol">
           <BigSelection
             category={mocktail}
             nome="Mocktails"
             cost={7}
-            lang={langIt ? "it" : "en"}
+            langIT={langIt}
           />
         </div>
         <div id="wine">

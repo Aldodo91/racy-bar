@@ -1,6 +1,6 @@
-import SpecialElement from "./special";
+import SpecialElement from "./specialElement";
 import Category from "./category";
-const SpecialSelection = ({ category, nome, lang, cost, toShare }) => {
+const SpecialSelection = ({ category, nome, langIT, cost, toShare }) => {
   return (
     category &&
     category.length && (
@@ -12,7 +12,7 @@ const SpecialSelection = ({ category, nome, lang, cost, toShare }) => {
               <SpecialElement
                 key={Math.random() * 10}
                 element={element}
-                lang={lang}
+                langIT={langIT}
               />
             ))}
           </div>

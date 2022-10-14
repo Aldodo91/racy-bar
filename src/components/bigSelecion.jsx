@@ -1,7 +1,7 @@
 import Category from "./category";
 import MenuElement from "./menuElement";
 
-const BigSelection = ({ category, nome, lang, cost, toShare }) => {
+const BigSelection = ({ category, nome, langIT, cost, toShare }) => {
   return (
     category &&
     category.length && (
@@ -13,7 +13,7 @@ const BigSelection = ({ category, nome, lang, cost, toShare }) => {
               <MenuElement
                 key={Math.random() * 10}
                 element={element}
-                lang={lang}
+                langIT={langIT}
               />
             ))}
           </div>

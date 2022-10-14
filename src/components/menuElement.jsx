@@ -1,7 +1,7 @@
 import React from "react";
 import "../style/menuElement.css";
 
-const MenuElement = ({ element, lang }) => {
+const MenuElement = ({ element, langIT }) => {
   const { img, nome, ricetta } = element;
 
   return (
@@ -17,13 +17,11 @@ const MenuElement = ({ element, lang }) => {
             <div className="titleCard">
               {nome
                 ? nome
-                : lang === "it"
+                : langIT
                 ? "Specialità del giorno"
                 : "Daily specials"}
             </div>
-            <h5 className="recepie">
-              {lang === "it" ? ricetta.it : ricetta.en}
-            </h5>
+            <h5 className="recepie">{langIT ? ricetta.it : ricetta.en}</h5>
           </div>
         </div>
       </div>
