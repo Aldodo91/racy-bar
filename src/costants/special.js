@@ -8,8 +8,8 @@ export const special = [
       en: "Truffle Negroni",
     },
     ricetta: {
-      it: "Gin, tartufo, bitter, Vermouth, whisky",
-      en: "Gin, truffle, bitter, vermouth, whisky",
+      it: "Gin, tartufo, bitter, fine tawny port, whisky",
+      en: "Gin, truffle, bitter, fine tawny port, whisky",
     },
   },
 ];

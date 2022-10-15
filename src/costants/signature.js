@@ -133,7 +133,7 @@ export const signature = [
     nome: "Naples",
     ricetta: {
       it: "Rum, Ciocolato, Caffè, Nocciola",
-      en: "Rum, chocolate, Cofee, Hezel",
+      en: "Rum, Chocolate, Coffee, Hazelnut",
     },
   },
   // {
