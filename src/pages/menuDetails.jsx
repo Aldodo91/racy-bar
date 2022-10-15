@@ -1,31 +1,8 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import {
-  toShare,
-  gin,
-  vodka,
-  rum,
-  tequila,
-  scothWisky,
-  usa,
-  japaniseWisky,
-  irishWisky,
-  cognac,
-  caffetteria,
-  food,
-  redWine,
-  roseWine,
-  whiteWine,
-  grappa,
-  bollicine,
-  birra,
-  latteVegetale,
-} from "../costants/menuElement";
+import * as menuElement from "../costants/allMenuElement";
 import "../style/menuDetails.css";
 import Hambuerger from "../components/hamburger";
-import { signature } from "../costants/signature";
-import { mocktail } from "../costants/mocktail";
-import { special } from "../costants/special";
 import MilkElement from "../components/milkElement";
 import SmallSection from "../components/smallSelection";
 import BigSelection from "../components/bigSelecion";
@@ -45,7 +22,7 @@ const MenuDetails = () => {
       <div className="overflow">
         <div id="special">
           <SpecialSelection
-            category={special}
+            category={menuElement.special}
             nome="Luxury"
             langIT={langIt}
             cost={20}
@@ -53,14 +30,14 @@ const MenuDetails = () => {
         </div>
         <div id="signature">
           <BigSelection
-            category={signature}
+            category={menuElement.signature}
             nome="Signature Cocktails"
             langIT={langIt}
             cost={12}
           />
         </div>
         <BigSelection
-          category={toShare}
+          category={menuElement.toShare}
           nome="To Share"
           cost={28}
           toShare={true}
@@ -68,7 +45,7 @@ const MenuDetails = () => {
         />
         <div id="noAlcol">
           <BigSelection
-            category={mocktail}
+            category={menuElement.mocktail}
             nome="Mocktails"
             cost={7}
             langIT={langIt}
@@ -76,48 +53,68 @@ const MenuDetails = () => {
         </div>
         <div id="wine">
           <SmallSection
-            category={whiteWine}
+            category={menuElement.whiteWine}
             nome={langIt ? "Bianchi" : "White wine"}
             isWine={true}
           />
           <SmallSection
-            category={roseWine}
+            category={menuElement.roseWine}
             nome={langIt ? "Rosè" : "Rose wine"}
             isWine={true}
           />
           <SmallSection
-            category={redWine}
+            category={menuElement.redWine}
             nome={langIt ? "Rossi" : "Red wine"}
             isWine={true}
           />
           <SmallSection
-            category={bollicine}
+            category={menuElement.bollicine}
             nome={langIt ? "Bollicine" : "Sparkling"}
             isWine={true}
           />
-          <SmallSection category={birra} nome={langIt ? "Birre" : "Beers"} />
+          <SmallSection
+            category={menuElement.birra}
+            nome={langIt ? "Birre" : "Beers"}
+          />
         </div>
         <div id="distillati">
-          <SmallSection category={gin} nome="Gin" />
-          <SmallSection category={vodka} nome="Vodka" />
-          <SmallSection category={rum} nome="Rum" />
-          <SmallSection category={tequila} nome="Tequila & Mezcal" />
-          <SmallSection category={scothWisky} nome="Scotch Whisky" />
-          <SmallSection category={usa} nome="USA Whisky" />
-          <SmallSection category={japaniseWisky} nome="Japanese Whisky" />
-          <SmallSection category={irishWisky} nome="Irish Whisky" />
-          <SmallSection category={cognac} nome="Cognac & Calvados" />
-          <SmallSection category={grappa} nome="Grappa" />
+          <SmallSection category={menuElement.gin} nome="Gin" />
+          <SmallSection category={menuElement.vodka} nome="Vodka" />
+          <SmallSection category={menuElement.rum} nome="Rum" />
+          <SmallSection
+            category={menuElement.tequila}
+            nome="Tequila & Mezcal"
+          />
+          <SmallSection
+            category={menuElement.scothWisky}
+            nome="Scotch Whisky"
+          />
+          <SmallSection category={menuElement.usa} nome="USA Whisky" />
+          <SmallSection
+            category={menuElement.japaniseWisky}
+            nome="Japanese Whisky"
+          />
+          <SmallSection category={menuElement.irishWisky} nome="Irish Whisky" />
+          <SmallSection
+            category={menuElement.cognac}
+            nome="Cognac & Calvados"
+          />
+          <SmallSection category={menuElement.grappa} nome="Grappa" />
         </div>
         <div id="caffetteria">
           <SmallSection
-            category={caffetteria}
+            category={menuElement.caffetteria}
             nome={langIt ? "Caffetteria" : "Coffee"}
           />
-          <MilkElement element={latteVegetale} />
+          <MilkElement element={menuElement.latteVegetale} />
         </div>
         <div id="food">
-          <BigSelection category={food} langIT={langIt} nome="Food" cost={""} />
+          <BigSelection
+            category={menuElement.food}
+            langIT={langIt}
+            nome="Food"
+            cost={""}
+          />
         </div>
       </div>
     </>
