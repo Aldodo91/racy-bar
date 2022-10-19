@@ -381,11 +381,112 @@ export const food = [
   // },
   {
     img: null,
-    nome: "",
-    prezzo: 7,
+    nome: {
+      it: "Specialità del giorno",
+      en: "Daylis Special",
+    },
+    prezzo: "",
     ricetta: {
       it: "Selezione del giorno, secondo stagione.",
       en: "Seasonal selection of the day.",
+    },
+  },
+  {
+    img: null,
+    nome: {
+      it: "Sandwich",
+      en: "Sandwich",
+    },
+    prezzo: 7,
+    ricetta: {
+      it: "con crudo e formaggio",
+      en: "with Parma ham and cheese",
+    },
+  },
+  {
+    img: null,
+    nome: {
+      it: "Focaccia",
+      en: "Focaccia",
+    },
+    prezzo: 12,
+    ricetta: {
+      it: "con burrata, Mortadella e pesto di pistacchi di Bronte",
+      en: "with Burrata cheese, Mortadella and pistacchi di Bronte",
+    },
+  },
+  {
+    img: null,
+    nome: {
+      it: "Crema",
+      en: "Soup",
+    },
+    prezzo: 7,
+    ricetta: {
+      it: "con funghi Porcini",
+      en: "Porcini mushrooms soup",
+    },
+  },
+];
+export const bruschette = {
+  nome: {
+    it: "Selezione di Bruschette:",
+    en: "Bruschette with:",
+  },
+  bruschette: [
+    {
+      it: "Tartufo",
+      en: "Truffles",
+    },
+    {
+      it: "Burro e alici",
+      en: "Anchovies and Butter",
+    },
+    {
+      it: "Salsiccia e friarielli ",
+      en: "Sausage and friarielli",
+    },
+    {
+      it: "Melanzane ",
+      en: "Aubergine",
+    },
+    {
+      it: "Pate' di olive nere",
+      en: "Black olives pate'",
+    },
+    {
+      it: "Crema di balisico ",
+      en: "Basil cream",
+    },
+    {
+      it: "Nduja calabrese",
+      en: "Spicy Nduja calabrese",
+    },
+  ],
+};
+export const dessert = [
+  {
+    prezzo: 6,
+    nome: "Caprese al cioccolato",
+    desc: {
+      it: "Servito con gelato alla vaniglia",
+      en: "Served with vanilla gelato",
+    },
+  },
+  {
+    prezzo: 6,
+    nome: "Millefoglie alla Nutella",
+    desc: {
+      it: "Servito con gelato alla mandorla",
+      en: "Served with almonds gelato",
+    },
+  },
+  {
+    prezzo: 6,
+    nome: "Babbà",
+    desc: {
+      it: "Servito al Rum con Nutella",
+      en: "Babba al Rum with Nutella",
     },
   },
 ];

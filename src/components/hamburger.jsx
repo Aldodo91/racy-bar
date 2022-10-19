@@ -35,6 +35,9 @@ const Sidebar = ({ lang }) => {
       <a className="menu-item" href="#food" onClick={close}>
         Food
       </a>
+      <a className="menu-item" href="#dessert" onClick={close}>
+        Dessert
+      </a>
     </Menu>
   );
 };

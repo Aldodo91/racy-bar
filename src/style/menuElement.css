@@ -26,6 +26,17 @@
     margin-left: 10px;
     width: 600px;
 }
+.title{
+    font-size: 20px;
+}
+.w-80{
+    width: 77%;
+}
+.desc{
+    font-family: 'Merienda', cursive;
+    font-size: 15px;
+    padding-top: 2px;
+}
 .image{
     margin-left: 10px;
 }

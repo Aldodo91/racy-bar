@@ -7,6 +7,9 @@ import MilkElement from "../components/milkElement";
 import SmallSection from "../components/smallSelection";
 import BigSelection from "../components/bigSelecion";
 import SpecialSelection from "../components/specialSelecion";
+import FoodSelection from "../components/foodSection";
+import Bruschette from "../components/bruschette";
+import DessertSelection from "../components/dessetSelection";
 
 const MenuDetails = () => {
   const { lang } = useParams();
@@ -109,11 +112,24 @@ const MenuDetails = () => {
           <MilkElement element={menuElement.latteVegetale} />
         </div>
         <div id="food">
-          <BigSelection
+          <Bruschette
+            element={menuElement.bruschette}
+            langIT={langIt}
+            cost={"2 / pz"}
+          />
+          <FoodSelection
             category={menuElement.food}
             langIT={langIt}
             nome="Food"
             cost={""}
+            isFood={true}
+          />
+        </div>
+        <div id="dessert">
+          <DessertSelection
+            element={menuElement.dessert}
+            nome="Dessert"
+            langIT={langIt}
           />
         </div>
       </div>
