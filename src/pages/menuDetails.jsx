@@ -6,10 +6,11 @@ import Hambuerger from "../components/hamburger";
 import MilkElement from "../components/milkElement";
 import SmallSection from "../components/smallSelection";
 import BigSelection from "../components/bigSelecion";
-import SpecialSelection from "../components/specialSelecion";
 import FoodSelection from "../components/foodSection";
 import Bruschette from "../components/bruschette";
 import DessertSelection from "../components/dessetSelection";
+import LuxurySelection from "../components/LuxurySelecion";
+import SpecialCoffie from "../components/coffieSpecial";
 
 const MenuDetails = () => {
   const { lang } = useParams();
@@ -24,7 +25,7 @@ const MenuDetails = () => {
 
       <div className="overflow">
         <div id="special">
-          <SpecialSelection
+          <LuxurySelection
             category={menuElement.special}
             nome="Luxury"
             langIT={langIt}
@@ -107,9 +108,13 @@ const MenuDetails = () => {
         <div id="caffetteria">
           <SmallSection
             category={menuElement.caffetteria}
-            nome={langIt ? "Caffetteria" : "Coffee"}
+            nome={langIt ? "Caffetteria all'italiana" : "Coffee"}
           />
           <MilkElement element={menuElement.latteVegetale} />
+          <SpecialCoffie
+            category={menuElement.specialCoffie}
+            nome="Special Coffee"
+          />
         </div>
         <div id="food">
           <Bruschette

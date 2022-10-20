@@ -1,7 +1,7 @@
 import React from "react";
 import "../style/menuElement.css";
 
-const SpecialElement = ({ element, langIT }) => {
+const LuxuryElement = ({ element, langIT }) => {
   const { img, nome, ricetta } = element;
 
   return (
@@ -23,4 +23,4 @@ const SpecialElement = ({ element, langIT }) => {
   );
 };
 
-export default SpecialElement;
+export default LuxuryElement;

@@ -4,6 +4,7 @@ import { mocktail } from "./mocktail";
 import {
   toShare,
   gin,
+  specialCoffie,
   vodka,
   rum,
   bruschette,
@@ -28,6 +29,7 @@ export {
   signature,
   special,
   mocktail,
+  specialCoffie,
   dessert,
   bruschette,
   toShare,

@@ -291,6 +291,14 @@ export const grappa = [
 ];
 export const caffetteria = [
   {
+    nome: "Cornetto",
+    prezzo: 1.5,
+  },
+  {
+    nome: "Mini Cornetto",
+    prezzo: 1,
+  },
+  {
     nome: "Espresso",
     prezzo: 1.5,
   },
@@ -311,32 +319,58 @@ export const caffetteria = [
     prezzo: 3,
   },
   {
-    nome: "Tea",
+    nome: "Doppio Espresso",
     prezzo: 3,
   },
   {
-    nome: "Caffe freddo",
+    nome: "Cioccolata Calda",
     prezzo: 3,
   },
+  {
+    nome: "Tea",
+    prezzo: 3,
+  },
+  // {
+  //   nome: "Caffe freddo",
+  //   prezzo: 3,
+  // },
   // {
   //   nome: "Yogurt",
   //   prezzo: 4,
   // },
   {
-    nome: "Cornetto",
-    prezzo: 1.5,
+    nome: "Soft drink",
+    prezzo: 3,
   },
   {
-    nome: "Mini Cornetto",
-    prezzo: 1,
+    nome: "Flat white",
+    prezzo: 3,
   },
   {
     nome: "Spremuta",
     prezzo: 4,
   },
+];
+export const specialCoffie = [
   {
-    nome: "Soft drink",
+    nome: "Caffe Racy",
+    desc: "Espresso, nocciola, latte, lemon zest    ",
+    prezzo: 4,
+  },
+  {
+    nome: "Chai latte",
+    desc: "Indian Chai, latte, cannella ",
     prezzo: 3,
+  },
+  {
+    nome: "Pumpkin spice latte",
+    desc: "Zucca, espresso, latte, cannella ",
+    prezzo: 3,
+  },
+  {
+    nome: "Mocaccino",
+    desc: "Espresso, cioccolata, latte",
+    prezzo: 4,
   },
 ];
 export const latteVegetale = {
