@@ -1,6 +1,5 @@
 import Category from "./category";
 import Dessert from "./dessert";
-import FoodElement from "./foodElement";
 
 const DessertSelection = ({ element, nome, langIT }) => {
   return (
