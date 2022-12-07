@@ -1,0 +1,5 @@
+.img {
+    overflow: hidden;
+    border-radius: 50px;
+    animation: anim-in 0.3s linear;
+}

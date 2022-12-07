@@ -1,3 +1,4 @@
+import Allergeni from "./allergeni";
 import Category from "./category";
 import FoodElement from "./foodElement";
 
@@ -17,6 +18,7 @@ const FoodSelection = ({ category, nome, langIT, cost, toShare }) => {
               />
             ))}
           </div>
+          {category && category.length && <Allergeni />}
         </center>
       </>
     )

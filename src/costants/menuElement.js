@@ -362,10 +362,15 @@ export const specialCoffie = [
     desc: "Indian Chai, latte, cannella ",
     prezzo: 3,
   },
+  // {
+  //   nome: "Pumpkin spice latte",
+  //   desc: "Zucca, espresso, latte, cannella ",
+  //   prezzo: 3,
+  // },
   {
-    nome: "Pumpkin spice latte",
-    desc: "Zucca, espresso, latte, cannella ",
-    prezzo: 3,
+    nome: "Cioccolata calda Venchi 1878",
+    desc: "servita con marshmallow",
+    prezzo: 4,
   },
   {
     nome: "Mocaccino",

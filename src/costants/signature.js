@@ -21,14 +21,14 @@ export const signature = [
       en: "Tell me what you like",
     },
   },
-  {
-    img: images.mela,
-    nome: "FALLing in love",
-    ricetta: {
-      it: "Bourbon Whiskey, zucca, cannella, zenzero",
-      en: "Bourbon Whiskey, pumpkin, Cinnamon, ginger",
-    },
-  },
+  // {
+  //   img: images.mela,
+  //   nome: "FALLing in love",
+  //   ricetta: {
+  //     it: "Bourbon Whiskey, zucca, cannella, zenzero",
+  //     en: "Bourbon Whiskey, pumpkin, Cinnamon, ginger",
+  //   },
+  // },
   {
     img: images.bl,
     nome: "Foresta Rossa",
