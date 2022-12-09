@@ -24,6 +24,7 @@ import {
   bollicine,
   birra,
   latteVegetale,
+  hot,
 } from "./menuElement";
 export {
   signature,
@@ -51,4 +52,5 @@ export {
   bollicine,
   birra,
   latteVegetale,
+  hot,
 };

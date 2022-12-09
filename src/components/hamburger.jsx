@@ -17,6 +17,9 @@ const Sidebar = ({ lang }) => {
       <a className="menu-item" href="#signature" onClick={close}>
         Signature
       </a>
+      <a className="menu-item" href="#hot" onClick={close}>
+        Hot Cocktails
+      </a>
       <a className="menu-item" href="#noAlcol" onClick={close}>
         MockTails
       </a>
@@ -26,9 +29,6 @@ const Sidebar = ({ lang }) => {
       <a className="menu-item" href="#distillati" onClick={close}>
         {it ? "Distillati" : "Spirits"}
       </a>
-      {/* <a className="menu-item" href="#softDrink" onClick={close}>
-        Soft Drink
-      </a> */}
       <a className="menu-item" href="#caffetteria" onClick={close}>
         {it ? "Caffetteria" : "Coffee"}
       </a>

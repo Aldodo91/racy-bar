@@ -1,3 +1,5 @@
+import * as images from "./images";
+
 export const toShare = [
   // {
   //   img: null,
@@ -602,5 +604,32 @@ export const bollicine = [
   {
     nome: "Laurent-Perrier Rosè",
     bottleCost: 120,
+  },
+];
+
+export const hot = [
+  {
+    img: images.hot,
+    nome: "Afther 8",
+    ricetta: {
+      it: "Rum, Cioccolato Venchi 1878, menta",
+      en: "Rum, Venchi Chocolate 1878, mint",
+    },
+  },
+  {
+    img: images.hot,
+    nome: "Chai Toddy",
+    ricetta: {
+      it: "Bourbon, Chai tea, limone, miele",
+      en: "Bourbon, Chai tea, lemon, honey",
+    },
+  },
+  {
+    img: images.hot,
+    nome: "Caribbean",
+    ricetta: {
+      it: "Rum, caffè, cocco & cannella",
+      en: "Rum, caffè, cocco & cannella",
+    },
   },
 ];

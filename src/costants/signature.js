@@ -1,18 +1,5 @@
 import * as images from "./images";
 export const signature = [
-  /**
-   * ! bl
-   * * Carlo-Cola
-   * * Rum infuso con cannella, Carlo-Cola
-   * * Home infused cinnamon Rum, Carlo-Cola
-   */
-  /**
-   *
-   * ? Mela
-   * * Atlanta
-   * * Bourboun Whiskey, Zucca, Zenzero, Limone
-   * * Bourboun Wiskey, Pumpkin, Ginger, Lemon
-   */
   {
     img: images.question,
     nome: "Cocktail roulette",
@@ -31,28 +18,68 @@ export const signature = [
   // },
   {
     img: images.bl,
-    nome: "Foresta Rossa",
+    nome: "Xmas",
     ricetta: {
-      it: "Funghi porcini, vodka, pomodoro, umami",
-      en: "Porcini mushrooms, vodka, tomatoes, umami",
+      it: "Whiskey, cannella e ogni cosa è bella",
+      en: "Whiskey, cinnamon and everything is beautiful",
     },
   },
   {
-    img: images.martini,
-    nome: "Nocciola sour",
+    img: images.ams,
+    nome: "Amsterdam",
     ricetta: {
-      it: "Nocciola, sour",
-      en: "Hazelnut, sour",
+      it: "Gin, marijuana, sale al basilico, zenzero ",
+      en: "Gin, marijuana, basil salt, ginger",
+    },
+  },
+  {
+    img: images.moro,
+    nome: "Cinnamon Roll",
+    ricetta: {
+      it: "Cannella, gin, limone",
+      en: "Cinnamon, gin, lemon",
     },
   },
   {
     img: images.bc,
-    nome: "Montella",
+    nome: "Winter breeze",
     ricetta: {
-      it: "Castagna, Rabarbaro, Vermouth, Limone",
-      en: "Chestnut, Rhubarb, Vermouth, Lemon",
+      it: "Bourbon, cannella, peperoncino, clementine",
+      en: "Bourbon, cinnamon, chili, clementines",
     },
   },
+  {
+    img: images.bc,
+    nome: "CCC",
+    ricetta: {
+      it: "Cognac, Cioccolato, bitter alla ciliegia",
+      en: "Cognac, Chocolate, cherry bitters",
+    },
+  },
+  // {
+  //   img: images.bl,
+  //   nome: "Foresta Rossa",
+  //   ricetta: {
+  //     it: "Funghi porcini, vodka, pomodoro, umami",
+  //     en: "Porcini mushrooms, vodka, tomatoes, umami",
+  //   },
+  // },
+  // {
+  //   img: images.martini,
+  //   nome: "Nocciola sour",
+  //   ricetta: {
+  //     it: "Nocciola, sour",
+  //     en: "Hazelnut, sour",
+  //   },
+  // },
+  // {
+  //   img: images.bc,
+  //   nome: "Montella",
+  //   ricetta: {
+  //     it: "Castagna, Rabarbaro, Vermouth, Limone",
+  //     en: "Chestnut, Rhubarb, Vermouth, Lemon",
+  //   },
+  // },
   {
     img: images.martini,
     nome: "Sidney 2.0",
@@ -61,14 +88,14 @@ export const signature = [
       en: "Gin, Pomegranate, berries",
     },
   },
-  {
-    img: images.flute,
-    nome: "Chamomile 75",
-    ricetta: {
-      it: "Gin, camomilla, fiori, Prosecco",
-      en: "Gin, chamomile, flowers, prosecco",
-    },
-  },
+  // {
+  //   img: images.flute,
+  //   nome: "Chamomile 75",
+  //   ricetta: {
+  //     it: "Gin, camomilla, fiori, Prosecco",
+  //     en: "Gin, chamomile, flowers, prosecco",
+  //   },
+  // },
 
   // {
   //   img: images.flute,
@@ -87,14 +114,14 @@ export const signature = [
       en: "Bourbon, Lemon maple syrup, Smoke bitter",
     },
   },
-  {
-    img: images.moro,
-    nome: "Hong Kong",
-    ricetta: {
-      it: "Racy herbal liqueur, Chinotto, Limone",
-      en: "Racy herbal liqueur, Chinotto, Fresh lemon juice",
-    },
-  },
+  // {
+  //   img: images.moro,
+  //   nome: "Hong Kong",
+  //   ricetta: {
+  //     it: "Racy herbal liqueur, Chinotto, Limone",
+  //     en: "Racy herbal liqueur, Chinotto, Fresh lemon juice",
+  //   },
+  // },
   {
     img: images.bc,
     nome: "Cancún",
@@ -111,22 +138,22 @@ export const signature = [
   //     en: "Cinnamon & cloves rum, White chocolate & Cocco, Pineapple",
   //   },
   // },
-  {
-    img: images.martini,
-    nome: "L.A.",
-    ricetta: {
-      it: "Bourbon, Ancho Reyes, Amaro 18, Chinotto",
-      en: "Bourbon, Ancho Reyes, Amaro 18, Chinotto",
-    },
-  },
-  {
-    img: images.bl,
-    nome: "Rio",
-    ricetta: {
-      it: "Cachaça, Limone, Fiori di sambuco, Butterfly pea",
-      en: "Cachaça, Fresh lemon juice, Elderflower, Butterfly pea",
-    },
-  },
+  // {
+  //   img: images.martini,
+  //   nome: "L.A.",
+  //   ricetta: {
+  //     it: "Bourbon, Ancho Reyes, Amaro 18, Chinotto",
+  //     en: "Bourbon, Ancho Reyes, Amaro 18, Chinotto",
+  //   },
+  // },
+  // {
+  //   img: images.bl,
+  //   nome: "Rio",
+  //   ricetta: {
+  //     it: "Cachaça, Limone, Fiori di sambuco, Butterfly pea",
+  //     en: "Cachaça, Fresh lemon juice, Elderflower, Butterfly pea",
+  //   },
+  // },
 
   {
     img: images.moka,

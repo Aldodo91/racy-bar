@@ -40,6 +40,14 @@ const MenuDetails = () => {
             cost={12}
           />
         </div>
+        <div id="hot">
+          <BigSelection
+            category={menuElement.hot}
+            nome="Hot Cocktails"
+            langIT={langIt}
+            cost={12}
+          />
+        </div>
         <BigSelection
           category={menuElement.toShare}
           nome="To Share"
