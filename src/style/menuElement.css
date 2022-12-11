@@ -37,6 +37,12 @@
     font-size: 15px;
     padding-top: 2px;
 }
+.imageSide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .image{
     margin-left: 10px;
 }

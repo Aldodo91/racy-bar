@@ -9,7 +9,9 @@ const MenuElement = ({ element, langIT }) => {
       <div className="drinkSpace">
         <div className="drinkCard">
           {img ? (
-            <img className="image" src={img} width="105px" alt="" />
+            <div className="imageSide">
+              <img className="image" src={img} width="105px" alt="" />
+            </div>
           ) : (
             <div style={{ width: 50 }}></div>
           )}
