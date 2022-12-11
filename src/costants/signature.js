@@ -33,6 +33,14 @@ export const signature = [
     },
   },
   {
+    img: images.cola,
+    nome: "Atlanta",
+    ricetta: {
+      it: "House spiced Rum, Carlo Cola, lime",
+      en: "House spiced rum, Carlo Cola, lime",
+    },
+  },
+  {
     img: images.moro,
     nome: "Cinnamon Roll",
     ricetta: {

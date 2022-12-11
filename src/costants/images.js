@@ -14,9 +14,11 @@ import vino from "../assets/glass/vino.webp";
 import question from "../assets/glass/int.jpg";
 import hot from "../assets/glass/hotGlass.webp";
 import ams from "../assets/glass/ams.png";
+import cola from "../assets/glass/carlocola.webp";
 
 export {
   question,
+  cola,
   bc,
   mela,
   uccello,
