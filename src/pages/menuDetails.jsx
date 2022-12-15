@@ -120,8 +120,16 @@ const MenuDetails = () => {
           />
           <MilkElement element={menuElement.latteVegetale} />
           <SpecialCoffie
+            category={menuElement.chocolate}
+            nome={langIt ? "Cioccolata Calda" : "Hot Chocolate"}
+          />
+          <SpecialCoffie
             category={menuElement.specialCoffie}
             nome="Special Coffee"
+          />
+          <SmallSection
+            category={menuElement.tisane}
+            nome={langIt ? "Tisane" : "Herbal teas"}
           />
         </div>
         <div id="food">

@@ -353,6 +353,33 @@ export const caffetteria = [
     prezzo: 4,
   },
 ];
+export const chocolate = [
+  {
+    nome: "Venchi 1878",
+    desc: "servita con marshmallow ",
+    prezzo: 4,
+  },
+  {
+    nome: "Antico Eremo Fondente",
+    desc: "servita con marshmallow",
+    prezzo: 4,
+  },
+  {
+    nome: "Antico Eremo Bianca",
+    desc: "servita con marshmallow",
+    prezzo: 4,
+  },
+  {
+    nome: "Antico Eremo Peperoncino",
+    desc: "servita con marshmallow",
+    prezzo: 4,
+  },
+  {
+    nome: "Antico Eremo Cocco",
+    desc: "servita con marshmallow",
+    prezzo: 4,
+  },
+];
 export const specialCoffie = [
   {
     nome: "Caffe Racy",
@@ -370,14 +397,35 @@ export const specialCoffie = [
   //   prezzo: 3,
   // },
   {
-    nome: "Cioccolata calda Venchi 1878",
-    desc: "servita con marshmallow",
-    prezzo: 4,
-  },
-  {
     nome: "Mocaccino",
     desc: "Espresso, cioccolata, latte",
     prezzo: 4,
+  },
+];
+export const tisane = [
+  {
+    nome: "Frutti rossi",
+    prezzo: 3,
+  },
+  {
+    nome: "Mela e cannella",
+    prezzo: 3,
+  },
+  {
+    nome: "Bonne nuit",
+    prezzo: 3,
+  },
+  {
+    nome: "Indian Chai",
+    prezzo: 3,
+  },
+  {
+    nome: "Anice Stellato",
+    prezzo: 3,
+  },
+  {
+    nome: "Zenzero Fresco",
+    prezzo: 3,
   },
 ];
 export const latteVegetale = {

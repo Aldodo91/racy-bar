@@ -24,11 +24,15 @@ import {
   bollicine,
   birra,
   latteVegetale,
+  chocolate,
+  tisane,
   hot,
 } from "./menuElement";
 export {
   signature,
   special,
+  chocolate,
+  tisane,
   mocktail,
   specialCoffie,
   dessert,
