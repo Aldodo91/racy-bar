@@ -127,7 +127,7 @@ const MenuDetails = () => {
             category={menuElement.specialCoffie}
             nome="Special Coffee"
           />
-          <SmallSection
+          <SpecialCoffie
             category={menuElement.tisane}
             nome={langIt ? "Tisane" : "Herbal teas"}
           />

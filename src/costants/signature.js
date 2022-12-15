@@ -72,22 +72,22 @@ export const signature = [
   //     en: "Porcini mushrooms, vodka, tomatoes, umami",
   //   },
   // },
-  // {
-  //   img: images.martini,
-  //   nome: "Nocciola sour",
-  //   ricetta: {
-  //     it: "Nocciola, sour",
-  //     en: "Hazelnut, sour",
-  //   },
-  // },
-  // {
-  //   img: images.bc,
-  //   nome: "Montella",
-  //   ricetta: {
-  //     it: "Castagna, Rabarbaro, Vermouth, Limone",
-  //     en: "Chestnut, Rhubarb, Vermouth, Lemon",
-  //   },
-  // },
+  {
+    img: images.martini,
+    nome: "Nocciola sour",
+    ricetta: {
+      it: "Nocciola, sour",
+      en: "Hazelnut, sour",
+    },
+  },
+  {
+    img: images.bc,
+    nome: "Montella",
+    ricetta: {
+      it: "Castagna, Rabarbaro, Vermouth, Limone",
+      en: "Chestnut, Rhubarb, Vermouth, Lemon",
+    },
+  },
   {
     img: images.martini,
     nome: "Sidney 2.0",

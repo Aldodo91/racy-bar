@@ -413,6 +413,7 @@ export const tisane = [
   },
   {
     nome: "Bonne nuit",
+    desc: "(zenzero, cannella, limone, miele)",
     prezzo: 3,
   },
   {
