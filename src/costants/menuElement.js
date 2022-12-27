@@ -325,10 +325,6 @@ export const caffetteria = [
     prezzo: 3,
   },
   {
-    nome: "Cioccolata Calda",
-    prezzo: 3,
-  },
-  {
     nome: "Tea",
     prezzo: 3,
   },
