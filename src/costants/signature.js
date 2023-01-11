@@ -92,8 +92,8 @@ export const signature = [
     img: images.martini,
     nome: "Sidney 2.0",
     ricetta: {
-      it: "Gin, Melograno, Bacche",
-      en: "Gin, Pomegranate, berries",
+      it: "Gin, Lamponi, Bacche",
+      en: "Gin, Raspberries, berries",
     },
   },
   // {

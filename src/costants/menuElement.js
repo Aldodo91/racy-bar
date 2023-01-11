@@ -351,6 +351,11 @@ export const caffetteria = [
 ];
 export const chocolate = [
   {
+    nome: "Cioccolata fondente e lamponi",
+    desc: "servita con marshmallow",
+    prezzo: 4,
+  },
+  {
     nome: "Venchi 1878",
     desc: "servita con marshmallow ",
     prezzo: 4,
@@ -675,6 +680,22 @@ export const hot = [
     ricetta: {
       it: "Rum, caffè, cocco & cannella",
       en: "Rum, caffè, cocco & cannella",
+    },
+  },
+  {
+    img: images.hot,
+    nome: "French kiss",
+    ricetta: {
+      it: "Calvados, Cioccolato fondente, Lamponi",
+      en: "Calvados, Dark chocolate, Raspberries",
+    },
+  },
+  {
+    img: images.hot,
+    nome: "Aperol Spritz Caldo",
+    ricetta: {
+      it: "Aperol, vino secco, spezie",
+      en: "Aperol, dry wine, spices",
     },
   },
 ];
