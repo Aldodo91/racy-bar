@@ -351,11 +351,6 @@ export const caffetteria = [
 ];
 export const chocolate = [
   {
-    nome: "Cioccolata fondente e lamponi",
-    desc: "servita con marshmallow",
-    prezzo: 4,
-  },
-  {
     nome: "Venchi 1878",
     desc: "servita con marshmallow ",
     prezzo: 4,
@@ -377,6 +372,11 @@ export const chocolate = [
   },
   {
     nome: "Antico Eremo Cocco",
+    desc: "servita con marshmallow",
+    prezzo: 4,
+  },
+  {
+    nome: "Cioc. fondente e lamponi",
     desc: "servita con marshmallow",
     prezzo: 4,
   },
@@ -658,6 +658,14 @@ export const bollicine = [
 ];
 
 export const hot = [
+  {
+    img: images.hot,
+    nome: "Anacleto",
+    ricetta: {
+      it: "Espresso, Cioccolata, Zambaglione, Panna",
+      en: "Espresso, Chocolate, Eggnog, Cream",
+    },
+  },
   {
     img: images.hot,
     nome: "Afther 8",
