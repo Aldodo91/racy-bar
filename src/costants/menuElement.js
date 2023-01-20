@@ -557,27 +557,11 @@ export const bruschette = {
 };
 export const dessert = [
   {
-    prezzo: 6,
-    nome: "Caprese al cioccolato",
+    prezzo: 5,
+    nome: "Dolce del giorno",
     desc: {
-      it: "Servito con gelato alla vaniglia",
-      en: "Served with vanilla gelato",
-    },
-  },
-  {
-    prezzo: 6,
-    nome: "Millefoglie alla Nutella",
-    desc: {
-      it: "Servito con gelato alla mandorla",
-      en: "Served with almonds gelato",
-    },
-  },
-  {
-    prezzo: 6,
-    nome: "Babbà",
-    desc: {
-      it: "Servito al Rum con Nutella",
-      en: "Babba al Rum with Nutella",
+      it: "",
+      en: "Desset of the day",
     },
   },
 ];
