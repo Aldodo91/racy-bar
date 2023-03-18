@@ -302,7 +302,7 @@ export const caffetteria = [
   },
   {
     nome: "Espresso",
-    prezzo: 1.5,
+    prezzo: 2,
   },
   {
     nome: "Cappuccino",
@@ -690,12 +690,12 @@ export const hot = [
   //     en: "Calvados, Dark chocolate, Raspberries",
   //   },
   // },
-  {
-    img: images.hot,
-    nome: "Aperol Spritz Caldo",
-    ricetta: {
-      it: "Aperol, vino secco, spezie",
-      en: "Aperol, dry wine, spices",
-    },
-  },
+  // {
+  //   img: images.hot,
+  //   nome: "Aperol Spritz Caldo",
+  //   ricetta: {
+  //     it: "Aperol, vino secco, spezie",
+  //     en: "Aperol, dry wine, spices",
+  //   },
+  // },
 ];

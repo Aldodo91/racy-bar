@@ -8,6 +8,46 @@ export const signature = [
       en: "Tell me what you like",
     },
   },
+  {
+    img: images.bc,
+    nome: "Negroni primavera",
+    ricetta: {
+      it: "Negroni, carciofo, lager ",
+      en: "Negroni, artichoke, lager",
+    },
+  },
+  {
+    img: images.imbuto,
+    nome: "Spring break",
+    ricetta: {
+      it: "Gin, acqua di mare, basilico, velluto di ananas & Campari",
+      en: "Gin, sea water, basil, pineapple & Campari velvet",
+    },
+  },
+  {
+    img: images.bc,
+    nome: "Smoke & coffee ",
+    ricetta: {
+      it: "Aged rum, fumo di quercia, caffè ",
+      en: "Aged rum, oak smoke, coffee",
+    },
+  },
+  {
+    img: images.uccello,
+    nome: "Honey moon",
+    ricetta: {
+      it: "Racy Gin, sherbet di miele agrumi & camomilla, soia, acqua di mare",
+      en: "Racy Gin, citrus honey sherbet & chamomile, soy, sea water",
+    },
+  },
+  {
+    img: images.moro,
+    nome: "Hong Kong",
+    ricetta: {
+      it: "Racy herbal liqueur, Chinotto, Limone",
+      en: "Racy herbal liqueur, Chinotto, Fresh lemon juice",
+    },
+  },
   // {
   //   img: images.martini,
   //   nome: "Cocktail di carnevale",
@@ -130,14 +170,6 @@ export const signature = [
       en: "Bourbon, Lemon maple syrup, Smoke bitter",
     },
   },
-  // {
-  //   img: images.moro,
-  //   nome: "Hong Kong",
-  //   ricetta: {
-  //     it: "Racy herbal liqueur, Chinotto, Limone",
-  //     en: "Racy herbal liqueur, Chinotto, Fresh lemon juice",
-  //   },
-  // },
   {
     img: images.bc,
     nome: "Cancún",
