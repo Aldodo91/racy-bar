@@ -9,6 +9,14 @@ export const signature = [
     },
   },
   // {
+  //   img: images.martini,
+  //   nome: "Cocktail di carnevale",
+  //   ricetta: {
+  //     it: "Coriandolo, Strega, sour",
+  //     en: "Coriandolo, Strega, sour",
+  //   },
+  // },
+  // {
   //   img: images.mela,
   //   nome: "FALLing in love",
   //   ricetta: {
@@ -16,14 +24,14 @@ export const signature = [
   //     en: "Bourbon Whiskey, pumpkin, Cinnamon, ginger",
   //   },
   // },
-  {
-    img: images.bl,
-    nome: "Xmas",
-    ricetta: {
-      it: "Whiskey, cannella e ogni cosa è bella",
-      en: "Whiskey, cinnamon and everything is beautiful",
-    },
-  },
+  // {
+  //   img: images.bl,
+  //   nome: "Xmas",
+  //   ricetta: {
+  //     it: "Whiskey, cannella e ogni cosa è bella",
+  //     en: "Whiskey, cinnamon and everything is beautiful",
+  //   },
+  // },
   {
     img: images.ams,
     nome: "Amsterdam",
@@ -48,14 +56,14 @@ export const signature = [
       en: "Cinnamon, gin, lemon",
     },
   },
-  {
-    img: images.bc,
-    nome: "Winter breeze",
-    ricetta: {
-      it: "Bourbon, cannella, peperoncino, clementine",
-      en: "Bourbon, cinnamon, chili, clementines",
-    },
-  },
+  // {
+  //   img: images.bc,
+  //   nome: "Winter breeze",
+  //   ricetta: {
+  //     it: "Bourbon, cannella, peperoncino, clementine",
+  //     en: "Bourbon, cinnamon, chili, clementines",
+  //   },
+  // },
   {
     img: images.bc,
     nome: "CCC",
@@ -80,14 +88,14 @@ export const signature = [
       en: "Hazelnut, sour",
     },
   },
-  {
-    img: images.bc,
-    nome: "Montella",
-    ricetta: {
-      it: "Castagna, Rabarbaro, Vermouth, Limone",
-      en: "Chestnut, Rhubarb, Vermouth, Lemon",
-    },
-  },
+  // {
+  //   img: images.bc,
+  //   nome: "Montella",
+  //   ricetta: {
+  //     it: "Castagna, Rabarbaro, Vermouth, Limone",
+  //     en: "Chestnut, Rhubarb, Vermouth, Lemon",
+  //   },
+  // },
   {
     img: images.martini,
     nome: "Sidney 2.0",

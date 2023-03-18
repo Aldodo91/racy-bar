@@ -11,6 +11,7 @@ import Bruschette from "../components/bruschette";
 import DessertSelection from "../components/dessetSelection";
 import LuxurySelection from "../components/LuxurySelecion";
 import SpecialCoffie from "../components/coffieSpecial";
+import Label from "../components/label";
 
 const MenuDetails = () => {
   const { lang } = useParams();
@@ -38,6 +39,7 @@ const MenuDetails = () => {
             nome="Signature Cocktails"
             langIT={langIt}
             cost={12}
+            showLabel
           />
         </div>
         <div id="hot">
@@ -59,7 +61,7 @@ const MenuDetails = () => {
           <BigSelection
             category={menuElement.mocktail}
             nome="Mocktails"
-            cost={7}
+            cost={8}
             langIT={langIt}
           />
         </div>
@@ -127,16 +129,16 @@ const MenuDetails = () => {
             category={menuElement.specialCoffie}
             nome="Special Coffee"
           />
-          <SpecialCoffie
+          {/* <SpecialCoffie
             category={menuElement.tisane}
             nome={langIt ? "Tisane" : "Herbal teas"}
-          />
+          /> */}
         </div>
         <div id="food">
           <Bruschette
             element={menuElement.bruschette}
             langIT={langIt}
-            cost={"2 / pz"}
+            cost={"2€/pz"}
           />
           <FoodSelection
             category={menuElement.food}

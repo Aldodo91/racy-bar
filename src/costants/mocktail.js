@@ -1,14 +1,14 @@
 import * as images from "./images";
 
 export const mocktail = [
-  {
-    img: images.moro,
-    nome: "Shanghai",
-    ricetta: {
-      it: "Versione analcolica dell'Hong Kong",
-      en: "Non alcohol version of Hong Kong",
-    },
-  },
+  // {
+  //   img: images.moro,
+  //   nome: "Shanghai",
+  //   ricetta: {
+  //     it: "Versione analcolica dell'Hong Kong",
+  //     en: "Non alcohol version of Hong Kong",
+  //   },
+  // },
   {
     img: images.flute,
     nome: "Fake 75",

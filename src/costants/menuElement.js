@@ -306,27 +306,27 @@ export const caffetteria = [
   },
   {
     nome: "Cappuccino",
-    prezzo: 3,
+    prezzo: 3.5,
   },
   {
     nome: "Latte Macchiato",
-    prezzo: 3,
+    prezzo: 3.5,
   },
   {
     nome: "Cortado",
-    prezzo: 2,
+    prezzo: 2.5,
   },
   {
     nome: "Americano",
-    prezzo: 3,
+    prezzo: 3.5,
   },
   {
     nome: "Doppio Espresso",
-    prezzo: 3,
+    prezzo: 3.5,
   },
   {
     nome: "Tea",
-    prezzo: 3,
+    prezzo: 3.5,
   },
   // {
   //   nome: "Caffe freddo",
@@ -342,7 +342,7 @@ export const caffetteria = [
   },
   {
     nome: "Flat white",
-    prezzo: 3,
+    prezzo: 3.5,
   },
   {
     nome: "Spremuta",
@@ -390,7 +390,7 @@ export const specialCoffie = [
   {
     nome: "Chai latte",
     desc: "Indian Chai, latte, cannella ",
-    prezzo: 3,
+    prezzo: 4,
   },
   // {
   //   nome: "Pumpkin spice latte",
@@ -506,18 +506,18 @@ export const food = [
       en: "with Burrata cheese, Mortadella and pistacchi di Bronte",
     },
   },
-  {
-    img: null,
-    nome: {
-      it: "Crema",
-      en: "Soup",
-    },
-    prezzo: 7,
-    ricetta: {
-      it: "con funghi Porcini",
-      en: "Porcini mushrooms soup",
-    },
-  },
+  // {
+  //   img: null,
+  //   nome: {
+  //     it: "Crema",
+  //     en: "Soup",
+  //   },
+  //   prezzo: 7,
+  //   ricetta: {
+  //     it: "con funghi Porcini",
+  //     en: "Porcini mushrooms soup",
+  //   },
+  // },
 ];
 export const bruschette = {
   nome: {
@@ -556,6 +556,14 @@ export const bruschette = {
   ],
 };
 export const dessert = [
+  // {
+  //   prezzo: 6,
+  //   nome: "Musse di San Valentino",
+  //   desc: {
+  //     it: "Mousse al cioccolato e gelè di lamponi",
+  //     en: "Chocolate mousse and raspberry gelè",
+  //   },
+  // },
   {
     prezzo: 5,
     nome: "Dolce del giorno",
@@ -596,10 +604,10 @@ export const whiteWine = [
     bottleCost: 28,
     glassCost: 7,
   },
-  {
-    nome: "Biancolella Casa d'Ambra",
-    bottleCost: 30,
-  },
+  // {
+  //   nome: "Biancolella Casa d'Ambra",
+  //   bottleCost: 30,
+  // },
   {
     nome: "Chardonnay Cantina Mori",
     bottleCost: 28,
@@ -674,14 +682,14 @@ export const hot = [
       en: "Rum, caffè, cocco & cannella",
     },
   },
-  {
-    img: images.hot,
-    nome: "French kiss",
-    ricetta: {
-      it: "Calvados, Cioccolato fondente, Lamponi",
-      en: "Calvados, Dark chocolate, Raspberries",
-    },
-  },
+  // {
+  //   img: images.hot,
+  //   nome: "French kiss",
+  //   ricetta: {
+  //     it: "Calvados, Cioccolato fondente, Lamponi",
+  //     en: "Calvados, Dark chocolate, Raspberries",
+  //   },
+  // },
   {
     img: images.hot,
     nome: "Aperol Spritz Caldo",
