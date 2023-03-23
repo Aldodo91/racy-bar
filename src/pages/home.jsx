@@ -24,7 +24,7 @@ const Home = () => {
         <div className="orari">
           <p className="orari-inside">Open every day</p>
           <p className="orari-inside">7.00 | 02.00</p>
-          <div className="giorni">Closed on Monday until 6pm</div>
+          <div className="giorni">Closed on Thursday</div>
           {tempClosed && <TemporaryClosed />}
         </div>
         <div className="menuContainer">
