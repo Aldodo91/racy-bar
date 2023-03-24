@@ -678,7 +678,7 @@ export const hot = [
     img: images.hot,
     nome: "Caribbean",
     ricetta: {
-      it: "Rum, caffè, cocco & cannella",
+      it: "Rum, caffè, cocco & cannella ",
       en: "Rum, caffè, cocco & cannella",
     },
   },
