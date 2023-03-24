@@ -9,6 +9,14 @@ export const signature = [
     },
   },
   {
+    img: images.vino,
+    nome: "Flower power",
+    ricetta: {
+      it: "Come uno spritz, ma meglio",
+      en: "Just like a spritz, but better",
+    },
+  },
+  {
     img: images.bc,
     nome: "Negroni primavera",
     ricetta: {
