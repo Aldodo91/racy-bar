@@ -9,7 +9,7 @@ export const special = [
     },
     ricetta: {
       it: "Gin, tartufo, bitter, fine tawny port, whisky",
-      en: "Gin, truffle, bitter, fine tawny port, whisky",
+      en: "Gin, truffle, bitter, fine tawny port, whisky ",
     },
   },
 ];
