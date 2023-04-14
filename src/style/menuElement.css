@@ -82,10 +82,17 @@
 
 .label{   
     text-shadow: 0px 4px 15px rgba(0,0,0,0.25);
-    font-family: 'merienda', cursive;
     font-family: 'Satisfy', cursive;
     font-weight: lighter;
     padding: 10px 0px;
     font-size: 1.8rem;
     white-space: nowrap;
+}
+.label > .main {
+    font-size: 16px;    
+    text-shadow: 0px 4px 15px rgba(0,0,0,0.0);
+    font-family: 'merienda', cursive;
+    white-space: normal;
+    /* border: 1px solid black; */
+    padding: 10px 35px;
 }
