@@ -15,6 +15,7 @@ import question from "../assets/glass/int.jpg";
 import hot from "../assets/glass/hotGlass.webp";
 import ams from "../assets/glass/ams.png";
 import cola from "../assets/glass/carlocola.jpeg";
+import sakura from "../assets/glass/sakura.webp";
 
 export {
   question,
@@ -34,4 +35,5 @@ export {
   vino,
   hot,
   ams,
+  sakura,
 };

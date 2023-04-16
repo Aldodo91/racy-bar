@@ -699,3 +699,29 @@ export const hot = [
   //   },
   // },
 ];
+export const shot = [
+  {
+    img: null,
+    nome: "Passion",
+    ricetta: {
+      it: "Cioccolato, Caffè",
+      en: "Chocolate, Coffee",
+    },
+  },
+  {
+    img: null,
+    nome: "Bacio",
+    ricetta: {
+      it: "Nocciola, Baileys",
+      en: "Hazelnut, Baileys",
+    },
+  },
+  {
+    img: null,
+    nome: "Punto G",
+    ricetta: {
+      it: "Mandorla, Caffè",
+      en: "Almond, Coffee",
+    },
+  },
+];

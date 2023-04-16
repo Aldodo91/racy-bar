@@ -12,4 +12,26 @@ export const special = [
       en: "Gin, truffle, bitter, fine tawny port, whisky ",
     },
   },
+  {
+    img: images.sakura,
+    nome: {
+      it: "Sakura",
+      en: "Sakura",
+    },
+    ricetta: {
+      it: "Ki no bi Gin, Sakura Vermouth, Sake Honjozo Tokubetsu",
+      en: "Ki no bi Gin, Sakura Vermouth, Sake Honjozo Tokubetsu",
+    },
+  },
+  {
+    img: images.bc,
+    nome: {
+      it: "Golden Mex",
+      en: "Golden Mex",
+    },
+    ricetta: {
+      it: "Edible gold, Casamigos blanco Tequila, Grand Classico",
+      en: "Bitter, Antica Formula Vermouth",
+    },
+  },
 ];

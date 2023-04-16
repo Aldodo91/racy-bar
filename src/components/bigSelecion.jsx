@@ -3,24 +3,21 @@ import Label from "./label";
 import MenuElement from "./menuElement";
 import MultiLabel from "./multiLabel";
 
-const BigSelection = ({ category, nome, langIT, cost, toShare, showLabel }) => {
-  const buttomParagraph = {
-    title: {
-      it: "L'angolo del piacere",
-      en: "L'angolo del piacere",
-    },
-    main: {
-      it: "Delizioso dopo cena o piccante pre serata, a te la scelta 😉",
-      en: "Delicious after dinner or spicy pre night, you choose 😉",
-    },
-  };
+const BigSelection = ({
+  category,
+  nome,
+  langIT,
+  cost,
+  toShare,
+  label = {},
+}) => {
   return (
     category &&
     category.length && (
       <>
         <Category categoria={nome} cost={cost} toShare={toShare} />
         <center>
-          {showLabel && <Label msg={"💧Water is for the Flowers 🌺"} />}
+          {label && <Label msg={langIT ? label.it : label.en} />}
           <div className="container">
             {category.map((element) => (
               <MenuElement
@@ -30,7 +27,6 @@ const BigSelection = ({ category, nome, langIT, cost, toShare, showLabel }) => {
               />
             ))}
           </div>
-          {showLabel && <MultiLabel msg={buttomParagraph} langIT={langIT} />}
         </center>
       </>
     )

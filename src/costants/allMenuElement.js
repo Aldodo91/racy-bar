@@ -27,6 +27,7 @@ import {
   chocolate,
   tisane,
   hot,
+  shot,
 } from "./menuElement";
 export {
   signature,
@@ -57,4 +58,5 @@ export {
   birra,
   latteVegetale,
   hot,
+  shot,
 };

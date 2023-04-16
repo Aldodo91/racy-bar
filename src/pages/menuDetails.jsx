@@ -11,7 +11,15 @@ import Bruschette from "../components/bruschette";
 import DessertSelection from "../components/dessetSelection";
 import LuxurySelection from "../components/LuxurySelecion";
 import SpecialCoffie from "../components/coffieSpecial";
-import Label from "../components/label";
+
+const signatureLabel = {
+  it: "💧Water is for the Flowers 🌺",
+  en: "💧Water is for the Flowers 🌺",
+};
+const cornerLabel = {
+  it: "🌶️ Delizioso dopo cena o piccante pre serata, a te la scelta 😉",
+  en: "🌶️ Delicious after dinner or spicy pre night, you choose 😉",
+};
 
 const MenuDetails = () => {
   const { lang } = useParams();
@@ -39,7 +47,16 @@ const MenuDetails = () => {
             nome="Signature Cocktails"
             langIT={langIt}
             cost={12}
-            showLabel
+            label={signatureLabel}
+          />
+        </div>
+        <div id="corner">
+          <BigSelection
+            category={menuElement.shot}
+            nome={langIt ? "L'angolo del piacere" : "Temptation corner "}
+            langIT={langIt}
+            cost={4}
+            label={cornerLabel}
           />
         </div>
         <div id="hot">
