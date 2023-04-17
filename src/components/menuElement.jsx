@@ -1,5 +1,6 @@
 import React from "react";
 import "../style/menuElement.css";
+import { i18n } from "../common/functions";
 
 const MenuElement = ({ element, langIT }) => {
   const { img, nome, ricetta } = element;
@@ -23,7 +24,7 @@ const MenuElement = ({ element, langIT }) => {
                 ? "Specialità del giorno"
                 : "Daily specials"}
             </div>
-            <h5 className="recepie">{langIT ? ricetta.it : ricetta.en}</h5>
+            <h5 className="recepie">{i18n(langIT, ricetta)}</h5>
           </div>
         </div>
       </div>

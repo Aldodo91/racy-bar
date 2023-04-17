@@ -11,15 +11,7 @@ import Bruschette from "../components/bruschette";
 import DessertSelection from "../components/dessetSelection";
 import LuxurySelection from "../components/LuxurySelecion";
 import SpecialCoffie from "../components/coffieSpecial";
-
-const signatureLabel = {
-  it: "💧Water is for the Flowers 🌺",
-  en: "💧Water is for the Flowers 🌺",
-};
-const cornerLabel = {
-  it: "🌶️ Delizioso dopo cena o piccante pre serata, a te la scelta 😉",
-  en: "🌶️ Delicious after dinner or spicy pre night, you choose 😉",
-};
+import { signatureLabel, cornerLabel } from "../costants/labels";
 
 const MenuDetails = () => {
   const { lang } = useParams();

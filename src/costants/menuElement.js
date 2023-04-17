@@ -566,9 +566,8 @@ export const dessert = [
   // },
   {
     prezzo: 5,
-    nome: "Dolce del giorno",
     desc: {
-      it: "",
+      it: "Dolce del giorno",
       en: "Desset of the day",
     },
   },
