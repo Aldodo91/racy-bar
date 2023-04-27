@@ -30,11 +30,11 @@ export const gin = [
   },
   {
     nome: "Sabatini",
-    prezzo: 8,
+    prezzo: 9,
   },
   {
     nome: "Botanist",
-    prezzo: 8,
+    prezzo: 9,
   },
   {
     nome: "Hendricks",
@@ -94,7 +94,7 @@ export const gin = [
   },
   {
     nome: "Roku",
-    prezzo: 7,
+    prezzo: 8,
   },
   {
     nome: "Silent Pool",
@@ -165,12 +165,12 @@ export const rum = [
     prezzo: 9,
   },
   {
-    nome: "Zacapa 23",
-    prezzo: 9,
+    nome: "Zacapa 23 anni",
+    prezzo: 10,
   },
   {
     nome: "Zacapa XO",
-    prezzo: 16,
+    prezzo: 19,
   },
 ];
 export const tequila = [
@@ -244,7 +244,7 @@ export const usa = [
   },
   {
     nome: "Makers's Mark 46",
-    prezzo: 12,
+    prezzo: 14,
   },
   {
     nome: "Michter's Bourdon",
@@ -277,8 +277,8 @@ export const cognac = [
     prezzo: 7,
   },
   {
-    nome: "Hennissy XO",
-    prezzo: 19,
+    nome: "Hennessy XO",
+    prezzo: 23,
   },
 ];
 export const grappa = [
@@ -338,7 +338,7 @@ export const caffetteria = [
   // },
   {
     nome: "Soft drink",
-    prezzo: 3,
+    prezzo: 3.5,
   },
   {
     nome: "Flat white",
@@ -448,7 +448,7 @@ export const birra = [
 export const softDrink = [
   {
     nome: "Aperitivo analcolico",
-    prezzo: 3,
+    prezzo: 3.5,
   },
 ];
 export const food = [
@@ -596,7 +596,20 @@ export const redWine = [
     nome: "Amarone Costasera Masi 2016",
     bottleCost: 62,
   },
+  {
+    nome: "Taurasi Feudi 2014",
+    bottleCost: 65,
+  },
+  {
+    nome: "Primitivo Conte Zecca",
+    bottleCost: 30,
+  },
+  {
+    nome: "Primitivo 60 anni San Marzano",
+    bottleCost: 60,
+  },
 ];
+
 export const whiteWine = [
   {
     nome: "FiaGre Antonio Caggiano",
@@ -645,6 +658,14 @@ export const bollicine = [
   {
     nome: "Laurent-Perrier Rosè",
     bottleCost: 120,
+  },
+  {
+    nome: "Bollinger special cuvee",
+    bottleCost: 115,
+  },
+  {
+    nome: "Belle Epoque 2013",
+    bottleCost: 290,
   },
 ];
 
