@@ -348,38 +348,42 @@ export const caffetteria = [
     nome: "Spremuta",
     prezzo: 4,
   },
+  {
+    nome: "Cioccolata Calda",
+    prezzo: 4,
+  },
 ];
 export const chocolate = [
-  {
-    nome: "Venchi 1878",
-    desc: "servita con marshmallow ",
-    prezzo: 4,
-  },
-  {
-    nome: "Antico Eremo Fondente",
-    desc: "servita con marshmallow",
-    prezzo: 4,
-  },
-  {
-    nome: "Antico Eremo Bianca",
-    desc: "servita con marshmallow",
-    prezzo: 4,
-  },
-  {
-    nome: "Antico Eremo Peperoncino",
-    desc: "servita con marshmallow",
-    prezzo: 4,
-  },
-  {
-    nome: "Antico Eremo Cocco",
-    desc: "servita con marshmallow",
-    prezzo: 4,
-  },
-  {
-    nome: "Cioc. fondente e lamponi",
-    desc: "servita con marshmallow",
-    prezzo: 4,
-  },
+  // {
+  //   nome: "Venchi 1878",
+  //   desc: "servita con marshmallow ",
+  //   prezzo: 4,
+  // },
+  // {
+  //   nome: "Antico Eremo Fondente",
+  //   desc: "servita con marshmallow",
+  //   prezzo: 4,
+  // },
+  // {
+  //   nome: "Antico Eremo Bianca",
+  //   desc: "servita con marshmallow",
+  //   prezzo: 4,
+  // },
+  // {
+  //   nome: "Antico Eremo Peperoncino",
+  //   desc: "servita con marshmallow",
+  //   prezzo: 4,
+  // },
+  // {
+  //   nome: "Antico Eremo Cocco",
+  //   desc: "servita con marshmallow",
+  //   prezzo: 4,
+  // },
+  // {
+  //   nome: "Cioc. fondente e lamponi",
+  //   desc: "servita con marshmallow",
+  //   prezzo: 4,
+  // },
 ];
 export const specialCoffie = [
   {
@@ -637,8 +641,9 @@ export const whiteWine = [
 ];
 export const roseWine = [
   {
-    nome: "Vetere Bio S. Salvatore 37cl",
-    bottleCost: 20,
+    nome: "Vetere Bio S. Salvatore",
+    bottleCost: 32,
+    glassCost: 9,
   },
 ];
 export const bollicine = [

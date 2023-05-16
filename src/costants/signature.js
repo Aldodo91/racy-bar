@@ -56,6 +56,14 @@ export const signature = [
       en: "Racy herbal liqueur, Chinotto, Fresh lemon juice",
     },
   },
+  {
+    img: images.moka,
+    nome: "Tiramisù martini",
+    ricetta: {
+      it: "Better than s*x",
+      en: "Better than s*x",
+    },
+  },
   // {
   //   img: images.martini,
   //   nome: "Cocktail di carnevale",
