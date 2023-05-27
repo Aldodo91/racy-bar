@@ -28,6 +28,8 @@ import {
   tisane,
   hot,
   shot,
+  sandwwich,
+  focaccie,
 } from "./menuElement";
 export {
   signature,
@@ -59,4 +61,6 @@ export {
   latteVegetale,
   hot,
   shot,
+  sandwwich,
+  focaccie,
 };

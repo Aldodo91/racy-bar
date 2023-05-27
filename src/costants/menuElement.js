@@ -456,70 +456,16 @@ export const softDrink = [
   },
 ];
 export const food = [
-  // {
-  //   img: null,
-  //   nome: "Summer Salad",
-  //   prezzo: 7,
-  //   ricetta: {
-  //     it: "Anguria, Feta, Citronette",
-  //     en: "Watermelon, Feta cheese, Citronette",
-  //   },
-  // },
-  // {
-  //   img: null,
-  //   nome: "Humus di Rapa Rossa",
-  //   prezzo: 7,
-  //   ricetta: {
-  //     it: "Ceci, Rapa rossa, Tahina, Limone",
-  //     en: "Chickpeas, Beetroot, Tahini, Fresh lemon juice",
-  //   },
-  // },
   {
     img: null,
     nome: {
-      it: "Specialità del giorno",
-      en: "Daylis Special",
-    },
-    prezzo: "",
-    ricetta: {
-      it: "Selezione del giorno, secondo stagione.",
-      en: "Seasonal selection of the day.",
-    },
-  },
-  {
-    img: null,
-    nome: {
-      it: "Sandwich",
-      en: "Sandwich",
+      it: "Crema",
+      en: "Soup",
     },
     prezzo: 7,
     ricetta: {
-      it: "con crudo e formaggio",
-      en: "with Parma ham and cheese",
-    },
-  },
-  {
-    img: null,
-    nome: {
-      it: "Focaccia",
-      en: "Focaccia",
-    },
-    prezzo: 12,
-    ricetta: {
-      it: "con burrata, Mortadella e pesto di pistacchi di Bronte",
-      en: "with Burrata cheese, Mortadella and pistacchi di Bronte",
-    },
-  },
-  {
-    img: null,
-    nome: {
-      it: "Bruschette",
-      en: "Bruschette",
-    },
-    prezzo: 0,
-    ricetta: {
-      it: "con tutti i topping",
-      en: "with all the toppings",
+      it: "con funghi Porcini",
+      en: "Porcini mushrooms soup",
     },
   },
   {
@@ -534,6 +480,8 @@ export const food = [
       en: "Served with butter croutons",
     },
   },
+];
+export const sandwwich = [
   {
     img: null,
     nome: {
@@ -570,13 +518,15 @@ export const food = [
       en: "",
     },
   },
+];
+export const focaccie = [
   {
     img: null,
     nome: {
       it: "Focaccia Stracciata, Mortadella e granella di pistacchio ",
       en: "Stracciata focaccia, mortadella and chopped pistachios ",
     },
-    prezzo: 0,
+    prezzo: 12,
     ricetta: {
       it: "",
       en: "",
@@ -588,7 +538,7 @@ export const food = [
       it: "Focaccia Stracciata, Crudo e Melanzane a filetto",
       en: "Shredded focaccia, raw and aubergine fillets ",
     },
-    prezzo: 0,
+    prezzo: 12,
     ricetta: {
       it: "",
       en: "",
@@ -600,31 +550,7 @@ export const food = [
       it: "Focaccia Stracciata, Alici e limone",
       en: "Stracciata focaccia, anchovies and lemon ",
     },
-    prezzo: 0,
-    ricetta: {
-      it: "",
-      en: "",
-    },
-  },
-  {
-    img: null,
-    nome: {
-      it: "Crema",
-      en: "Soup",
-    },
-    prezzo: 7,
-    ricetta: {
-      it: "con funghi Porcini",
-      en: "Porcini mushrooms soup",
-    },
-  },
-  {
-    img: null,
-    nome: {
-      it: "Dolce del giorno",
-      en: "Dessert of the day",
-    },
-    prezzo: 7,
+    prezzo: 12,
     ricetta: {
       it: "",
       en: "",

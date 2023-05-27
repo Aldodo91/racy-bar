@@ -11,6 +11,7 @@ import Bruschette from "../components/bruschette";
 import DessertSelection from "../components/dessetSelection";
 import LuxurySelection from "../components/LuxurySelecion";
 import SpecialCoffie from "../components/coffieSpecial";
+import Allergeni from "../components/allergeni";
 import { signatureLabel, cornerLabel } from "../costants/labels";
 
 const MenuDetails = () => {
@@ -155,7 +156,22 @@ const MenuDetails = () => {
             nome="Food"
             cost={""}
             isFood={true}
+          />{" "}
+          <FoodSelection
+            category={menuElement.focaccie}
+            langIT={langIt}
+            nome="Focaccie"
+            cost={""}
+            isFood={true}
+          />{" "}
+          <FoodSelection
+            category={menuElement.sandwwich}
+            langIT={langIt}
+            nome="Sandwwich"
+            cost={""}
+            isFood={true}
           />
+          <Allergeni />
         </div>
         <div id="dessert">
           <DessertSelection
