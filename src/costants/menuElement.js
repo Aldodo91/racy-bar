@@ -510,18 +510,126 @@ export const food = [
       en: "with Burrata cheese, Mortadella and pistacchi di Bronte",
     },
   },
-  // {
-  //   img: null,
-  //   nome: {
-  //     it: "Crema",
-  //     en: "Soup",
-  //   },
-  //   prezzo: 7,
-  //   ricetta: {
-  //     it: "con funghi Porcini",
-  //     en: "Porcini mushrooms soup",
-  //   },
-  // },
+  {
+    img: null,
+    nome: {
+      it: "Bruschette",
+      en: "Bruschette",
+    },
+    prezzo: 0,
+    ricetta: {
+      it: "con tutti i topping",
+      en: "with all the toppings",
+    },
+  },
+  {
+    img: null,
+    nome: {
+      it: "'Caviale' di Lompo",
+      en: "'Caviale' di Lompo",
+    },
+    prezzo: 0,
+    ricetta: {
+      it: "Servito con crostini al burro",
+      en: "Served with butter croutons",
+    },
+  },
+  {
+    img: null,
+    nome: {
+      it: "Sandwich Crudo e formaggio ",
+      en: "Crudo and cheese sandwich",
+    },
+    prezzo: 7,
+    ricetta: {
+      it: "",
+      en: "",
+    },
+  },
+  {
+    img: null,
+    nome: {
+      it: "Sandwich Caprese",
+      en: "Capri Style Sandwich",
+    },
+    prezzo: 8,
+    ricetta: {
+      it: "",
+      en: "",
+    },
+  },
+  {
+    img: null,
+    nome: {
+      it: "Sandwich salmone affumicato",
+      en: "Smoked salmon sandwich",
+    },
+    prezzo: 9,
+    ricetta: {
+      it: "",
+      en: "",
+    },
+  },
+  {
+    img: null,
+    nome: {
+      it: "Focaccia Stracciata, Mortadella e granella di pistacchio ",
+      en: "Stracciata focaccia, mortadella and chopped pistachios ",
+    },
+    prezzo: 0,
+    ricetta: {
+      it: "",
+      en: "",
+    },
+  },
+  {
+    img: null,
+    nome: {
+      it: "Focaccia Stracciata, Crudo e Melanzane a filetto",
+      en: "Shredded focaccia, raw and aubergine fillets ",
+    },
+    prezzo: 0,
+    ricetta: {
+      it: "",
+      en: "",
+    },
+  },
+  {
+    img: null,
+    nome: {
+      it: "Focaccia Stracciata, Alici e limone",
+      en: "Stracciata focaccia, anchovies and lemon ",
+    },
+    prezzo: 0,
+    ricetta: {
+      it: "",
+      en: "",
+    },
+  },
+  {
+    img: null,
+    nome: {
+      it: "Crema",
+      en: "Soup",
+    },
+    prezzo: 7,
+    ricetta: {
+      it: "con funghi Porcini",
+      en: "Porcini mushrooms soup",
+    },
+  },
+  {
+    img: null,
+    nome: {
+      it: "Dolce del giorno",
+      en: "Dessert of the day",
+    },
+    prezzo: 7,
+    ricetta: {
+      it: "",
+      en: "",
+    },
+  },
 ];
 export const bruschette = {
   nome: {

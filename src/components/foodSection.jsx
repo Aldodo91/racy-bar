@@ -2,6 +2,8 @@ import Allergeni from "./allergeni";
 import Category from "./category";
 import FoodElement from "./foodElement";
 
+//const sortFood = (a, b) => (a.nome.it > b.nome.it ? 1 : -1);
+
 const FoodSelection = ({ category, nome, langIT, cost, toShare }) => {
   return (
     category &&
