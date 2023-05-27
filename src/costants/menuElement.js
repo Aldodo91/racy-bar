@@ -530,6 +530,14 @@ export const bruschette = {
   },
   bruschette: [
     {
+      it: "To Share",
+      en: "To Share",
+      detail: {
+        it: "(Con tutti i toppings)",
+        en: "( With all toppings)",
+      },
+    },
+    {
       it: "Tartufo",
       en: "Truffles",
     },
@@ -559,6 +567,7 @@ export const bruschette = {
     },
   ],
 };
+
 export const dessert = [
   // {
   //   prezzo: 6,
