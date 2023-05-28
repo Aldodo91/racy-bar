@@ -151,23 +151,23 @@ const MenuDetails = () => {
             cost={"2€/pz"}
           />
           <FoodSelection
-            category={menuElement.food}
+            category={menuElement.sandwwich}
             langIT={langIt}
-            nome="Food"
+            nome="Sandwich"
             cost={""}
             isFood={true}
-          />{" "}
+          />
           <FoodSelection
             category={menuElement.focaccie}
             langIT={langIt}
             nome="Focaccie"
             cost={""}
             isFood={true}
-          />{" "}
+          />
           <FoodSelection
-            category={menuElement.sandwwich}
+            category={menuElement.food}
             langIT={langIt}
-            nome="Sandwwich"
+            nome="Food"
             cost={""}
             isFood={true}
           />

@@ -10,9 +10,7 @@ const Bruschette = ({ element, langIT, cost }) => {
         <div className="container">
           {bruschette.map((b) => (
             <div key={Math.random() * 10} className="wineCard">
-              <div className="wineName">
-                - {i18n(langIT, b)} {b?.detail && i18n(langIT, b.detail)}
-              </div>
+              <div className="wineName">- {i18n(langIT, b)}</div>
               {/* {b?.detail && <div> {i18n(langIT, b.detail)}</div>} */}
             </div>
           ))}

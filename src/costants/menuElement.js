@@ -459,6 +459,18 @@ export const food = [
   {
     img: null,
     nome: {
+      it: "Insalata caprese",
+      en: "Capri style salad",
+    },
+    prezzo: 12,
+    ricetta: {
+      it: "",
+      en: "",
+    },
+  },
+  {
+    img: null,
+    nome: {
       it: "Crema",
       en: "Soup",
     },
@@ -474,7 +486,7 @@ export const food = [
       it: "'Caviale' di Lompo",
       en: "'Caviale' di Lompo",
     },
-    prezzo: 0,
+    prezzo: 12,
     ricetta: {
       it: "Servito con crostini al burro",
       en: "Served with butter croutons",
@@ -485,7 +497,7 @@ export const sandwwich = [
   {
     img: null,
     nome: {
-      it: "Sandwich Crudo e formaggio ",
+      it: "Crudo e formaggio ",
       en: "Crudo and cheese sandwich",
     },
     prezzo: 7,
@@ -497,7 +509,7 @@ export const sandwwich = [
   {
     img: null,
     nome: {
-      it: "Sandwich Caprese",
+      it: "Caprese",
       en: "Capri Style Sandwich",
     },
     prezzo: 8,
@@ -509,7 +521,7 @@ export const sandwwich = [
   {
     img: null,
     nome: {
-      it: "Sandwich salmone affumicato",
+      it: "Salmone affumicato",
       en: "Smoked salmon sandwich",
     },
     prezzo: 9,
@@ -523,7 +535,7 @@ export const focaccie = [
   {
     img: null,
     nome: {
-      it: "Focaccia Stracciata, Mortadella e granella di pistacchio ",
+      it: "Stracciata, Mortadella e granella di pistacchio ",
       en: "Stracciata focaccia, mortadella and chopped pistachios ",
     },
     prezzo: 12,
@@ -535,7 +547,7 @@ export const focaccie = [
   {
     img: null,
     nome: {
-      it: "Focaccia Stracciata, Crudo e Melanzane a filetto",
+      it: "Stracciata, Crudo e Melanzane a filetto",
       en: "Shredded focaccia, raw and aubergine fillets ",
     },
     prezzo: 12,
@@ -547,7 +559,7 @@ export const focaccie = [
   {
     img: null,
     nome: {
-      it: "Focaccia Stracciata, Alici e limone",
+      it: "Stracciata, Alici e limone",
       en: "Stracciata focaccia, anchovies and lemon ",
     },
     prezzo: 12,
@@ -563,14 +575,6 @@ export const bruschette = {
     en: "Bruschette with:",
   },
   bruschette: [
-    {
-      it: "To Share",
-      en: "To Share",
-      detail: {
-        it: "(Con tutti i toppings)",
-        en: "( With all toppings)",
-      },
-    },
     {
       it: "Tartufo",
       en: "Truffles",
@@ -612,7 +616,7 @@ export const dessert = [
   //   },
   // },
   {
-    prezzo: 5,
+    prezzo: 6,
     desc: {
       it: "Dolce del giorno",
       en: "Desset of the day",
