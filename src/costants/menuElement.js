@@ -460,7 +460,7 @@ export const food = [
     img: null,
     nome: {
       it: "Insalata caprese",
-      en: "Capri style salad",
+      en: "Caprese salad",
     },
     prezzo: 12,
     ricetta: {
@@ -484,7 +484,7 @@ export const food = [
     img: null,
     nome: {
       it: "'Caviale' di Lompo",
-      en: "'Caviale' di Lompo",
+      en: "Lumpfish 'caviar'",
     },
     prezzo: 12,
     ricetta: {
@@ -498,7 +498,7 @@ export const sandwwich = [
     img: null,
     nome: {
       it: "Crudo e formaggio ",
-      en: "Crudo and cheese sandwich",
+      en: "Parma ham and cheese",
     },
     prezzo: 7,
     ricetta: {
@@ -536,7 +536,7 @@ export const focaccie = [
     img: null,
     nome: {
       it: "Stracciata, Mortadella e granella di pistacchio ",
-      en: "Stracciata focaccia, mortadella and chopped pistachios ",
+      en: "Stracciata cheese, mortadella and pistachios ",
     },
     prezzo: 12,
     ricetta: {
@@ -548,7 +548,7 @@ export const focaccie = [
     img: null,
     nome: {
       it: "Stracciata, Crudo e Melanzane a filetto",
-      en: "Shredded focaccia, raw and aubergine fillets ",
+      en: "Stracciata cheese, Parma ham and aubergine",
     },
     prezzo: 12,
     ricetta: {
@@ -560,7 +560,7 @@ export const focaccie = [
     img: null,
     nome: {
       it: "Stracciata, Alici e limone",
-      en: "Stracciata focaccia, anchovies and lemon ",
+      en: "Stracciata cheese, anchovies and lemon ",
     },
     prezzo: 12,
     ricetta: {
