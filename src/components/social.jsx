@@ -39,6 +39,18 @@ const Social = () => {
           </Link>
           <Link
             to={{
+              pathname: links.tiktok,
+            }}
+            target="_blank"
+          >
+            <FontAwesomeIcon
+              className="icon"
+              size="lg"
+              icon={brands("tiktok")}
+            />
+          </Link>
+          <Link
+            to={{
               pathname: links.maps,
             }}
             target="_blank"
