@@ -6,7 +6,7 @@ import MenuElement from "./menuElement";
 const BigSelection = ({ category, nome, langIT, cost, toShare, label }) => {
   return (
     category &&
-    category.length && (
+    category.length > 0 && (
       <>
         <Category categoria={nome} cost={cost} toShare={toShare} />
         <center>

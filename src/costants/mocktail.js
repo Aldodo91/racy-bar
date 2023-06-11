@@ -10,13 +10,29 @@ export const mocktail = [
   //   },
   // },
   {
-    img: images.flute,
-    nome: "Fake 75",
+    img: images.bc,
+    nome: "NOGRONI",
     ricetta: {
-      it: "Versione analcolica del French 75",
-      en: "Non alcohol version of Frenc 75",
+      it: "Versione analcolica del Negroni",
+      en: "Non alcohol version of Negroni",
     },
   },
+  {
+    img: images.bl,
+    nome: "0.07onic",
+    ricetta: {
+      it: "Versione analcolica del Gin Tonic",
+      en: "Non alcohol version of Gin Tonic",
+    },
+  },
+  // {
+  //   img: images.flute,
+  //   nome: "Fake 75",
+  //   ricetta: {
+  //     it: "Versione analcolica del French 75",
+  //     en: "Non alcohol version of Frenc 75",
+  //   },
+  // },
   {
     img: images.bl,
     nome: "Sacramento",

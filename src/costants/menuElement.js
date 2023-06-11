@@ -722,38 +722,38 @@ export const bollicine = [
 ];
 
 export const hot = [
-  {
-    img: images.hot,
-    nome: "Anacleto",
-    ricetta: {
-      it: "Espresso, Cioccolata, Zambaglione, Panna",
-      en: "Espresso, Chocolate, Eggnog, Cream",
-    },
-  },
-  {
-    img: images.hot,
-    nome: "Afther 8",
-    ricetta: {
-      it: "Rum, Cioccolato Venchi 1878, menta",
-      en: "Rum, Venchi Chocolate 1878, mint",
-    },
-  },
-  {
-    img: images.hot,
-    nome: "Chai Toddy",
-    ricetta: {
-      it: "Bourbon, Chai tea, limone, miele",
-      en: "Bourbon, Chai tea, lemon, honey",
-    },
-  },
-  {
-    img: images.hot,
-    nome: "Caribbean",
-    ricetta: {
-      it: "Rum, caffè, cocco & cannella ",
-      en: "Rum, caffè, cocco & cannella",
-    },
-  },
+  // {
+  //   img: images.hot,
+  //   nome: "Anacleto",
+  //   ricetta: {
+  //     it: "Espresso, Cioccolata, Zambaglione, Panna",
+  //     en: "Espresso, Chocolate, Eggnog, Cream",
+  //   },
+  // },
+  // {
+  //   img: images.hot,
+  //   nome: "Afther 8",
+  //   ricetta: {
+  //     it: "Rum, Cioccolato Venchi 1878, menta",
+  //     en: "Rum, Venchi Chocolate 1878, mint",
+  //   },
+  // },
+  // {
+  //   img: images.hot,
+  //   nome: "Chai Toddy",
+  //   ricetta: {
+  //     it: "Bourbon, Chai tea, limone, miele",
+  //     en: "Bourbon, Chai tea, lemon, honey",
+  //   },
+  // },
+  // {
+  //   img: images.hot,
+  //   nome: "Caribbean",
+  //   ricetta: {
+  //     it: "Rum, caffè, cocco & cannella ",
+  //     en: "Rum, caffè, cocco & cannella",
+  //   },
+  // },
   // {
   //   img: images.hot,
   //   nome: "French kiss",

@@ -13,6 +13,7 @@ import LuxurySelection from "../components/LuxurySelecion";
 import SpecialCoffie from "../components/coffieSpecial";
 import Allergeni from "../components/allergeni";
 import { signatureLabel, cornerLabel } from "../costants/labels";
+import Coriandoli from "../components/coriandoli";
 
 const MenuDetails = () => {
   const { lang } = useParams();
@@ -24,6 +25,8 @@ const MenuDetails = () => {
         pageWrapId={"page-wrap"}
         outerContainerId={"outer-container"}
       />
+
+      <Coriandoli />
 
       <div className="overflow">
         <div id="special">
@@ -160,7 +163,7 @@ const MenuDetails = () => {
           <FoodSelection
             category={menuElement.focaccie}
             langIT={langIt}
-            nome="Focaccie"
+            nome="Focacce"
             cost={""}
             isFood={true}
           />
