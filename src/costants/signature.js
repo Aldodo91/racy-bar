@@ -96,14 +96,14 @@ export const signature = [
       en: "Gin, marijuana, basil salt, ginger",
     },
   },
-  {
-    img: images.cola,
-    nome: "Atlanta",
-    ricetta: {
-      it: "House spiced Rum, Carlo Cola, lime",
-      en: "House spiced rum, Carlo Cola, lime",
-    },
-  },
+  // {
+  //   img: images.cola,
+  //   nome: "Atlanta",
+  //   ricetta: {
+  //     it: "House spiced Rum, Carlo Cola, lime",
+  //     en: "House spiced rum, Carlo Cola, lime",
+  //   },
+  // },
   {
     img: images.moro,
     nome: "Cinnamon Roll",
@@ -152,14 +152,14 @@ export const signature = [
   //     en: "Chestnut, Rhubarb, Vermouth, Lemon",
   //   },
   // },
-  {
-    img: images.martini,
-    nome: "Sidney 2.0",
-    ricetta: {
-      it: "Gin, Lamponi, Bacche",
-      en: "Gin, Raspberries, berries",
-    },
-  },
+  // {
+  //   img: images.martini,
+  //   nome: "Sydney 2.0",
+  //   ricetta: {
+  //     it: "Gin, Lamponi, Bacche",
+  //     en: "Gin, Raspberries, berries",
+  //   },
+  // },
   // {
   //   img: images.flute,
   //   nome: "Chamomile 75",
@@ -243,14 +243,14 @@ export const signature = [
   //     en: "Roku Gin, Truffle Bitter, Swee Vermouth, Umami",
   //   },
   // },
-  // {
-  //   img: images.martini,
-  //   nome: "Sydney",
-  //   ricetta: {
-  //     it: "Gin, Anguria, Sour, Prosecco",
-  //     en: "Gin, Watermelon, Sour, Prosecco",
-  //   },
-  // },
+  {
+    img: images.martini,
+    nome: "Sydney",
+    ricetta: {
+      it: "Gin, Anguria, Sour, Prosecco",
+      en: "Gin, Watermelon, Sour, Prosecco",
+    },
+  },
   {
     img: images.bl,
     nome: "Folgore",
