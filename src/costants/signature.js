@@ -8,14 +8,14 @@ export const signature = [
       en: "Tell me what you like",
     },
   },
-  {
-    img: images.flute,
-    nome: "Venice",
-    ricetta: {
-      it: "Pesca fresca, Prosecco, Love",
-      en: "Fresh peach, Prosecco, Love",
-    },
-  },
+  // {
+  //   img: images.flute,
+  //   nome: "Venice",
+  //   ricetta: {
+  //     it: "Pesca fresca, Prosecco, Love",
+  //     en: "Fresh peach, Prosecco, Love",
+  //   },
+  // },
   {
     img: images.martini,
     nome: "Sydney",
