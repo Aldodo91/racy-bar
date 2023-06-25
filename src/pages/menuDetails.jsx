@@ -45,6 +45,15 @@ const MenuDetails = () => {
             cost={12}
             label={signatureLabel}
           />
+          <div id="diageo">
+            <BigSelection
+              category={menuElement.diageo}
+              nome="Diageo"
+              langIT={langIt}
+              cost={15}
+              diageo
+            />
+          </div>
         </div>
         <div id="corner">
           <BigSelection

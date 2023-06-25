@@ -9,6 +9,64 @@ export const signature = [
     },
   },
   {
+    img: images.flute,
+    nome: "Venice",
+    ricetta: {
+      it: "Pesca fresca, Prosecco, Love",
+      en: "Fresh peach, Prosecco, Love",
+    },
+  },
+  {
+    img: images.martini,
+    nome: "Sydney",
+    ricetta: {
+      it: "Gin, Anguria, Sour, Prosecco",
+      en: "Gin, Watermelon, Sour, Prosecco",
+    },
+  },
+
+  {
+    img: images.moka,
+    nome: "Tiramisù martini",
+    ricetta: {
+      it: "Better than s*x",
+      en: "Better than s*x",
+    },
+  },
+  {
+    img: images.flute,
+    nome: "Sunset in Costiera",
+    ricetta: {
+      it: "Limoncello, fragole, prosecco",
+      en: "Limoncello, strawberry, prosecco",
+    },
+  },
+  {
+    img: images.ams,
+    nome: "Amsterdam",
+    ricetta: {
+      it: "Gin, marijuana, sale al basilico, zenzero ",
+      en: "Gin, marijuana, basil salt, ginger",
+    },
+  },
+  {
+    img: images.martini,
+    nome: "AƁƁükkyneva",
+    ricetta: {
+      it: "Mela Limoncella, vodka,limone, piccante",
+      en: "Sant'Agata apple, vodka, fresh lemon juice, spicy",
+    },
+  },
+  {
+    img: images.bc,
+    nome: "Spicy night",
+    ricetta: {
+      it: "Tequila, Anguria, piccante ",
+      en: "Tequila, fresh Watermelon, Spicy",
+    },
+  },
+
+  {
     img: images.vino,
     nome: "Flower power",
     ricetta: {
@@ -17,11 +75,43 @@ export const signature = [
     },
   },
   {
-    img: images.bc,
-    nome: "Negroni primavera",
+    img: images.bl,
+    nome: "Rio",
     ricetta: {
-      it: "Negroni, carciofo, lager ",
-      en: "Negroni, artichoke, lager",
+      it: "Cachaça, Limone, Fiori di sambuco, Ananas, Butterfly pea",
+      en: "Cachaça, Fresh lemon juice, Elderflower, Pineapple, Butterfly pea",
+    },
+  },
+  {
+    img: images.moro,
+    nome: "Hong Kong",
+    ricetta: {
+      it: "Racy herbal liqueur, Chinotto, Limone",
+      en: "Racy herbal liqueur, Chinotto, Fresh lemon juice",
+    },
+  },
+  {
+    img: images.bc,
+    nome: "Cancún",
+    ricetta: {
+      it: "Tequila, Limone, Mandorla piccante",
+      en: "Tequila, Fresh lemon juice, Spicy almond",
+    },
+  },
+  {
+    img: images.scrigno,
+    nome: "Montréal",
+    ricetta: {
+      it: "Bourbon, Maple al limone, Smoke bitter",
+      en: "Bourbon, Lemon maple syrup, Smoke bitter",
+    },
+  },
+  {
+    img: images.bl,
+    nome: "Folgore",
+    ricetta: {
+      it: "Vodka & Gin agli agrumi, Riboflavina, Tonica",
+      en: "Citrusy Vodka & Gin, Riboflavin, Tonic",
     },
   },
   {
@@ -41,29 +131,56 @@ export const signature = [
     },
   },
   {
-    img: images.uccello,
-    nome: "Honey moon",
-    ricetta: {
-      it: "Racy Gin, sherbet di miele agrumi & camomilla, soia, acqua di mare",
-      en: "Racy Gin, citrus honey sherbet & chamomile, soy, sea water",
-    },
-  },
-  {
     img: images.moro,
-    nome: "Hong Kong",
+    nome: "Cinnamon Roll",
     ricetta: {
-      it: "Racy herbal liqueur, Chinotto, Limone",
-      en: "Racy herbal liqueur, Chinotto, Fresh lemon juice",
+      it: "Cannella, gin, limone",
+      en: "Cinnamon, gin, lemon",
     },
   },
   {
-    img: images.moka,
-    nome: "Tiramisù martini",
+    img: images.martini,
+    nome: "Nocciola sour",
     ricetta: {
-      it: "Better than s*x",
-      en: "Better than s*x",
+      it: "Nocciola, sour",
+      en: "Hazelnut, sour",
     },
   },
+  {
+    img: images.bl,
+    nome: "San Juan",
+    ricetta: {
+      it: "Rum cannella & chiodi di garofano, Cioccolato bianco & Cocco, Ananas",
+      en: "Cinnamon & cloves rum, White chocolate & Cocco, Pineapple",
+    },
+  },
+  // {
+  //   img: images.martini,
+  //   nome: "Santiago",
+  //   ricetta: {
+  //     it: "Pisco, Ananas, Melograno",
+  //     en: "Pisco, Pineapple, Pomegranate",
+  //   },
+  // },
+
+  // {
+  //   img: images.bc,
+  //   nome: "Negroni primavera",
+  //   ricetta: {
+  //     it: "Negroni, carciofo, lager ",
+  //     en: "Negroni, artichoke, lager",
+  //   },
+  // },
+
+  // {
+  //   img: images.uccello,
+  //   nome: "Honey moon",
+  //   ricetta: {
+  //     it: "Racy Gin, sherbet di miele agrumi & camomilla, soia, acqua di mare",
+  //     en: "Racy Gin, citrus honey sherbet & chamomile, soy, sea water",
+  //   },
+  // },
+
   // {
   //   img: images.martini,
   //   nome: "Cocktail di carnevale",
@@ -88,14 +205,7 @@ export const signature = [
   //     en: "Whiskey, cinnamon and everything is beautiful",
   //   },
   // },
-  {
-    img: images.ams,
-    nome: "Amsterdam",
-    ricetta: {
-      it: "Gin, marijuana, sale al basilico, zenzero ",
-      en: "Gin, marijuana, basil salt, ginger",
-    },
-  },
+
   // {
   //   img: images.cola,
   //   nome: "Atlanta",
@@ -104,14 +214,6 @@ export const signature = [
   //     en: "House spiced rum, Carlo Cola, lime",
   //   },
   // },
-  {
-    img: images.moro,
-    nome: "Cinnamon Roll",
-    ricetta: {
-      it: "Cannella, gin, limone",
-      en: "Cinnamon, gin, lemon",
-    },
-  },
   // {
   //   img: images.bc,
   //   nome: "Winter breeze",
@@ -120,14 +222,14 @@ export const signature = [
   //     en: "Bourbon, cinnamon, chili, clementines",
   //   },
   // },
-  {
-    img: images.bc,
-    nome: "CCC",
-    ricetta: {
-      it: "Cognac, Cioccolato, bitter alla ciliegia",
-      en: "Cognac, Chocolate, cherry bitters",
-    },
-  },
+  // {
+  //   img: images.bc,
+  //   nome: "CCC",
+  //   ricetta: {
+  //     it: "Cognac, Cioccolato, bitter alla ciliegia",
+  //     en: "Cognac, Chocolate, cherry bitters",
+  //   },
+  // },
   // {
   //   img: images.bl,
   //   nome: "Foresta Rossa",
@@ -136,14 +238,6 @@ export const signature = [
   //     en: "Porcini mushrooms, vodka, tomatoes, umami",
   //   },
   // },
-  {
-    img: images.martini,
-    nome: "Nocciola sour",
-    ricetta: {
-      it: "Nocciola, sour",
-      en: "Hazelnut, sour",
-    },
-  },
   // {
   //   img: images.bc,
   //   nome: "Montella",
@@ -168,40 +262,6 @@ export const signature = [
   //     en: "Gin, chamomile, flowers, prosecco",
   //   },
   // },
-
-  // {
-  //   img: images.flute,
-  //   nome: "Venice",
-  //   ricetta: {
-  //     it: "Pesca fresca, Prosecco, Love",
-  //     en: "Fresh peach, Prosecco, Love",
-  //   },
-  // },
-
-  {
-    img: images.scrigno,
-    nome: "Montréal",
-    ricetta: {
-      it: "Bourbon, Maple al limone, Smoke bitter",
-      en: "Bourbon, Lemon maple syrup, Smoke bitter",
-    },
-  },
-  {
-    img: images.bc,
-    nome: "Cancún",
-    ricetta: {
-      it: "Tequila, Limone, Mandorla piccante",
-      en: "Tequila, Fresh lemon juice, Spicy almond",
-    },
-  },
-  // {
-  //   img: images.b5,
-  //   nome: "San Juan",
-  //   ricetta: {
-  //     it: "Rum cannella & chiodi di garofano, Cioccolato bianco & Cocco, Anans",
-  //     en: "Cinnamon & cloves rum, White chocolate & Cocco, Pineapple",
-  //   },
-  // },
   // {
   //   img: images.martini,
   //   nome: "L.A.",
@@ -211,22 +271,13 @@ export const signature = [
   //   },
   // },
   // {
-  //   img: images.bl,
-  //   nome: "Rio",
+  //   img: images.moka,
+  //   nome: "Naples",
   //   ricetta: {
-  //     it: "Cachaça, Limone, Fiori di sambuco, Butterfly pea",
-  //     en: "Cachaça, Fresh lemon juice, Elderflower, Butterfly pea",
+  //     it: "Rum, Ciocolato, Caffè, Nocciola",
+  //     en: "Rum, Chocolate, Coffee, Hazelnut",
   //   },
   // },
-
-  {
-    img: images.moka,
-    nome: "Naples",
-    ricetta: {
-      it: "Rum, Ciocolato, Caffè, Nocciola",
-      en: "Rum, Chocolate, Coffee, Hazelnut",
-    },
-  },
   // {
   //   img: images.b5,
   //   nome: "Mykonos",
@@ -243,22 +294,6 @@ export const signature = [
   //     en: "Roku Gin, Truffle Bitter, Swee Vermouth, Umami",
   //   },
   // },
-  {
-    img: images.martini,
-    nome: "Sydney",
-    ricetta: {
-      it: "Gin, Anguria, Sour, Prosecco",
-      en: "Gin, Watermelon, Sour, Prosecco",
-    },
-  },
-  {
-    img: images.bl,
-    nome: "Folgore",
-    ricetta: {
-      it: "Vodka & Gin agli agrumi, Riboflavina, Tonica",
-      en: "Citrusy Vodka & Gin, Riboflavin, Tonic",
-    },
-  },
   // {
   //   img: images.b5,
   //   nome: "London",

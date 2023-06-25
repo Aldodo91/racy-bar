@@ -3,12 +3,25 @@ import Category from "./category";
 import Label from "./label";
 import MenuElement from "./menuElement";
 
-const BigSelection = ({ category, nome, langIT, cost, toShare, label }) => {
+const BigSelection = ({
+  category,
+  nome,
+  langIT,
+  cost,
+  toShare,
+  label,
+  diageo = false,
+}) => {
   return (
     category &&
     category.length > 0 && (
       <>
-        <Category categoria={nome} cost={cost} toShare={toShare} />
+        <Category
+          categoria={nome}
+          cost={cost}
+          toShare={toShare}
+          diageo={diageo}
+        />
         <center>
           {label && <Label msg={i18n(langIT, label)} />}
           <div className="container">

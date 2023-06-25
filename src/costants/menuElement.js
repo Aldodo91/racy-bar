@@ -1,4 +1,4 @@
-import * as images from "./images";
+//import * as images from "./images";
 
 export const toShare = [
   // {
@@ -201,6 +201,14 @@ export const tequila = [
   {
     nome: "Mezcal A.D.C. JOVEN",
     prezzo: 9,
+  },
+  {
+    nome: "Casamigos blanco",
+    prezzo: 10,
+  },
+  {
+    nome: "Casamigos Reposado",
+    prezzo: 11,
   },
 ];
 export const scothWisky = [
@@ -440,6 +448,18 @@ export const latteVegetale = {
   prezzo: "+0.50",
 };
 export const birra = [
+  {
+    nome: "Draught 40cl",
+    prezzo: 7,
+  },
+  {
+    nome: "Draught 20cl",
+    prezzo: 4,
+  },
+  {
+    nome: "Peroni Capri",
+    prezzo: 6,
+  },
   {
     nome: "Umbri Bianca cappelli",
     prezzo: 7,

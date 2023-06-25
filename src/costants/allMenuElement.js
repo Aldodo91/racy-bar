@@ -1,4 +1,5 @@
 import { signature } from "./signature";
+import { diageo } from "./diageo";
 import { special } from "./special";
 import { mocktail } from "./mocktail";
 import {
@@ -63,4 +64,5 @@ export {
   shot,
   sandwwich,
   focaccie,
+  diageo,
 };

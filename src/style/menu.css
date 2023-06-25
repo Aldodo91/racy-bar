@@ -1,38 +1,41 @@
-@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Baskervville&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Merienda&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baskervville&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
 
-.bigButton{
-    padding: 3rem 6rem;
-    background: linear-gradient(-145deg, white 3%, antiquewhite);
-    color: black;
-    margin: 60px 40px;
-    border-radius: 20px;
-    font-size: 28px;
-    text-decoration: none;
-    font-family: 'Merienda', cursive;
-    font-weight: 200;
-    backdrop-filter: blur(3rem);
-    max-width: 1000px;
-    border: 1px solid beige ;
-    -webkit-box-shadow: 10px 19px 22px -12px rgba(0,0,0,0.13); 
-    box-shadow: 10px 19px 22px -12px rgba(0,0,0,0.13);
+.bigButton {
+  padding: 3rem 6rem;
+  background: linear-gradient(-145deg, white 3%, antiquewhite);
+  color: black;
+  margin: 60px 40px;
+  border-radius: 20px;
+  font-size: 28px;
+  text-decoration: none;
+  font-family: "Merienda", cursive;
+  font-weight: 200;
+  backdrop-filter: blur(3rem);
+  max-width: 1000px;
+  border: 1px solid beige;
+  -webkit-box-shadow: 10px 19px 22px -12px rgba(0, 0, 0, 0.13);
+  box-shadow: 10px 19px 22px -12px rgba(0, 0, 0, 0.13);
 }
-.Menu{
-    padding: 2rem 4rem;
-    background: linear-gradient(
-        rgb(255, 255, 255),rgba(255, 255, 255, 0.447));
+.Menu {
+  padding: 2rem 4rem;
+  background: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.447));
 }
 
+.buttonContainer {
+  overflow: hidden;
+  height: calc(100vh - 100px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  width: 100vw;
+  bottom: 0px;
+}
 
-.buttonContainer{
-    overflow: hidden;
-    height: calc(100vh - 100px);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    width: 100vw;
-    bottom: 0px;
-  }
+.diageoContainer img {
+  max-width: 90px;
+  height: auto;
+}

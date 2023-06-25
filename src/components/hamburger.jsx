@@ -17,6 +17,9 @@ const Sidebar = ({ lang }) => {
       <a className="menu-item" href="#signature" onClick={close}>
         Signature
       </a>
+      <a className="menu-item" href="#diageo" onClick={close}>
+        Diageo
+      </a>
       <a className="menu-item" href="#corner" onClick={close}>
         Shots
       </a>
