@@ -6,7 +6,7 @@ export const diageo = [
     nome: "Perfect Negroni",
     ricetta: {
       it: "Tanqueray 10, Antica Formula Vermouth, Campari",
-      en: "Bulleit bourbon, oak smoke, coffe",
+      en: "Tanqueray 10, Ancient Formula Vermouth, Campari",
     },
   },
   {
