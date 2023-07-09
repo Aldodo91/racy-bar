@@ -10,7 +10,7 @@ export const mocktail = [
   //   },
   // },
   {
-    img: images.bc,
+    img: images.corto,
     nome: "NOGRONI",
     ricetta: {
       it: "Versione analcolica del Negroni",
@@ -18,7 +18,7 @@ export const mocktail = [
     },
   },
   {
-    img: images.bl,
+    img: images.lungo,
     nome: "0.07onic",
     ricetta: {
       it: "Versione analcolica del Gin Tonic",
@@ -34,7 +34,7 @@ export const mocktail = [
   //   },
   // },
   {
-    img: images.bl,
+    img: images.lungo,
     nome: "Sacramento",
     ricetta: {
       it: "Versione analcolica del 50 Shades",
@@ -50,7 +50,7 @@ export const mocktail = [
     },
   },
   {
-    img: images.bl,
+    img: images.lungo,
     nome: "Paloma Light",
     ricetta: {
       it: "Versione analcolica del Paloma",
@@ -66,7 +66,7 @@ export const mocktail = [
   //   },
   // },
   // {
-  //   img: images.bl,
+  //   img: images.lungo,
   //   nome: "Melbourne",
   //   ricetta: {
   //     it: "Anguria, Sour, Soda",

@@ -17,7 +17,7 @@ export const signature = [
   //   },
   // },
   {
-    img: images.martini,
+    img: images.martiniBlu,
     nome: "Sydney",
     ricetta: {
       it: "Gin, Anguria, Sour, Prosecco",
@@ -58,7 +58,7 @@ export const signature = [
     },
   },
   {
-    img: images.bc,
+    img: images.cortoBlu,
     nome: "Spicy night",
     ricetta: {
       it: "Tequila, Anguria, piccante ",
@@ -75,7 +75,7 @@ export const signature = [
     },
   },
   {
-    img: images.bl,
+    img: images.lungoBlu,
     nome: "Rio",
     ricetta: {
       it: "Cachaça, Limone, Fiori di sambuco, Ananas, Butterfly pea",
@@ -91,7 +91,7 @@ export const signature = [
     },
   },
   {
-    img: images.bc,
+    img: images.corto,
     nome: "Cancún",
     ricetta: {
       it: "Tequila, Limone, Mandorla piccante",
@@ -107,7 +107,7 @@ export const signature = [
     },
   },
   {
-    img: images.bl,
+    img: images.lungo,
     nome: "Folgore",
     ricetta: {
       it: "Vodka & Gin agli agrumi, Riboflavina, Tonica",
@@ -123,7 +123,7 @@ export const signature = [
     },
   },
   {
-    img: images.bc,
+    img: images.corto,
     nome: "Smoke & coffee ",
     ricetta: {
       it: "Aged rum, fumo di quercia, caffè ",
@@ -147,7 +147,7 @@ export const signature = [
     },
   },
   {
-    img: images.bl,
+    img: images.lungo,
     nome: "San Juan",
     ricetta: {
       it: "Rum cannella & chiodi di garofano, Cioccolato bianco & Cocco, Ananas",
@@ -164,7 +164,7 @@ export const signature = [
   // },
 
   // {
-  //   img: images.bc,
+  //   img: images.corto,
   //   nome: "Negroni primavera",
   //   ricetta: {
   //     it: "Negroni, carciofo, lager ",
@@ -198,7 +198,7 @@ export const signature = [
   //   },
   // },
   // {
-  //   img: images.bl,
+  //   img: images.lungo,
   //   nome: "Xmas",
   //   ricetta: {
   //     it: "Whiskey, cannella e ogni cosa è bella",
@@ -215,7 +215,7 @@ export const signature = [
   //   },
   // },
   // {
-  //   img: images.bc,
+  //   img: images.corto,
   //   nome: "Winter breeze",
   //   ricetta: {
   //     it: "Bourbon, cannella, peperoncino, clementine",
@@ -223,7 +223,7 @@ export const signature = [
   //   },
   // },
   // {
-  //   img: images.bc,
+  //   img: images.corto,
   //   nome: "CCC",
   //   ricetta: {
   //     it: "Cognac, Cioccolato, bitter alla ciliegia",
@@ -231,7 +231,7 @@ export const signature = [
   //   },
   // },
   // {
-  //   img: images.bl,
+  //   img: images.lungo,
   //   nome: "Foresta Rossa",
   //   ricetta: {
   //     it: "Funghi porcini, vodka, pomodoro, umami",
@@ -239,7 +239,7 @@ export const signature = [
   //   },
   // },
   // {
-  //   img: images.bc,
+  //   img: images.corto,
   //   nome: "Montella",
   //   ricetta: {
   //     it: "Castagna, Rabarbaro, Vermouth, Limone",

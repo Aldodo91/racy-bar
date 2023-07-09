@@ -2,7 +2,7 @@ import * as images from "./images";
 
 export const diageo = [
   {
-    img: images.bc,
+    img: images.corto,
     nome: "Perfect Negroni",
     ricetta: {
       it: "Tanqueray 10, Antica Formula Vermouth, Campari",
@@ -10,7 +10,7 @@ export const diageo = [
     },
   },
   {
-    img: images.bl,
+    img: images.lungo,
     nome: "Casamigos Paloma",
     ricetta: {
       it: "Casamigos blanco, pink grapefruit, fresh lime, agave",
@@ -26,7 +26,7 @@ export const diageo = [
   //   },
   // },
   {
-    img: images.bc,
+    img: images.corto,
     nome: "Kentucky",
     ricetta: {
       it: "Bulleit rey, ciliegia, bitter al rosmarino, fumo di melo",

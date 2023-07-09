@@ -2,7 +2,7 @@ import * as images from "./images";
 
 export const special = [
   {
-    img: images.bc,
+    img: images.corto,
     nome: {
       it: "Negroni al Tartufo",
       en: "Truffle Negroni",
@@ -24,7 +24,7 @@ export const special = [
     },
   },
   {
-    img: images.bc,
+    img: images.lowball,
     nome: {
       it: "Golden Mex",
       en: "Golden Mex",
