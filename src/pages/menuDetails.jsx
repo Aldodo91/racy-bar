@@ -26,7 +26,7 @@ const MenuDetails = () => {
         outerContainerId={"outer-container"}
       />
 
-      <Coriandoli />
+      <Coriandoli langIt={langIt} />
 
       <div className="overflow">
         <div id="special">

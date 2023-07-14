@@ -2,7 +2,7 @@ import React from "react";
 import wine from "./../assets/wine.gif";
 import "../style/coriandoli.css";
 
-const Coriandoli = () => {
+const Coriandoli = ({ langIt }) => {
   const [show, setShow] = React.useState(false);
 
   React.useEffect(() => {
@@ -29,7 +29,9 @@ const Coriandoli = () => {
     show && (
       <div className="overlay">
         <div className="background">
-          <h1 className="scritta mt">Buon Compleanno Racy </h1>
+          <h1 className="scritta mt">
+            {langIt ? "Buon Compleanno Racy" : "Happy Birthday Racy"}
+          </h1>
           <div className="imageContainer">
             <img src={wine} alt="animated Gif" />
           </div>

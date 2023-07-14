@@ -18,8 +18,8 @@ import cola from "../assets/glass/carlocola.jpeg";
 import sakura from "../assets/glass/sakura.webp";
 import martiniBlu from "../assets/glass/martiniBlu.jpeg";
 import lowball from "../assets/glass/lowball.jpg";
-import cortoBlu from "../assets/glass/bcBlu.jpg";
-import lungoBlu from "../assets/glass/blBlu.jpg";
+import cortoBlu from "../assets/glass/cortoBlu.jpg";
+import lungoBlu from "../assets/glass/lungoBlu.jpg";
 
 export {
   question,
