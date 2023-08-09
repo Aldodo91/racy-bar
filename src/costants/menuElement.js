@@ -494,7 +494,7 @@ export const food = [
       it: "Crema",
       en: "Soup",
     },
-    prezzo: 7,
+    prezzo: 9,
     ricetta: {
       it: "con funghi Porcini",
       en: "Porcini mushrooms soup",

@@ -150,8 +150,8 @@ export const signature = [
     img: images.lungo,
     nome: "San Juan",
     ricetta: {
-      it: "Rum cannella & chiodi di garofano, Cioccolato bianco & Cocco, Ananas",
-      en: "Cinnamon & cloves rum, White chocolate & Cocco, Pineapple",
+      it: "Rum bianco, menta fresca, lager",
+      en: "Light rum, fresh mint, lager ",
     },
   },
   // {
