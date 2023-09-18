@@ -39,6 +39,12 @@ const MenuDetails = () => {
         </div>
         <div id="signature">
           <BigSelection
+            category={menuElement.negroniWeek}
+            nome="Negroni Week"
+            langIT={langIt}
+            cost={15}
+          />
+          <BigSelection
             category={menuElement.signature}
             nome="Signature Cocktails"
             langIT={langIt}

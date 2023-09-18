@@ -1,4 +1,4 @@
-import { signature } from "./signature";
+import { signature, negroniWeek } from "./signature";
 import { diageo } from "./diageo";
 import { special } from "./special";
 import { mocktail } from "./mocktail";
@@ -42,6 +42,7 @@ export {
   dessert,
   bruschette,
   toShare,
+  negroniWeek,
   gin,
   vodka,
   rum,

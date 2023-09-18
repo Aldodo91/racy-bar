@@ -319,3 +319,14 @@ export const signature = [
   //   },
   // },
 ];
+
+export const negroniWeek = [
+  {
+    img: images.corto,
+    nome: "Negroni Mediterraneo",
+    ricetta: {
+      it: "Gin, Campari, Profumi Mediterranei",
+      en: "Gin, Campari, Mediterranean Perfumes",
+    },
+  },
+];
