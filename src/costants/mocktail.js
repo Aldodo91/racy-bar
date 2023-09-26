@@ -13,16 +13,16 @@ export const mocktail = [
     img: images.corto,
     nome: "NOGRONI",
     ricetta: {
-      it: "Versione analcolica del Negroni",
-      en: "Non alcohol version of Negroni",
+      it: "Versione analcolica del Negroni con Tanqueray 0.0",
+      en: "Non alcohol version of Negroni with Tanqueray 0.0",
     },
   },
   {
     img: images.lungo,
     nome: "0.07onic",
     ricetta: {
-      it: "Versione analcolica del Gin Tonic",
-      en: "Non alcohol version of Gin Tonic",
+      it: "Versione analcolica del Gin Tonic con Tanqueray 0.0",
+      en: "Non alcohol version of Gin Tonic with Tanqueray 0.0",
     },
   },
   // {
