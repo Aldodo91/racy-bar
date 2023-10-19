@@ -683,10 +683,15 @@ export const redWine = [
 
 export const whiteWine = [
   {
-    nome: "FiaGre Antonio Caggiano",
+    nome: "Fiano Macchialupa",
     bottleCost: 28,
     glassCost: 7,
   },
+  // {
+  //   nome: "FiaGre Antonio Caggiano",
+  //   bottleCost: 28,
+  //   glassCost: 7,
+  // },
   // {
   //   nome: "Biancolella Casa d'Ambra",
   //   bottleCost: 30,

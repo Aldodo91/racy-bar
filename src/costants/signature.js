@@ -16,14 +16,14 @@ export const signature = [
   //     en: "Fresh peach, Prosecco, Love",
   //   },
   // },
-  {
-    img: images.martiniBlu,
-    nome: "Sydney",
-    ricetta: {
-      it: "Gin, Anguria, Sour, Prosecco",
-      en: "Gin, Watermelon, Sour, Prosecco",
-    },
-  },
+  // {
+  //   img: images.martiniBlu,
+  //   nome: "Sydney",
+  //   ricetta: {
+  //     it: "Gin, Anguria, Sour, Prosecco",
+  //     en: "Gin, Watermelon, Sour, Prosecco",
+  //   },
+  // },
 
   {
     img: images.moka,
@@ -57,14 +57,14 @@ export const signature = [
       en: "Sant'Agata apple, vodka, fresh lemon juice, spicy",
     },
   },
-  {
-    img: images.cortoBlu,
-    nome: "Spicy night",
-    ricetta: {
-      it: "Tequila, Anguria, piccante ",
-      en: "Tequila, fresh Watermelon, Spicy",
-    },
-  },
+  // {
+  //   img: images.cortoBlu,
+  //   nome: "Spicy night",
+  //   ricetta: {
+  //     it: "Tequila, Anguria, piccante ",
+  //     en: "Tequila, fresh Watermelon, Spicy",
+  //   },
+  // },
 
   {
     img: images.vino,
@@ -246,14 +246,14 @@ export const signature = [
   //     en: "Chestnut, Rhubarb, Vermouth, Lemon",
   //   },
   // },
-  // {
-  //   img: images.martini,
-  //   nome: "Sydney 2.0",
-  //   ricetta: {
-  //     it: "Gin, Lamponi, Bacche",
-  //     en: "Gin, Raspberries, berries",
-  //   },
-  // },
+  {
+    img: images.martini,
+    nome: "Sydney 2.0",
+    ricetta: {
+      it: "Gin, Lamponi, Bacche",
+      en: "Gin, Raspberries, berries",
+    },
+  },
   // {
   //   img: images.flute,
   //   nome: "Chamomile 75",
