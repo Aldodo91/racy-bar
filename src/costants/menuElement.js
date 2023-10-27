@@ -162,11 +162,11 @@ export const rum = [
   },
   {
     nome: "Diplomatico 12yo",
-    prezzo: 9,
+    prezzo: 10,
   },
   {
     nome: "Zacapa 23 anni",
-    prezzo: 10,
+    prezzo: 11,
   },
   {
     nome: "Zacapa XO",
@@ -174,18 +174,14 @@ export const rum = [
   },
 ];
 export const tequila = [
-  {
-    nome: "Altos Blanco",
-    prezzo: 6,
-  },
-  {
-    nome: "Cazadores Blanco",
-    prezzo: 6,
-  },
-  {
-    nome: "Don Julio Anejo",
-    prezzo: 11,
-  },
+  // {
+  //   nome: "Altos Blanco",
+  //   prezzo: 6,
+  // },
+  // {
+  //   nome: "Cazadores Blanco",
+  //   prezzo: 6,
+  // },
   {
     nome: "El Charro silver",
     prezzo: 6,
@@ -202,13 +198,39 @@ export const tequila = [
     nome: "Mezcal A.D.C. JOVEN",
     prezzo: 9,
   },
+
   {
-    nome: "Casamigos blanco",
-    prezzo: 10,
+    nome: "Don Ramon Blanco",
+    prezzo: 6,
+  },
+  {
+    nome: "Don Ramon Reposado ",
+    prezzo: 7,
+  },
+
+  {
+    nome: "Casamigos Blanco",
+    prezzo: 11,
   },
   {
     nome: "Casamigos Reposado",
-    prezzo: 11,
+    prezzo: 12,
+  },
+  {
+    nome: "Casamigos Anejo",
+    prezzo: 13,
+  },
+  {
+    nome: "Don Julio Anejo",
+    prezzo: 12,
+  },
+  {
+    nome: "Don Julio 1942",
+    prezzo: 37,
+  },
+  {
+    nome: "Casamigos Mezcal",
+    prezzo: 16,
   },
 ];
 export const scothWisky = [
@@ -235,6 +257,10 @@ export const scothWisky = [
   {
     nome: "Monkey Shoulder",
     prezzo: 9,
+  },
+  {
+    nome: "Macallan 18 double cask",
+    prezzo: 68,
   },
 ];
 export const usa = [
@@ -448,14 +474,14 @@ export const latteVegetale = {
   prezzo: "+0.50",
 };
 export const birra = [
-  {
-    nome: "Draught 40cl",
-    prezzo: 7,
-  },
-  {
-    nome: "Draught 20cl",
-    prezzo: 4,
-  },
+  // {
+  //   nome: "Draught 40cl",
+  //   prezzo: 7,
+  // },
+  // {
+  //   nome: "Draught 20cl",
+  //   prezzo: 4,
+  // },
   {
     nome: "Peroni Capri",
     prezzo: 6,
