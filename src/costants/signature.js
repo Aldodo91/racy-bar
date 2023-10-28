@@ -8,6 +8,55 @@ export const signature = [
       en: "Tell me what you like",
     },
   },
+  {
+    img: images.lungoBlu,
+    nome: "Sottobosco",
+    ricetta: {
+      it: "Vermouth ai funghi Porcini, bitter al rosmarino, soda al pompelmo",
+      en: "Porcini mushroom vermouth, rosemary bitters, grapefruit soda",
+    },
+  },
+  {
+    img: images.martini,
+    nome: "Nocciola sour",
+    ricetta: {
+      it: "Nocciola, sour",
+      en: "Hazelnut, sour",
+    },
+  },
+  {
+    img: images.lungoBlu,
+    nome: "Montella",
+    ricetta: {
+      it: "Castagna, Rabarbaro, Vermouth, Limone",
+      en: "Chestnut, Rhubarb, Vermouth, Lemon",
+    },
+  },
+  {
+    img: images.mela,
+    nome: "FALLing in love",
+    ricetta: {
+      it: "Bourbon Whiskey, zucca, cannella",
+      en: "Bourbon Whiskey, pumpkin, Cinnamon",
+    },
+  },
+
+  {
+    img: images.moro,
+    nome: "Cinnamon Roll",
+    ricetta: {
+      it: "Cannella, gin, limone",
+      en: "Cinnamon, gin, lemon",
+    },
+  },
+  {
+    img: images.corto,
+    nome: "Smoke & coffee ",
+    ricetta: {
+      it: "Aged rum, fumo di quercia, caffè ",
+      en: "Aged rum, oak smoke, coffee",
+    },
+  },
   // {
   //   img: images.flute,
   //   nome: "Venice",
@@ -33,14 +82,14 @@ export const signature = [
       en: "Better than s*x",
     },
   },
-  {
-    img: images.flute,
-    nome: "Sunset in Costiera",
-    ricetta: {
-      it: "Limoncello, fragole, prosecco",
-      en: "Limoncello, strawberry, prosecco",
-    },
-  },
+  // {
+  //   img: images.flute,
+  //   nome: "Sunset in Costiera",
+  //   ricetta: {
+  //     it: "Limoncello, fragole, prosecco",
+  //     en: "Limoncello, strawberry, prosecco",
+  //   },
+  // },
   {
     img: images.ams,
     nome: "Amsterdam",
@@ -74,22 +123,22 @@ export const signature = [
       en: "Just like a spritz, but better",
     },
   },
-  {
-    img: images.lungoBlu,
-    nome: "Rio",
-    ricetta: {
-      it: "Cachaça, Limone, Fiori di sambuco, Ananas, Butterfly pea",
-      en: "Cachaça, Fresh lemon juice, Elderflower, Pineapple, Butterfly pea",
-    },
-  },
-  {
-    img: images.moro,
-    nome: "Hong Kong",
-    ricetta: {
-      it: "Racy herbal liqueur, Chinotto, Limone",
-      en: "Racy herbal liqueur, Chinotto, Fresh lemon juice",
-    },
-  },
+  // {
+  //   img: images.lungoBlu,
+  //   nome: "Rio",
+  //   ricetta: {
+  //     it: "Cachaça, Limone, Fiori di sambuco, Ananas, Butterfly pea",
+  //     en: "Cachaça, Fresh lemon juice, Elderflower, Pineapple, Butterfly pea",
+  //   },
+  // },
+  // {
+  //   img: images.moro,
+  //   nome: "Hong Kong",
+  //   ricetta: {
+  //     it: "Racy herbal liqueur, Chinotto, Limone",
+  //     en: "Racy herbal liqueur, Chinotto, Fresh lemon juice",
+  //   },
+  // },
   {
     img: images.corto,
     nome: "Cancún",
@@ -114,46 +163,22 @@ export const signature = [
       en: "Citrusy Vodka & Gin, Riboflavin, Tonic",
     },
   },
-  {
-    img: images.imbuto,
-    nome: "Spring break",
-    ricetta: {
-      it: "Gin, acqua di mare, basilico, velluto di ananas & Campari",
-      en: "Gin, sea water, basil, pineapple & Campari velvet",
-    },
-  },
-  {
-    img: images.corto,
-    nome: "Smoke & coffee ",
-    ricetta: {
-      it: "Aged rum, fumo di quercia, caffè ",
-      en: "Aged rum, oak smoke, coffee",
-    },
-  },
-  {
-    img: images.moro,
-    nome: "Cinnamon Roll",
-    ricetta: {
-      it: "Cannella, gin, limone",
-      en: "Cinnamon, gin, lemon",
-    },
-  },
-  {
-    img: images.martini,
-    nome: "Nocciola sour",
-    ricetta: {
-      it: "Nocciola, sour",
-      en: "Hazelnut, sour",
-    },
-  },
-  {
-    img: images.lungo,
-    nome: "San Juan",
-    ricetta: {
-      it: "Rum bianco, menta fresca, lager",
-      en: "Light rum, fresh mint, lager ",
-    },
-  },
+  // {
+  //   img: images.imbuto,
+  //   nome: "Spring break",
+  //   ricetta: {
+  //     it: "Gin, acqua di mare, basilico, velluto di ananas & Campari",
+  //     en: "Gin, sea water, basil, pineapple & Campari velvet",
+  //   },
+  // },
+  // {
+  //   img: images.lungo,
+  //   nome: "San Juan",
+  //   ricetta: {
+  //     it: "Rum bianco, menta fresca, lager",
+  //     en: "Light rum, fresh mint, lager ",
+  //   },
+  // },
   // {
   //   img: images.martini,
   //   nome: "Santiago",
@@ -189,14 +214,7 @@ export const signature = [
   //     en: "Coriandolo, Strega, sour",
   //   },
   // },
-  // {
-  //   img: images.mela,
-  //   nome: "FALLing in love",
-  //   ricetta: {
-  //     it: "Bourbon Whiskey, zucca, cannella, zenzero",
-  //     en: "Bourbon Whiskey, pumpkin, Cinnamon, ginger",
-  //   },
-  // },
+
   // {
   //   img: images.lungo,
   //   nome: "Xmas",
@@ -238,14 +256,7 @@ export const signature = [
   //     en: "Porcini mushrooms, vodka, tomatoes, umami",
   //   },
   // },
-  // {
-  //   img: images.corto,
-  //   nome: "Montella",
-  //   ricetta: {
-  //     it: "Castagna, Rabarbaro, Vermouth, Limone",
-  //     en: "Chestnut, Rhubarb, Vermouth, Lemon",
-  //   },
-  // },
+
   {
     img: images.martini,
     nome: "Sydney 2.0",

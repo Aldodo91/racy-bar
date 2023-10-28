@@ -430,11 +430,11 @@ export const specialCoffie = [
     desc: "Indian Chai, latte, cannella ",
     prezzo: 4,
   },
-  // {
-  //   nome: "Pumpkin spice latte",
-  //   desc: "Zucca, espresso, latte, cannella ",
-  //   prezzo: 3,
-  // },
+  {
+    nome: "Pumpkin spice latte",
+    desc: "Zucca, espresso, latte, cannella ",
+    prezzo: 4,
+  },
   {
     nome: "Mocaccino",
     desc: "Espresso, cioccolata, latte",
