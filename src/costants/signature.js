@@ -74,14 +74,14 @@ export const signature = [
   //   },
   // },
 
-  {
-    img: images.moka,
-    nome: "Tiramisù martini",
-    ricetta: {
-      it: "Better than s*x",
-      en: "Better than s*x",
-    },
-  },
+  // {
+  //   img: images.moka,
+  //   nome: "Tiramisù martini",
+  //   ricetta: {
+  //     it: "Better than s*x",
+  //     en: "Better than s*x",
+  //   },
+  // },
   // {
   //   img: images.flute,
   //   nome: "Sunset in Costiera",
