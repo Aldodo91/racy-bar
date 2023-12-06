@@ -2,7 +2,7 @@ import React from "react";
 import { scaleDown as Menu } from "react-burger-menu";
 import "../style/hamburger.css";
 
-const Sidebar = ({ lang }) => {
+const Sidebar = ({ lang, menuElement }) => {
   const it = lang === "it";
   const close = () => {
     document
@@ -17,14 +17,16 @@ const Sidebar = ({ lang }) => {
       <a className="menu-item" href="#signature" onClick={close}>
         Signature
       </a>
+      {menuElement.hot.length && (
+        <a className="menu-item" href="#hot" onClick={close}>
+          Hot Cocktails
+        </a>
+      )}
       <a className="menu-item" href="#diageo" onClick={close}>
         Diageo
       </a>
       <a className="menu-item" href="#corner" onClick={close}>
         Shots
-      </a>
-      <a className="menu-item" href="#hot" onClick={close}>
-        Hot Cocktails
       </a>
       <a className="menu-item" href="#noAlcol" onClick={close}>
         MockTails

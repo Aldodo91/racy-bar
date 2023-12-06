@@ -1,5 +1,80 @@
 import * as images from "./images";
-export const signature = [
+
+// TODO smistare i drink
+
+const invernali = [
+  {
+    img: images.lungo,
+    nome: "Xmas",
+    ricetta: {
+      it: "Whiskey, cannella e ogni cosa è bella",
+      en: "Whiskey, cinnamon and everything is beautiful",
+    },
+  },
+
+  {
+    img: images.martini,
+    nome: "Sydney 2.0",
+    ricetta: {
+      it: "Gin, Lamponi, Bacche",
+      en: "Gin, Raspberries, berries",
+    },
+  },
+  {
+    img: images.vino,
+    nome: "Chai",
+    ricetta: {
+      it: "Aged Rum, indian chai, ginger beer",
+      en: "Aged Rum, indian chai, ginger beer",
+    },
+  },
+  {
+    img: images.corto,
+    nome: "Santa's cookie",
+    ricetta: {
+      it: "Gin, cannella, winter spice",
+      en: "Gin, cannella, winter spice",
+    },
+  },
+  {
+    img: images.lungoBlu,
+    nome: "Mela e Cannella",
+    ricetta: {
+      it: "Vodka, mela limoncella, cannella ",
+      en: "Vodka, apple limoncella, cinnamon",
+    },
+  },
+  {
+    img: images.corto,
+    nome: "Winter breeze",
+    ricetta: {
+      it: "Bourbon, cannella, peperoncino, clementine",
+      en: "Bourbon, cinnamon, chili, clementines",
+    },
+  },
+
+  {
+    img: images.scrigno,
+    nome: "Montréal",
+    ricetta: {
+      it: "Bourbon, Maple al limone, Smoke bitter",
+      en: "Bourbon, Lemon maple syrup, Smoke bitter",
+    },
+  },
+  {
+    img: images.corto,
+    nome: "CCC",
+    ricetta: {
+      it: "Cognac, Cioccolato, bitter alla ciliegia",
+      en: "Cognac, Chocolate, cherry bitters",
+    },
+  },
+];
+const estivi = [];
+const autunnali = [];
+const primaverili = [];
+const sempre = [];
+const roulette = [
   {
     img: images.question,
     nome: "Cocktail roulette",
@@ -8,45 +83,46 @@ export const signature = [
       en: "Tell me what you like",
     },
   },
-  {
-    img: images.lungoBlu,
-    nome: "Sottobosco",
-    ricetta: {
-      it: "Vermouth ai funghi Porcini, bitter al rosmarino, soda al pompelmo",
-      en: "Porcini mushroom vermouth, rosemary bitters, grapefruit soda",
-    },
-  },
-  {
-    img: images.martini,
-    nome: "Nocciola sour",
-    ricetta: {
-      it: "Nocciola, sour",
-      en: "Hazelnut, sour",
-    },
-  },
-  {
-    img: images.lungoBlu,
-    nome: "Montella",
-    ricetta: {
-      it: "Castagna, Rabarbaro, Vermouth, Limone",
-      en: "Chestnut, Rhubarb, Vermouth, Lemon",
-    },
-  },
-  {
-    img: images.mela,
-    nome: "FALLing in love",
-    ricetta: {
-      it: "Bourbon Whiskey, zucca, cannella",
-      en: "Bourbon Whiskey, pumpkin, Cinnamon",
-    },
-  },
+];
 
+export const signature = [
+  ...estivi,
+  ...autunnali,
+  ...primaverili,
+  ...sempre,
+  ...roulette,
+  ...invernali,
   {
     img: images.moro,
     nome: "Cinnamon Roll",
     ricetta: {
       it: "Cannella, gin, limone",
       en: "Cinnamon, gin, lemon",
+    },
+  },
+  {
+    img: images.lungo,
+    nome: "Folgore",
+    ricetta: {
+      it: "Vodka & Gin agli agrumi, Riboflavina, Tonica",
+      en: "Citrusy Vodka & Gin, Riboflavin, Tonic",
+    },
+  },
+  {
+    img: images.corto,
+    nome: "Cancún",
+    ricetta: {
+      it: "Tequila, Limone, Mandorla piccante",
+      en: "Tequila, Fresh lemon juice, Spicy almond",
+    },
+  },
+
+  {
+    img: images.lungoBlu,
+    nome: "Sottobosco",
+    ricetta: {
+      it: "Vermouth ai funghi Porcini, bitter al rosmarino, soda al pompelmo",
+      en: "Porcini mushroom vermouth, rosemary bitters, grapefruit soda",
     },
   },
   {
@@ -57,6 +133,30 @@ export const signature = [
       en: "Aged rum, oak smoke, coffee",
     },
   },
+  // {
+  //   img: images.martini,
+  //   nome: "Nocciola sour",
+  //   ricetta: {
+  //     it: "Nocciola, sour",
+  //     en: "Hazelnut, sour",
+  //   },
+  // },
+  // {
+  //   img: images.lungoBlu,
+  //   nome: "Montella",
+  //   ricetta: {
+  //     it: "Castagna, Rabarbaro, Vermouth, Limone",
+  //     en: "Chestnut, Rhubarb, Vermouth, Lemon",
+  //   },
+  // },
+  // {
+  //   img: images.mela,
+  //   nome: "FALLing in love",
+  //   ricetta: {
+  //     it: "Bourbon Whiskey, zucca, cannella",
+  //     en: "Bourbon Whiskey, pumpkin, Cinnamon",
+  //   },
+  // },
   // {
   //   img: images.flute,
   //   nome: "Venice",
@@ -90,22 +190,22 @@ export const signature = [
   //     en: "Limoncello, strawberry, prosecco",
   //   },
   // },
-  {
-    img: images.ams,
-    nome: "Amsterdam",
-    ricetta: {
-      it: "Gin, marijuana, sale al basilico, zenzero ",
-      en: "Gin, marijuana, basil salt, ginger",
-    },
-  },
-  {
-    img: images.martini,
-    nome: "AƁƁükkyneva",
-    ricetta: {
-      it: "Mela Limoncella, vodka,limone, piccante",
-      en: "Sant'Agata apple, vodka, fresh lemon juice, spicy",
-    },
-  },
+  // {
+  //   img: images.ams,
+  //   nome: "Amsterdam",
+  //   ricetta: {
+  //     it: "Gin, marijuana, sale al basilico, zenzero ",
+  //     en: "Gin, marijuana, basil salt, ginger",
+  //   },
+  // },
+  // {
+  //   img: images.martini,
+  //   nome: "AƁƁükkyneva",
+  //   ricetta: {
+  //     it: "Mela Limoncella, vodka,limone, piccante",
+  //     en: "Sant'Agata apple, vodka, fresh lemon juice, spicy",
+  //   },
+  // },
   // {
   //   img: images.cortoBlu,
   //   nome: "Spicy night",
@@ -115,14 +215,14 @@ export const signature = [
   //   },
   // },
 
-  {
-    img: images.vino,
-    nome: "Flower power",
-    ricetta: {
-      it: "Come uno spritz, ma meglio",
-      en: "Just like a spritz, but better",
-    },
-  },
+  // {
+  //   img: images.vino,
+  //   nome: "Flower power",
+  //   ricetta: {
+  //     it: "Come uno spritz, ma meglio",
+  //     en: "Just like a spritz, but better",
+  //   },
+  // },
   // {
   //   img: images.lungoBlu,
   //   nome: "Rio",
@@ -139,30 +239,6 @@ export const signature = [
   //     en: "Racy herbal liqueur, Chinotto, Fresh lemon juice",
   //   },
   // },
-  {
-    img: images.corto,
-    nome: "Cancún",
-    ricetta: {
-      it: "Tequila, Limone, Mandorla piccante",
-      en: "Tequila, Fresh lemon juice, Spicy almond",
-    },
-  },
-  {
-    img: images.scrigno,
-    nome: "Montréal",
-    ricetta: {
-      it: "Bourbon, Maple al limone, Smoke bitter",
-      en: "Bourbon, Lemon maple syrup, Smoke bitter",
-    },
-  },
-  {
-    img: images.lungo,
-    nome: "Folgore",
-    ricetta: {
-      it: "Vodka & Gin agli agrumi, Riboflavina, Tonica",
-      en: "Citrusy Vodka & Gin, Riboflavin, Tonic",
-    },
-  },
   // {
   //   img: images.imbuto,
   //   nome: "Spring break",
@@ -216,36 +292,11 @@ export const signature = [
   // },
 
   // {
-  //   img: images.lungo,
-  //   nome: "Xmas",
-  //   ricetta: {
-  //     it: "Whiskey, cannella e ogni cosa è bella",
-  //     en: "Whiskey, cinnamon and everything is beautiful",
-  //   },
-  // },
-
-  // {
   //   img: images.cola,
   //   nome: "Atlanta",
   //   ricetta: {
   //     it: "House spiced Rum, Carlo Cola, lime",
   //     en: "House spiced rum, Carlo Cola, lime",
-  //   },
-  // },
-  // {
-  //   img: images.corto,
-  //   nome: "Winter breeze",
-  //   ricetta: {
-  //     it: "Bourbon, cannella, peperoncino, clementine",
-  //     en: "Bourbon, cinnamon, chili, clementines",
-  //   },
-  // },
-  // {
-  //   img: images.corto,
-  //   nome: "CCC",
-  //   ricetta: {
-  //     it: "Cognac, Cioccolato, bitter alla ciliegia",
-  //     en: "Cognac, Chocolate, cherry bitters",
   //   },
   // },
   // {
@@ -257,14 +308,6 @@ export const signature = [
   //   },
   // },
 
-  {
-    img: images.martini,
-    nome: "Sydney 2.0",
-    ricetta: {
-      it: "Gin, Lamponi, Bacche",
-      en: "Gin, Raspberries, berries",
-    },
-  },
   // {
   //   img: images.flute,
   //   nome: "Chamomile 75",

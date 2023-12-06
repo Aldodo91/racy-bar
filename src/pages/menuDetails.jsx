@@ -24,6 +24,7 @@ const MenuDetails = () => {
         lang={lang}
         pageWrapId={"page-wrap"}
         outerContainerId={"outer-container"}
+        menuElement={menuElement}
       />
 
       <Coriandoli langIt={langIt} />
@@ -51,6 +52,14 @@ const MenuDetails = () => {
             cost={12}
             label={signatureLabel}
           />
+          <div id="hot">
+            <BigSelection
+              category={menuElement.hot}
+              nome="Hot Cocktails"
+              langIT={langIt}
+              cost={12}
+            />
+          </div>
           <div id="diageo">
             <BigSelection
               category={menuElement.diageo}
@@ -68,14 +77,6 @@ const MenuDetails = () => {
             langIT={langIt}
             cost={4}
             label={cornerLabel}
-          />
-        </div>
-        <div id="hot">
-          <BigSelection
-            category={menuElement.hot}
-            nome="Hot Cocktails"
-            langIT={langIt}
-            cost={12}
           />
         </div>
         <BigSelection
