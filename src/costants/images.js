@@ -20,12 +20,14 @@ import martiniBlu from "../assets/glass/martiniBlu.jpeg";
 import lowball from "../assets/glass/lowball.jpg";
 import cortoBlu from "../assets/glass/cortoBlu.jpg";
 import lungoBlu from "../assets/glass/lungoBlu.jpg";
+import vasetto from "../assets/glass/vasetto.webp";
 
 export {
   question,
   lungoBlu,
   cortoBlu,
   martiniBlu,
+  vasetto,
   lowball,
   cola,
   corto,

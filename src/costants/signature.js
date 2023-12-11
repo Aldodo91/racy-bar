@@ -69,6 +69,14 @@ const invernali = [
       en: "Cognac, Chocolate, cherry bitters",
     },
   },
+  {
+    img: images.vasetto,
+    nome: "Vitamina C",
+    ricetta: {
+      it: "Antiossidante & Ipocalorico",
+      en: "Antioxidant & Low-calorie",
+    },
+  },
 ];
 const estivi = [];
 const autunnali = [];
