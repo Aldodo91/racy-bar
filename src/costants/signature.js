@@ -20,22 +20,22 @@ const invernali = [
       en: "Gin, Raspberries, berries",
     },
   },
-  {
-    img: images.vino,
-    nome: "Chai",
-    ricetta: {
-      it: "Aged Rum, indian chai, ginger beer",
-      en: "Aged Rum, indian chai, ginger beer",
-    },
-  },
-  {
-    img: images.corto,
-    nome: "Santa's cookie",
-    ricetta: {
-      it: "Gin, cannella, winter spice",
-      en: "Gin, cannella, winter spice",
-    },
-  },
+  // {
+  //   img: images.vino,
+  //   nome: "Chai",
+  //   ricetta: {
+  //     it: "Aged Rum, indian chai, ginger beer",
+  //     en: "Aged Rum, indian chai, ginger beer",
+  //   },
+  // },
+  // {
+  //   img: images.corto,
+  //   nome: "Santa's cookie",
+  //   ricetta: {
+  //     it: "Gin, cannella, winter spice",
+  //     en: "Gin, cannella, winter spice",
+  //   },
+  // },
   {
     img: images.lungoBlu,
     nome: "Mela e Cannella",
@@ -69,14 +69,14 @@ const invernali = [
       en: "Cognac, Chocolate, cherry bitters",
     },
   },
-  {
-    img: images.vasetto,
-    nome: "Vitamina C",
-    ricetta: {
-      it: "Antiossidante & Ipocalorico",
-      en: "Antioxidant & Low-calorie",
-    },
-  },
+  // {
+  //   img: images.vasetto,
+  //   nome: "Vitamina C",
+  //   ricetta: {
+  //     it: "Antiossidante & Ipocalorico",
+  //     en: "Antioxidant & Low-calorie",
+  //   },
+  // },
 ];
 const estivi = [];
 const autunnali = [];
@@ -125,14 +125,14 @@ export const signature = [
     },
   },
 
-  {
-    img: images.lungoBlu,
-    nome: "Sottobosco",
-    ricetta: {
-      it: "Vermouth ai funghi Porcini, bitter al rosmarino, soda al pompelmo",
-      en: "Porcini mushroom vermouth, rosemary bitters, grapefruit soda",
-    },
-  },
+  // {
+  //   img: images.lungoBlu,
+  //   nome: "Sottobosco",
+  //   ricetta: {
+  //     it: "Vermouth ai funghi Porcini, bitter al rosmarino, soda al pompelmo",
+  //     en: "Porcini mushroom vermouth, rosemary bitters, grapefruit soda",
+  //   },
+  // },
   {
     img: images.corto,
     nome: "Smoke & coffee ",
@@ -223,14 +223,14 @@ export const signature = [
   //   },
   // },
 
-  // {
-  //   img: images.vino,
-  //   nome: "Flower power",
-  //   ricetta: {
-  //     it: "Come uno spritz, ma meglio",
-  //     en: "Just like a spritz, but better",
-  //   },
-  // },
+  {
+    img: images.vino,
+    nome: "Flower power",
+    ricetta: {
+      it: "Come uno spritz, ma meglio",
+      en: "Just like a spritz, but better",
+    },
+  },
   // {
   //   img: images.lungoBlu,
   //   nome: "Rio",
@@ -247,14 +247,14 @@ export const signature = [
   //     en: "Racy herbal liqueur, Chinotto, Fresh lemon juice",
   //   },
   // },
-  // {
-  //   img: images.imbuto,
-  //   nome: "Spring break",
-  //   ricetta: {
-  //     it: "Gin, acqua di mare, basilico, velluto di ananas & Campari",
-  //     en: "Gin, sea water, basil, pineapple & Campari velvet",
-  //   },
-  // },
+  {
+    img: images.imbuto,
+    nome: "Spring break",
+    ricetta: {
+      it: "Gin, acqua di mare, basilico, velluto di ananas & Campari",
+      en: "Gin, sea water, basil, pineapple & Campari velvet",
+    },
+  },
   // {
   //   img: images.lungo,
   //   nome: "San Juan",

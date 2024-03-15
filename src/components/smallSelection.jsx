@@ -6,7 +6,7 @@ const SmallSection = ({ category, nome, isWine }) => {
     return [
       {
         nome: "Racy Dolcevita",
-        prezzo: 9,
+        prezzo: 9.5,
       },
       // {
       //   nome: "Racy citrusy",
@@ -14,10 +14,13 @@ const SmallSection = ({ category, nome, isWine }) => {
       // },
     ];
   };
-  const order =
-    nome === "Gin"
-      ? [...addRacyGin(), ...category.sort((a, b) => a.prezzo - b.prezzo)]
-      : category.sort((a, b) => a.prezzo - b.prezzo);
+  const byPrezzo = (a, b) => a.prezzo - b.prezzo;
+  const byBottle = (a, b) => a.bottleCost - b.bottleCost;
+  let order = isWine ? category.sort(byBottle) : category.sort(byPrezzo);
+  if (nome === "Gin") {
+    order = [...addRacyGin(), ...order];
+  }
+
   return category && category.length ? (
     <>
       <Category categoria={nome} sfuso={isWine} />

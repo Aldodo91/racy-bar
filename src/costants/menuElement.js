@@ -22,155 +22,175 @@ export const toShare = [
 export const gin = [
   {
     nome: "Berto",
-    prezzo: 7,
+    prezzo: 7.5,
   },
   {
     nome: "Ophir",
-    prezzo: 7,
+    prezzo: 8.5,
   },
   {
     nome: "Sabatini",
-    prezzo: 9,
+    prezzo: 9.5,
   },
   {
     nome: "Botanist",
-    prezzo: 9,
+    prezzo: 9.5,
   },
   {
     nome: "Hendricks",
-    prezzo: 7,
+    prezzo: 8.5,
   },
   {
     nome: "Copper Head Gin",
-    prezzo: 12,
+    prezzo: 12.5,
   },
   {
     nome: "Elephant",
-    prezzo: 9,
+    prezzo: 9.5,
   },
   {
     nome: "Mare",
-    prezzo: 8,
+    prezzo: 8.5,
   },
-  {
-    nome: "Colombian",
-    prezzo: 8,
-  },
+  // {
+  //   nome: "Colombian",
+  //   prezzo: 8,
+  // },
   {
     nome: "Sipsmith",
-    prezzo: 8,
+    prezzo: 8.5,
+  },
+  {
+    nome: "Gutsy Monkey winter",
+    prezzo: 13.5,
   },
   {
     nome: "Jizu",
-    prezzo: 8,
+    prezzo: 8.5,
   },
-  {
-    nome: "David Luxury",
-    prezzo: 11,
-  },
-  {
-    nome: "Caprisius",
-    prezzo: 8,
-  },
+  // {
+  //   nome: "David Luxury",
+  //   prezzo: 11,
+  // },
+  // {
+  //   nome: "Caprisius",
+  //   prezzo: 8,
+  // },
   {
     nome: "Del Professore Madame",
-    prezzo: 8,
+    prezzo: 8.5,
   },
   {
     nome: "Kinobi",
-    prezzo: 11,
+    prezzo: 11.5,
   },
   {
     nome: "Monkey 47",
-    prezzo: 10,
+    prezzo: 10.5,
   },
   {
     nome: "London Dry n3",
-    prezzo: 8,
+    prezzo: 8.5,
   },
   {
     nome: "Tanqueray",
-    prezzo: 10,
+    prezzo: 7.5,
+  },
+  {
+    nome: "Tanqueray 10",
+    prezzo: 10.5,
   },
   {
     nome: "Roku",
-    prezzo: 8,
+    prezzo: 8.5,
   },
   {
     nome: "Silent Pool",
-    prezzo: 11,
+    prezzo: 11.5,
   },
   {
     nome: "Seven Hills",
-    prezzo: 7,
+    prezzo: 8.5,
   },
-  {
-    nome: "Ungava",
-    prezzo: 7,
-  },
+  // {
+  //   nome: "Ungava",
+  //   prezzo: 7.5,
+  // },
   {
     nome: "Brooklin",
-    prezzo: 10,
+    prezzo: 10.5,
   },
   {
     nome: "Alkkemist",
-    prezzo: 10,
+    prezzo: 10.5,
+  },
+  {
+    nome: "Bombay",
+    prezzo: 8.5,
+  },
+  {
+    nome: "Peter in Florence",
+    prezzo: 10.5,
   },
 ];
 export const vodka = [
   {
     nome: "Ciroc",
-    prezzo: 8,
+    prezzo: 9.5,
   },
   {
     nome: "Grey Goose",
-    prezzo: 9,
+    prezzo: 10.5,
   },
   {
     nome: "Belvedere",
-    prezzo: 8,
+    prezzo: 10.5,
   },
   {
     nome: "Ketel One",
-    prezzo: 7,
+    prezzo: 8.5,
   },
-  {
-    nome: "Nemiroff",
-    prezzo: 6,
-  },
+  // {
+  //   nome: "Nemiroff",
+  //   prezzo: 6,
+  // },
   {
     nome: "Tito's",
-    prezzo: 7,
+    prezzo: 9.5,
   },
 ];
 export const rum = [
   {
     nome: "Don q Anejo",
-    prezzo: 6,
+    prezzo: 7.5,
   },
   {
     nome: "Matusalem 7yo",
-    prezzo: 6,
+    prezzo: 7.5,
+  },
+  {
+    nome: "Brugal Anejo",
+    prezzo: 7.5,
   },
   {
     nome: "Sailor Jerry",
-    prezzo: 6,
+    prezzo: 7.5,
   },
   {
     nome: "Don Papa 7yo",
-    prezzo: 8,
-  },
-  {
-    nome: "Diplomatico 12yo",
     prezzo: 10,
   },
   {
+    nome: "Diplomatico 12yo",
+    prezzo: 12,
+  },
+  {
     nome: "Zacapa 23 anni",
-    prezzo: 11,
+    prezzo: 12,
   },
   {
     nome: "Zacapa XO",
-    prezzo: 19,
+    prezzo: 21,
   },
 ];
 export const tequila = [
@@ -236,11 +256,11 @@ export const tequila = [
 export const scothWisky = [
   {
     nome: "Black label JW",
-    prezzo: 6,
+    prezzo: 7,
   },
   {
     nome: "Chivas 12 anni",
-    prezzo: 6,
+    prezzo: 7,
   },
   {
     nome: "Talisker 10YO",
@@ -248,7 +268,7 @@ export const scothWisky = [
   },
   {
     nome: "Caol ila 12 YO",
-    prezzo: 10,
+    prezzo: 12,
   },
   {
     nome: "Laphroaig 10yo",
@@ -289,7 +309,6 @@ export const usa = [
     prezzo: 6,
   },
 ];
-
 export const japaniseWisky = [];
 export const irishWisky = [
   {
@@ -494,6 +513,10 @@ export const birra = [
     nome: "Umbri California",
     prezzo: 7,
   },
+  {
+    nome: "K birr NAPOLI lager",
+    prezzo: 8,
+  },
 ];
 export const softDrink = [
   {
@@ -677,33 +700,38 @@ export const redWine = [
   },
   {
     nome: "Moio 57",
-    bottleCost: 30,
-    glassCost: 8,
+    bottleCost: 32,
+    glassCost: 9,
   },
   {
     nome: "Chianti Classico Carpineto",
-    bottleCost: 30,
-    glassCost: 8,
+    bottleCost: 32,
+    glassCost: 9,
   },
-  {
-    nome: "Barolo 2012 Castiglione Vietti",
-    bottleCost: 64,
-  },
+  // {
+  //   nome: "Barolo 2012 Castiglione Vietti",
+  //   bottleCost: 64,
+  // },
   {
     nome: "Amarone Costasera Masi 2016",
-    bottleCost: 62,
+    bottleCost: 68,
   },
   {
     nome: "Taurasi Feudi 2014",
     bottleCost: 65,
   },
-  {
-    nome: "Primitivo Conte Zecca",
-    bottleCost: 30,
-  },
+  // {
+  //   nome: "Primitivo Conte Zecca",
+  //   bottleCost: 30,
+  // },
   {
     nome: "Primitivo 60 anni San Marzano",
-    bottleCost: 60,
+    bottleCost: 63,
+  },
+  {
+    nome: "Primitivo di Manduria",
+    bottleCost: 28,
+    glassCost: 7,
   },
 ];
 
@@ -724,6 +752,11 @@ export const whiteWine = [
   // },
   {
     nome: "Chardonnay Cantina Mori",
+    bottleCost: 30,
+    glassCost: 8,
+  },
+  {
+    nome: "Fiano Enodelta",
     bottleCost: 28,
     glassCost: 7,
   },
@@ -747,12 +780,12 @@ export const roseWine = [
 export const bollicine = [
   {
     nome: "Prosecco",
-    bottleCost: 28,
-    glassCost: 7,
+    bottleCost: 30,
+    glassCost: 8,
   },
   {
     nome: "CA del bosco",
-    bottleCost: 60,
+    bottleCost: 65,
   },
   {
     nome: "Louis Roederer 242",
@@ -789,14 +822,14 @@ export const hot = [
       en: "Rum, Venchi Chocolate 1878, mint",
     },
   },
-  {
-    img: images.hot,
-    nome: "Chai Toddy",
-    ricetta: {
-      it: "Bourbon, Chai tea, limone, miele",
-      en: "Bourbon, Chai tea, lemon, honey",
-    },
-  },
+  // {
+  //   img: images.hot,
+  //   nome: "Chai Toddy",
+  //   ricetta: {
+  //     it: "Bourbon, Chai tea, limone, miele",
+  //     en: "Bourbon, Chai tea, lemon, honey",
+  //   },
+  // },
   {
     img: images.hot,
     nome: "Caribbean",
