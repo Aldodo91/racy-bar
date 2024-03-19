@@ -25,6 +25,10 @@ export const gin = [
     prezzo: 7.5,
   },
   {
+    nome: "Malfi limone",
+    prezzo: 9.5,
+  },
+  {
     nome: "Ophir",
     prezzo: 8.5,
   },
@@ -444,16 +448,16 @@ export const specialCoffie = [
     desc: "Espresso, nocciola, latte, lemon zest    ",
     prezzo: 4,
   },
-  {
-    nome: "Chai latte",
-    desc: "Indian Chai, latte, cannella ",
-    prezzo: 4,
-  },
-  {
-    nome: "Pumpkin spice latte",
-    desc: "Zucca, espresso, latte, cannella ",
-    prezzo: 4,
-  },
+  // {
+  //   nome: "Chai latte",
+  //   desc: "Indian Chai, latte, cannella ",
+  //   prezzo: 4,
+  // },
+  // {
+  //   nome: "Pumpkin spice latte",
+  //   desc: "Zucca, espresso, latte, cannella ",
+  //   prezzo: 4,
+  // },
   {
     nome: "Mocaccino",
     desc: "Espresso, cioccolata, latte",
@@ -704,6 +708,10 @@ export const redWine = [
     glassCost: 9,
   },
   {
+    nome: "Barolo Prunotto 2019 ",
+    bottleCost: 55,
+  },
+  {
     nome: "Chianti Classico Carpineto",
     bottleCost: 32,
     glassCost: 9,
@@ -713,12 +721,20 @@ export const redWine = [
   //   bottleCost: 64,
   // },
   {
-    nome: "Amarone Costasera Masi 2016",
+    nome: "Amarone Costasera Masi 2017",
     bottleCost: 68,
   },
   {
-    nome: "Taurasi Feudi 2014",
+    nome: "Amarone Villa Belvedere 2018",
+    bottleCost: 55,
+  },
+  {
+    nome: "Taurasi Feudi 2012",
     bottleCost: 65,
+  },
+  {
+    nome: "Barolo Fontanafredda 2009 ",
+    bottleCost: 157,
   },
   // {
   //   nome: "Primitivo Conte Zecca",
@@ -740,6 +756,10 @@ export const whiteWine = [
     nome: "Fiano Macchialupa",
     bottleCost: 28,
     glassCost: 7,
+  },
+  {
+    nome: "Casa D'Ambra biancolella",
+    bottleCost: 30,
   },
   // {
   //   nome: "FiaGre Antonio Caggiano",
@@ -782,6 +802,10 @@ export const bollicine = [
     nome: "Prosecco",
     bottleCost: 30,
     glassCost: 8,
+  },
+  {
+    nome: "Krug 169 edition brut",
+    bottleCost: 410,
   },
   {
     nome: "CA del bosco",
