@@ -23,7 +23,7 @@ const Home = () => {
         </div>
         <div className="orari">
           <p className="orari-inside">Open every day</p>
-          <p className="orari-inside">7.00 AM | 02.00 AM </p>
+          <p className="orari-inside">9.00 AM | 02.00 AM </p>
           {/* <div className="giorni">Closed on Thursday</div> */}
           {tempClosed && <TemporaryClosed />}
         </div>

@@ -792,7 +792,7 @@ export const whiteWine = [
 ];
 export const roseWine = [
   {
-    nome: "Vetere Bio S. Salvatore",
+    nome: "Visione Feudi di San Gregorio",
     bottleCost: 32,
     glassCost: 9,
   },
