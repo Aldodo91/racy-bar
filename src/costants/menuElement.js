@@ -544,7 +544,7 @@ export const food = [
   {
     img: null,
     nome: {
-      it: "Crema",
+      it: "Zuppa",
       en: "Soup",
     },
     prezzo: 9,
@@ -556,15 +556,51 @@ export const food = [
   {
     img: null,
     nome: {
-      it: "'Caviale' di Lompo",
-      en: "Lumpfish 'caviar'",
+      it: "Gnocchi alla Sorrentina",
+      en: "Gnocchi Sorrentina syle",
     },
     prezzo: 12,
     ricetta: {
-      it: "Servito con crostini al burro",
-      en: "Served with butter croutons",
+      it: "Pomoro & Mozzarella",
+      en: "Tomato & Mozzarella",
     },
   },
+  {
+    img: null,
+    nome: {
+      it: "Salumi & Formaggi",
+      en: "Cold cuts & local cheese",
+    },
+    prezzo: 9,
+    ricetta: {
+      it: "",
+      en: "",
+    },
+  },
+  {
+    img: null,
+    nome: {
+      it: "Parmigiana di melenzane",
+      en: "Eggplant Parmigiana",
+    },
+    prezzo: 12,
+    ricetta: {
+      it: "",
+      en: "",
+    },
+  },
+  // {
+  //   img: null,
+  //   nome: {
+  //     it: "'Caviale' di Lompo",
+  //     en: "Lumpfish 'caviar'",
+  //   },
+  //   prezzo: 12,
+  //   ricetta: {
+  //     it: "Servito con crostini al burro",
+  //     en: "Served with butter croutons",
+  //   },
+  // },
 ];
 export const sandwwich = [
   {
@@ -573,7 +609,7 @@ export const sandwwich = [
       it: "Crudo e formaggio ",
       en: "Parma ham and cheese",
     },
-    prezzo: 7,
+    prezzo: 8,
     ricetta: {
       it: "",
       en: "",
@@ -585,7 +621,7 @@ export const sandwwich = [
       it: "Caprese",
       en: "Capri Style Sandwich",
     },
-    prezzo: 8,
+    prezzo: 9,
     ricetta: {
       it: "",
       en: "",
@@ -597,7 +633,7 @@ export const sandwwich = [
       it: "Salmone affumicato",
       en: "Smoked salmon sandwich",
     },
-    prezzo: 9,
+    prezzo: 10,
     ricetta: {
       it: "",
       en: "",
@@ -676,8 +712,31 @@ export const bruschette = {
       it: "Nduja calabrese",
       en: "Spicy Nduja calabrese",
     },
+    {
+      it: "Peperoni Arrostiti",
+      en: "Roasted Peppers",
+    },
+    {
+      it: "Patè di carciofini",
+      en: "Artichoes Patè",
+    },
   ],
 };
+
+export const nachos = [
+  {
+    img: null,
+    nome: {
+      it: "Servito con burrata al basilico ",
+      en: "With burrata & basil",
+    },
+    prezzo: "",
+    ricetta: {
+      it: "",
+      en: "",
+    },
+  },
+];
 
 export const dessert = [
   // {
@@ -701,6 +760,10 @@ export const redWine = [
     nome: "Sangue di Giuda",
     bottleCost: 27,
     glassCost: 7,
+  },
+  {
+    nome: "Barolo Lodali 2020",
+    bottleCost: 55,
   },
   {
     nome: "Moio 57",
@@ -728,9 +791,13 @@ export const redWine = [
     nome: "Amarone Villa Belvedere 2018",
     bottleCost: 55,
   },
+  // {
+  //   nome: "Taurasi Feudi 2012",
+  //   bottleCost: 65,
+  // },
   {
-    nome: "Taurasi Feudi 2012",
-    bottleCost: 65,
+    nome: "Taurasi Feudi 2019",
+    bottleCost: 60,
   },
   {
     nome: "Barolo Fontanafredda 2009 ",

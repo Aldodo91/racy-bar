@@ -31,6 +31,7 @@ import {
   shot,
   sandwwich,
   focaccie,
+  nachos,
 } from "./menuElement";
 export {
   signature,
@@ -66,4 +67,5 @@ export {
   sandwwich,
   focaccie,
   diageo,
+  nachos,
 };

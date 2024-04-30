@@ -170,6 +170,13 @@ const MenuDetails = () => {
             cost={"2€/pz"}
           />
           <FoodSelection
+            category={menuElement.nachos}
+            langIT={langIt}
+            nome="Nachos"
+            cost={"6"}
+            isFood={true}
+          />
+          <FoodSelection
             category={menuElement.sandwwich}
             langIT={langIt}
             nome="Sandwich"
@@ -189,7 +196,7 @@ const MenuDetails = () => {
             nome="Food"
             cost={""}
             isFood={true}
-          />
+          />{" "}
           <Allergeni />
         </div>
         <div id="dessert">
