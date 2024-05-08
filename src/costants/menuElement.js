@@ -583,7 +583,19 @@ export const food = [
       it: "Parmigiana di melenzane",
       en: "Eggplant Parmigiana",
     },
-    prezzo: 12,
+    prezzo: 14,
+    ricetta: {
+      it: "",
+      en: "",
+    },
+  },
+  {
+    img: null,
+    nome: {
+      it: "Lasagna",
+      en: "Lasagna",
+    },
+    prezzo: 14,
     ricetta: {
       it: "",
       en: "",
