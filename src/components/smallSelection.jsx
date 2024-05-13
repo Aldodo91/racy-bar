@@ -1,7 +1,7 @@
 import Category from "./category";
 import WineElement from "./wineElement";
 import CommonElement from "./commonElement";
-const SmallSection = ({ category, nome, isWine }) => {
+const SmallSection = ({ category, nome, isWine, custom = false }) => {
   const addRacyGin = () => {
     return [
       {
@@ -19,6 +19,15 @@ const SmallSection = ({ category, nome, isWine }) => {
   let order = isWine ? category.sort(byBottle) : category.sort(byPrezzo);
   if (nome === "Gin") {
     order = [...addRacyGin(), ...order];
+  }
+  if (custom) {
+    order = [
+      {
+        nome: "Full English breakfast",
+        prezzo: 15,
+      },
+      ...order,
+    ];
   }
 
   return category && category.length ? (

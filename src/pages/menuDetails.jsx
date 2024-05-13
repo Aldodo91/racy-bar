@@ -148,6 +148,7 @@ const MenuDetails = () => {
           <SmallSection
             category={menuElement.caffetteria}
             nome={langIt ? "Caffetteria all'italiana" : "Coffee"}
+            custom
           />
           <MilkElement element={menuElement.latteVegetale} />
           <SpecialCoffie
