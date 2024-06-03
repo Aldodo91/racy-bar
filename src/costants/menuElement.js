@@ -1,5 +1,3 @@
-import * as images from "./images";
-
 export const toShare = [
   // {
   //   img: null,
@@ -82,7 +80,7 @@ export const gin = [
   // },
   {
     nome: "Del Professore Madame",
-    prezzo: 8.5,
+    prezzo: 9.5,
   },
   {
     nome: "Kinobi",
@@ -497,14 +495,14 @@ export const latteVegetale = {
   prezzo: "+0.50",
 };
 export const birra = [
-  // {
-  //   nome: "Draught 40cl",
-  //   prezzo: 7,
-  // },
-  // {
-  //   nome: "Draught 20cl",
-  //   prezzo: 4,
-  // },
+  {
+    nome: "Draught 40cl",
+    prezzo: 7,
+  },
+  {
+    nome: "Draught 20cl",
+    prezzo: 4,
+  },
   {
     nome: "Peroni Capri",
     prezzo: 6,
@@ -906,25 +904,33 @@ export const bollicine = [
     nome: "Belle Epoque 2013",
     bottleCost: 290,
   },
+  {
+    nome: "Veuve clicquot 375ml",
+    bottleCost: 60,
+  },
+  {
+    nome: "Franciacorta Camillucci Saten 75cl",
+    bottleCost: 55,
+  },
 ];
 
 export const hot = [
-  {
-    img: images.hot,
-    nome: "Anacleto",
-    ricetta: {
-      it: "Espresso, Cioccolata, Zambaglione, Panna",
-      en: "Espresso, Chocolate, Eggnog, Cream",
-    },
-  },
-  {
-    img: images.hot,
-    nome: "Afther 8",
-    ricetta: {
-      it: "Rum, Cioccolato Venchi 1878, menta",
-      en: "Rum, Venchi Chocolate 1878, mint",
-    },
-  },
+  // {
+  //   img: images.hot,
+  //   nome: "Anacleto",
+  //   ricetta: {
+  //     it: "Espresso, Cioccolata, Zambaglione, Panna",
+  //     en: "Espresso, Chocolate, Eggnog, Cream",
+  //   },
+  // },
+  // {
+  //   img: images.hot,
+  //   nome: "Afther 8",
+  //   ricetta: {
+  //     it: "Rum, Cioccolato Venchi 1878, menta",
+  //     en: "Rum, Venchi Chocolate 1878, mint",
+  //   },
+  // },
   // {
   //   img: images.hot,
   //   nome: "Chai Toddy",
@@ -933,30 +939,30 @@ export const hot = [
   //     en: "Bourbon, Chai tea, lemon, honey",
   //   },
   // },
-  {
-    img: images.hot,
-    nome: "Caribbean",
-    ricetta: {
-      it: "Rum, caffè, cocco & cannella ",
-      en: "Rum, caffè, cocco & cannella",
-    },
-  },
-  {
-    img: images.hot,
-    nome: "French kiss",
-    ricetta: {
-      it: "Calvados, Cioccolato fondente, Lamponi",
-      en: "Calvados, Dark chocolate, Raspberries",
-    },
-  },
-  {
-    img: images.hot,
-    nome: "Aperol Spritz Caldo",
-    ricetta: {
-      it: "Aperol, vino secco, spezie",
-      en: "Aperol, dry wine, spices",
-    },
-  },
+  // {
+  //   img: images.hot,
+  //   nome: "Caribbean",
+  //   ricetta: {
+  //     it: "Rum, caffè, cocco & cannella ",
+  //     en: "Rum, caffè, cocco & cannella",
+  //   },
+  // },
+  // {
+  //   img: images.hot,
+  //   nome: "French kiss",
+  //   ricetta: {
+  //     it: "Calvados, Cioccolato fondente, Lamponi",
+  //     en: "Calvados, Dark chocolate, Raspberries",
+  //   },
+  // },
+  // {
+  //   img: images.hot,
+  //   nome: "Aperol Spritz Caldo",
+  //   ricetta: {
+  //     it: "Aperol, vino secco, spezie",
+  //     en: "Aperol, dry wine, spices",
+  //   },
+  // },
 ];
 export const shot = [
   {
