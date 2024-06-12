@@ -364,11 +364,11 @@ const ALL = {
     },
   },
   santagata: {
-    img: images.corto,
+    img: images.lungo,
     nome: "Sant'Agata",
     ricetta: {
-      it: "Sorbetto alla fragola, Limoncello, Prosecco",
-      en: "Strawberry sorbetto, Limoncello, Prosecco",
+      it: "Sorbetto al Limone, Limoncello, Prosecco, Fragola",
+      en: " Lemon sorbetto, Limoncello, Prosecco, strawberry",
     },
   },
   firenze: {
@@ -399,6 +399,7 @@ const ALL = {
 
 export const signature = [
   ALL.roulette,
+  ALL.santagata,
   ALL.sydney2,
   ALL.malabar,
   ALL.firenze,
@@ -411,7 +412,6 @@ export const signature = [
   ALL.cuba,
 
   //ALL.sunset,
-  //ALL.santagata,
   //ALL.fijian,
 ];
 

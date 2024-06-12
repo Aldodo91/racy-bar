@@ -909,7 +909,7 @@ export const bollicine = [
     bottleCost: 60,
   },
   {
-    nome: "Franciacorta Camillucci Saten 75cl",
+    nome: "Franciacorta Camillucci Saten",
     bottleCost: 55,
   },
 ];
