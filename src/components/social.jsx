@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { links } from "../costants/links";
 import {
-  solid,
   regular,
   brands,
 } from "@fortawesome/fontawesome-svg-core/import.macro";
