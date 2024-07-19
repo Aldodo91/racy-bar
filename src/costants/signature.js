@@ -400,7 +400,7 @@ const ALL = {
 export const signature = [
   ALL.roulette,
   ALL.santagata,
-  ALL.sydney2,
+  ALL.sydney,
   ALL.malabar,
   ALL.firenze,
   ALL.amsterdam,

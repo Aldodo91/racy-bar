@@ -59,14 +59,14 @@ const Social = () => {
           </Link>
           <Link
             to={{
-              pathname: links.mail,
+              pathname: links.whatsapp,
             }}
             target="_blank"
           >
             <FontAwesomeIcon
               size="lg"
               className="icon"
-              icon={solid("envelope")}
+              icon={brands("whatsapp")}
             />
           </Link>
           {/* <Link

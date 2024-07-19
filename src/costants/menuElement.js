@@ -342,6 +342,10 @@ export const grappa = [
     prezzo: 4,
   },
   {
+    nome: "Berta Tre Soli Tre",
+    prezzo: 18,
+  },
+  {
     nome: "Quaglia Barolo",
     prezzo: 8,
   },
@@ -507,10 +511,10 @@ export const birra = [
     nome: "Peroni Capri",
     prezzo: 6,
   },
-  {
-    nome: "Umbri Bianca cappelli",
-    prezzo: 7,
-  },
+  // {
+  //   nome: "Umbri Bianca cappelli",
+  //   prezzo: 7,
+  // },
   {
     nome: "Umbri California",
     prezzo: 7,
