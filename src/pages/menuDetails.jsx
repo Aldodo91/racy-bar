@@ -102,7 +102,7 @@ const MenuDetails = () => {
           />
           <SmallSection
             category={menuElement.roseWine}
-            nome={langIt ? "Rosè" : "Rose wine"}
+            nome={langIt ? "Rosé" : "Rose wine"}
             isWine={true}
           />
           <SmallSection

@@ -395,18 +395,29 @@ const ALL = {
       en: "Secret mix, Lemon, Lapsang souchoung",
     },
   },
+  Jasmine75: {
+    img: images.nudeFat,
+    nome: "Jasmine 75",
+    ricetta: {
+      it: "Gin, gelsomino, bollicine ",
+      en: "Gin, jaemine, prosecco",
+    },
+  },
 };
 
 export const signature = [
   ALL.roulette,
+  ALL.Jasmine75,
   ALL.santagata,
-  ALL.sydney,
+  ALL.montella,
+  ALL.nocciolaSour,
+  //ALL.sydney,
   ALL.malabar,
   ALL.firenze,
   ALL.amsterdam,
   ALL.cancun,
   ALL.montreal,
-  ALL.venice,
+  //ALL.venice,
   ALL.barcellona,
   ALL.napoli,
   ALL.cuba,

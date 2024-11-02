@@ -21,6 +21,7 @@ import lowball from "../assets/glass/lowball.jpg";
 import cortoBlu from "../assets/glass/cortoBlu.jpg";
 import lungoBlu from "../assets/glass/lungoBlu.jpg";
 import vasetto from "../assets/glass/vasetto.webp";
+import nudeFat from "../assets/glass/nudefat.jpg";
 
 export {
   question,
@@ -46,4 +47,5 @@ export {
   doppio as hot,
   ams,
   sakura,
+  nudeFat,
 };
