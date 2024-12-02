@@ -548,6 +548,42 @@ export const food = [
   {
     img: null,
     nome: {
+      it: "Pata al pesto",
+      en: "Pesto Pasta",
+    },
+    prezzo: 14,
+    ricetta: {
+      it: "",
+      en: "",
+    },
+  },
+  {
+    img: null,
+    nome: {
+      it: "Tagliolini ai Porcini",
+      en: "tagliolini with porcini mushrooms",
+    },
+    prezzo: 15,
+    ricetta: {
+      it: "",
+      en: "",
+    },
+  },
+  {
+    img: null,
+    nome: {
+      it: "Pollo al curry",
+      en: "Chicken curry",
+    },
+    prezzo: 16,
+    ricetta: {
+      it: "",
+      en: "",
+    },
+  },
+  {
+    img: null,
+    nome: {
       it: "Zuppa",
       en: "Soup",
     },
@@ -557,18 +593,18 @@ export const food = [
       en: "Porcini mushrooms soup",
     },
   },
-  {
-    img: null,
-    nome: {
-      it: "Gnocchi alla Sorrentina",
-      en: "Gnocchi Sorrentina syle",
-    },
-    prezzo: 12,
-    ricetta: {
-      it: "Pomoro & Mozzarella",
-      en: "Tomato & Mozzarella",
-    },
-  },
+  // {
+  //   img: null,
+  //   nome: {
+  //     it: "Gnocchi alla Sorrentina",
+  //     en: "Gnocchi Sorrentina syle",
+  //   },
+  //   prezzo: 12,
+  //   ricetta: {
+  //     it: "Pomoro & Mozzarella",
+  //     en: "Tomato & Mozzarella",
+  //   },
+  // },
   {
     img: null,
     nome: {
@@ -928,6 +964,14 @@ export const bollicine = [
 export const hot = [
   {
     img: images.hot,
+    nome: "Apple brulè",
+    ricetta: {
+      it: "Dark rum, mela, chiodi di garofano, anice stellatona",
+      en: "Dark rum, apple, cloves, star anise",
+    },
+  },
+  {
+    img: images.hot,
     nome: "Anacleto",
     ricetta: {
       it: "Espresso, Cioccolata, Zambaglione, Panna",
@@ -942,14 +986,14 @@ export const hot = [
       en: "Rum, Venchi Chocolate 1878, mint",
     },
   },
-  {
-    img: images.hot,
-    nome: "Chai Toddy",
-    ricetta: {
-      it: "Bourbon, Chai tea, limone, miele",
-      en: "Bourbon, Chai tea, lemon, honey",
-    },
-  },
+  // {
+  //   img: images.hot,
+  //   nome: "Chai Toddy",
+  //   ricetta: {
+  //     it: "Bourbon, Chai tea, limone, miele",
+  //     en: "Bourbon, Chai tea, lemon, honey",
+  //   },
+  // },
   {
     img: images.hot,
     nome: "Caribbean",

@@ -1,90 +1,90 @@
-.home{
-    background: linear-gradient(rgb(255, 255, 255), antiquewhite);
-    overflow: hidden;
-    position: fixed;
-    bottom: 0px;
-    height: calc(100vh - 100px);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    padding-bottom: -100px;
+.home {
+  background: linear-gradient(rgb(255, 255, 255), antiquewhite);
+  overflow: hidden;
+  position: fixed;
+  bottom: 0px;
+  height: calc(100vh - 100px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-bottom: -100px;
 }
-.indizzoContainer{
-    margin-top: 1vh;
-    background-color: transparent;
-    margin-bottom: -6vh;
+.indizzoContainer {
+  margin-top: 1vh;
+  background-color: transparent;
+  margin-bottom: -6vh;
 }
-.tdNone{
-    text-decoration: none;
-    color: black;
+.tdNone {
+  text-decoration: none;
+  color: black;
 }
-.indirizzo{
-    background-color: transparent;
-    margin: 10px;
-    font-size: x-large;
-    font-family: 'Merienda', cursive;
+.indirizzo {
+  background-color: transparent;
+  margin: 10px;
+  font-size: x-large;
+  font-family: "Merienda", cursive;
 }
-.i1{
-    margin-top: 40px;
-    padding-bottom: 0px;
+.i1 {
+  margin-top: 40px;
+  padding-bottom: 0px;
 }
-.i2{
-    padding-top: 0px;
+.i2 {
+  padding-top: 0px;
 }
-.giorni{
-    background-color: transparent;
-    font-size: large;
-    font-family: 'Merienda', cursive;
-    padding: 10px;
+.giorni {
+  background-color: transparent;
+  font-size: large;
+  font-family: "Merienda", cursive;
+  padding: 10px;
 }
-.orari{
-    background-color: transparent;
-    font-size: large;
-    font-family: 'Merienda', cursive;
-    padding: 50px;
+.orari {
+  background-color: transparent;
+  font-size: large;
+  font-family: "Merienda", cursive;
+  padding: 50px;
 }
-.orari-inside{
-    background: transparent;
+.orari-inside {
+  background: transparent;
 }
-.menuContainer{
-    background-color: transparent;
-    margin-bottom: 60px;
+.orari-mb {
+  margin-bottom: 2px;
 }
-.menu{
-    width: 100%;
-    padding: 40px 90px;
-    text-decoration: none;
-    color: black;
-    font-size: large;
-    font-family: 'Merienda', cursive;
+.menuContainer {
+  background-color: transparent;
+  margin-bottom: 60px;
 }
-.socialContainer{
-    display: flex;
-    justify-content: center;
-    /* position: fixed; */
-    width: 100vw;
-    bottom: 10px;
-    
+.menu {
+  width: 100%;
+  padding: 40px 90px;
+  text-decoration: none;
+  color: black;
+  font-size: large;
+  font-family: "Merienda", cursive;
 }
-.social{
-    margin-top: 200px;
-    display: flex;
-    position: absolute;
-    bottom: 0;
-    justify-content: space-around;
-    align-items: center;
-    height: 90px;
-    width: 90%;
-    max-width: 800px;
-    border-radius: 40px;
-    margin: 0px 0px 10px;
-    background: linear-gradient(
-        rgb(255, 255, 255),rgba(255, 255, 255, 0.447));
-    backdrop-filter: blur(3rem);
+.socialContainer {
+  display: flex;
+  justify-content: center;
+  /* position: fixed; */
+  width: 100vw;
+  bottom: 10px;
+}
+.social {
+  margin-top: 200px;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  justify-content: space-around;
+  align-items: center;
+  height: 90px;
+  width: 90%;
+  max-width: 800px;
+  border-radius: 40px;
+  margin: 0px 0px 10px;
+  background: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.447));
+  backdrop-filter: blur(3rem);
 }
 
-
-.icon{
-    color: black;
-    background: rgba(241, 9, 9, 0);
+.icon {
+  color: black;
+  background: rgba(241, 9, 9, 0);
 }

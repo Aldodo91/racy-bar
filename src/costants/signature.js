@@ -403,15 +403,54 @@ const ALL = {
       en: "Gin, jaemine, prosecco",
     },
   },
+  negroniTerraSirene: {
+    img: images.corto,
+    nome: "Negroni della Terra delle Sirene",
+    ricetta: {
+      it: "Gin, Campari, Vermouth, Olio di Oliva,Gocce di acqua di mare",
+      en: "Gin, Campari, Vermouth, Olive Oil, Drops of sea water",
+    },
+  },
+  winterBellini: {
+    img: images.nudeCristal,
+    nome: "Winter bellini",
+    ricetta: {
+      it: "'Pesca invernale', prosecco, magia",
+      en: "'Winter peach', prosecco, magic",
+    },
+  },
+  candyCane: {
+    img: images.nudeFat,
+    nome: "Candy cane",
+    ricetta: {
+      it: "Vodka, menta, candy cane",
+      en: "Vodka, menta, candy cane",
+    },
+  },
+  afterdinner: {
+    img: images.fenicottero,
+    nome: "The afterdinner",
+    ricetta: {
+      it: "Baileys, cioccolato, mandorle, latte",
+      en: "Baileys, cioccolato, mandorle, latte",
+    },
+  },
 };
 
 export const signature = [
   ALL.roulette,
+  ALL.xmas,
+  ALL.negroniTerraSirene,
+  ALL.winterBellini,
+  ALL.sydney2,
+  ALL.winter,
   ALL.Jasmine75,
-  ALL.santagata,
-  ALL.montella,
   ALL.nocciolaSour,
-  //ALL.sydney,
+
+  ALL.negroniMediterraneo,
+  // ALL.santagata,
+  // ALL.montella,
+  //ALL.napoli,
   ALL.malabar,
   ALL.firenze,
   ALL.amsterdam,
@@ -419,9 +458,7 @@ export const signature = [
   ALL.montreal,
   //ALL.venice,
   ALL.barcellona,
-  ALL.napoli,
   ALL.cuba,
-
   //ALL.sunset,
   //ALL.fijian,
 ];

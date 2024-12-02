@@ -22,8 +22,12 @@ const Home = () => {
           </Link>
         </div>
         <div className="orari">
-          <p className="orari-inside">Open every day</p>
-          <p className="orari-inside">9.00 AM | 02.00 AM </p>
+          <p className="orari-inside orari-mb">Open</p>
+          <p className="orari-inside orari-mb">10.00 | 13.30 </p>
+          <p className="orari-inside orari-mb">16.30 | 01.00 </p>
+          <p style={{ marginTop: "12px" }} className="orari-inside">
+            Closed on Thursday
+          </p>
           {/* <div className="giorni">Closed on Thursday</div> */}
           {tempClosed && <TemporaryClosed />}
         </div>

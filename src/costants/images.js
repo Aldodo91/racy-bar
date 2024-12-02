@@ -22,6 +22,8 @@ import cortoBlu from "../assets/glass/cortoBlu.jpg";
 import lungoBlu from "../assets/glass/lungoBlu.jpg";
 import vasetto from "../assets/glass/vasetto.webp";
 import nudeFat from "../assets/glass/nudefat.jpg";
+import nudeCristal from "../assets/glass/nudeCristal.jpg";
+import fenicottero from "../assets/glass/fenicottero.jpg";
 
 export {
   question,
@@ -48,4 +50,6 @@ export {
   ams,
   sakura,
   nudeFat,
+  nudeCristal,
+  fenicottero,
 };
