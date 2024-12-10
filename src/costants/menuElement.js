@@ -851,10 +851,10 @@ export const redWine = [
     nome: "Taurasi Feudi 2019",
     bottleCost: 60,
   },
-  {
-    nome: "Barolo Fontanafredda 2009 ",
-    bottleCost: 157,
-  },
+  // {
+  //   nome: "Barolo Fontanafredda 2009 ",
+  //   bottleCost: 157,
+  // },
   // {
   //   nome: "Primitivo Conte Zecca",
   //   bottleCost: 30,
@@ -951,13 +951,24 @@ export const bollicine = [
     nome: "Belle Epoque 2013",
     bottleCost: 290,
   },
-  {
-    nome: "Veuve clicquot 375ml",
-    bottleCost: 60,
-  },
+  // {
+  //   nome: "Veuve clicquot 375ml",
+  //   bottleCost: 60,
+  // },
   {
     nome: "Franciacorta Camillucci Saten",
-    bottleCost: 55,
+    bottleCost: 50,
+    glassCost: 12,
+  },
+
+  {
+    nome: "Laurent Perrier brut Champagne",
+    bottleCost: 110,
+  },
+  ,
+  {
+    nome: "Brachetto Banfi",
+    bottleCost: 30,
   },
 ];
 

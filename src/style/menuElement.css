@@ -1,90 +1,88 @@
-*{
-    background-color: white;
+* {
+  background-color: white;
 }
-.drinkSpace{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+.drinkSpace {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.drinkCard{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin: 1px 0px;
-    border-radius: 40px; 
-    width: calc(100% - 20px);
-    height: 170px;
-    padding: 10px 0px;
+.drinkCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 1px 0px;
+  border-radius: 40px;
+  width: calc(100% - 20px);
+  height: 180px;
+  padding: 10px 0px;
 }
-.details{
-    display: flex;
-    flex-direction: column; 
-    align-items: flex-start;
-    justify-content: center;
-    padding-right: 40px;
-    margin-left: 10px;
-    width: 600px;
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding-right: 40px;
+  margin-left: 10px;
+  width: 600px;
 }
-.title{
-    font-size: 20px;
+.title {
+  font-size: 20px;
 }
-.w-80{
-    width: 77%;
+.w-80 {
+  width: 77%;
 }
-.desc{
-    font-family: 'Merienda', cursive;
-    font-size: 15px;
-    padding-top: 2px;
+.desc {
+  font-family: "Merienda", cursive;
+  font-size: 15px;
+  padding-top: 2px;
 }
-.imageSide{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.image{
-    margin-left: 10px;
-}
-.titleCard{
-    font-size: 25px;
-    font-family: 'Merienda', cursive;
-    font-weight: lighter;
-    padding-top: 30px;
-    text-align: left;
-} 
-.toShare{
-    font-size: 15px;
+.imageSide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.recepie{
-    display: flex;
-    text-align: left;
-    margin: 0px 6px;
-    font-family: cursive;
-    padding: 8px 0px;
-    font-weight: lighter;
-    font-family: 'Merienda', cursive;
-    font-size: medium;
+.image {
+  margin-left: 10px;
+}
+.titleCard {
+  font-size: 22px;
+  font-family: "Merienda", cursive;
+  font-weight: lighter;
+  padding-top: 30px;
+  text-align: left;
+}
+.toShare {
+  font-size: 15px;
+}
+
+.recepie {
+  display: flex;
+  text-align: left;
+  margin: 0px 6px;
+  font-family: cursive;
+  padding: 8px 0px;
+  font-weight: lighter;
+  font-family: "Merienda", cursive;
+  font-size: medium;
 }
 .divider {
-    width: 80%;
-    border-bottom: 1px solid black;
-    margin-bottom: 30px;
+  width: 80%;
+  border-bottom: 1px solid black;
+  margin-bottom: 30px;
 }
-.container{
-    display: grid;
-    padding: auto;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-    max-width: 1200px;
-    
+.container {
+  display: grid;
+  padding: auto;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  max-width: 1200px;
 }
 
-.label{   
-    text-shadow: 0px 4px 15px rgba(0,0,0,0.25);
-    font-family: 'Satisfy', cursive;
-    font-weight: lighter;
-    padding: 8px 7px 4px ; 
-    font-size: 1.6em
-    /* white-space: nowrap; */
+.label {
+  text-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+  font-family: "Satisfy", cursive;
+  font-weight: lighter;
+  padding: 8px 7px 4px;
+  font-size: 1.6em;
+  /* white-space: nowrap; */
 }

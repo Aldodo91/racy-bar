@@ -405,7 +405,7 @@ const ALL = {
   },
   negroniTerraSirene: {
     img: images.corto,
-    nome: "Negroni della Terra delle Sirene",
+    nome: "Negroni Terra delle Sirene",
     ricetta: {
       it: "Gin, Campari, Vermouth, Olio di Oliva,Gocce di acqua di mare",
       en: "Gin, Campari, Vermouth, Olive Oil, Drops of sea water",
@@ -420,7 +420,7 @@ const ALL = {
     },
   },
   candyCane: {
-    img: images.nudeFat,
+    img: images.lungo,
     nome: "Candy cane",
     ricetta: {
       it: "Vodka, menta, candy cane",
@@ -444,14 +444,16 @@ export const signature = [
   ALL.winterBellini,
   ALL.sydney2,
   ALL.winter,
+  ALL.afterdinner,
+  ALL.candyCane,
   ALL.Jasmine75,
   ALL.nocciolaSour,
 
-  ALL.negroniMediterraneo,
+  //ALL.negroniMediterraneo,
   // ALL.santagata,
   // ALL.montella,
   //ALL.napoli,
-  ALL.malabar,
+  //ALL.malabar,
   ALL.firenze,
   ALL.amsterdam,
   ALL.cancun,

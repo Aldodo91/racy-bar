@@ -1,7 +1,7 @@
 import Category from "./category";
 import WineElement from "./wineElement";
 import CommonElement from "./commonElement";
-const SmallSection = ({ category, nome, isWine, custom = false }) => {
+const SmallSection = ({ category, nome, isWine = false, custom = false }) => {
   const addRacyGin = () => {
     return [
       {
@@ -17,8 +17,18 @@ const SmallSection = ({ category, nome, isWine, custom = false }) => {
   const byPrezzo = (a, b) => a.prezzo - b.prezzo;
   const byBottle = (a, b) => a.bottleCost - b.bottleCost;
   let order = isWine ? category.sort(byBottle) : category.sort(byPrezzo);
+
   if (nome === "Gin") {
     order = [...addRacyGin(), ...order];
+  }
+  if (["White wine", "Bianchi"].includes(nome)) {
+    order = [
+      ...order,
+      {
+        nome: "Passito di Pantelleria",
+        bottleCost: 8,
+      },
+    ];
   }
   if (custom) {
     order = [
@@ -34,7 +44,7 @@ const SmallSection = ({ category, nome, isWine, custom = false }) => {
     <>
       <Category categoria={nome} sfuso={isWine} />
       {isWine
-        ? category.map((element) => (
+        ? order.map((element) => (
             <WineElement key={Math.random() * 10} wine={element} />
           ))
         : order.map((element) => (

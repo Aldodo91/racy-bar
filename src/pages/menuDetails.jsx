@@ -18,6 +18,7 @@ import Coriandoli from "../components/coriandoli";
 const MenuDetails = () => {
   const { lang } = useParams();
   const langIt = lang === "it";
+
   return (
     <>
       <Hambuerger
@@ -98,22 +99,22 @@ const MenuDetails = () => {
           <SmallSection
             category={menuElement.whiteWine}
             nome={langIt ? "Bianchi" : "White wine"}
-            isWine={true}
+            isWine
           />
           <SmallSection
             category={menuElement.roseWine}
             nome={langIt ? "Rosé" : "Rose wine"}
-            isWine={true}
+            isWine
           />
           <SmallSection
             category={menuElement.redWine}
             nome={langIt ? "Rossi" : "Red wine"}
-            isWine={true}
+            isWine
           />
           <SmallSection
             category={menuElement.bollicine}
             nome={langIt ? "Bollicine" : "Sparkling"}
-            isWine={true}
+            isWine
           />
           <SmallSection
             category={menuElement.birra}
