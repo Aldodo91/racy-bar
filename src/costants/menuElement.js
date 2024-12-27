@@ -965,7 +965,6 @@ export const bollicine = [
     nome: "Laurent Perrier brut Champagne",
     bottleCost: 110,
   },
-  ,
   {
     nome: "Brachetto Banfi",
     bottleCost: 30,
@@ -985,7 +984,7 @@ export const hot = [
     img: images.hot,
     nome: "Anacleto",
     ricetta: {
-      it: "Espresso, Cioccolata, Zambaglione, Panna",
+      it: "Espresso, Cioccolata, Zabaione, Panna",
       en: "Espresso, Chocolate, Eggnog, Cream",
     },
   },
