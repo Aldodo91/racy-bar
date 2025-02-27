@@ -355,11 +355,11 @@ export const grappa = [
 export const caffetteria = [
   {
     nome: "Cornetto",
-    prezzo: 1.5,
+    prezzo: 2,
   },
   {
     nome: "Mini Cornetto",
-    prezzo: 1,
+    prezzo: 1.5,
   },
   {
     nome: "Espresso",
