@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import * as menuElement from "../costants/allMenuElement";
 import "../style/menuDetails.css";
 import Hambuerger from "../components/hamburger";
-import MilkElement from "../components/milkElement";
+import ExpandElement from "../components/milkElement";
 import SmallSection from "../components/smallSelection";
 import BigSelection from "../components/bigSelecion";
 import FoodSelection from "../components/foodSection";
@@ -150,8 +150,10 @@ const MenuDetails = () => {
             category={menuElement.caffetteria}
             nome={langIt ? "Caffetteria all'italiana" : "Coffee"}
             custom
-          />
-          <MilkElement element={menuElement.latteVegetale} />
+          >
+            <ExpandElement element={menuElement.fullEnglishBreakfast} />
+          </SmallSection>
+          <ExpandElement element={menuElement.latteVegetale} />
           <SpecialCoffie
             category={menuElement.chocolate}
             nome={langIt ? "Cioccolata Calda" : "Hot Chocolate"}

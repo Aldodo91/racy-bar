@@ -1,7 +1,13 @@
 import Category from "./category";
 import WineElement from "./wineElement";
 import CommonElement from "./commonElement";
-const SmallSection = ({ category, nome, isWine = false, custom = false }) => {
+const SmallSection = ({
+  category,
+  nome,
+  isWine = false,
+  custom = false,
+  children,
+}) => {
   const addRacyGin = () => {
     return [
       {
@@ -30,19 +36,21 @@ const SmallSection = ({ category, nome, isWine = false, custom = false }) => {
       },
     ];
   }
-  if (custom) {
-    order = [
-      {
-        nome: "Full English breakfast",
-        prezzo: 15,
-      },
-      ...order,
-    ];
-  }
+  // if (custom) {
+  //   order = [
+  //     {
+  //       nome: "Full English breakfast",
+  //       prezzo: 15,
+  //     },
+  //     ...order,
+  //   ];
+  // }
+  console.log(children);
 
   return category && category.length ? (
     <>
       <Category categoria={nome} sfuso={isWine} />
+      {children ?? children}
       {isWine
         ? order.map((element) => (
             <WineElement key={Math.random() * 10} wine={element} />

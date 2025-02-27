@@ -1,6 +1,6 @@
 import React from "react";
 
-const MilkElement = ({ element }) => {
+const ExpandElement = ({ element }) => {
   const [show, setDetail] = React.useState(false);
 
   return (
@@ -23,4 +23,4 @@ const MilkElement = ({ element }) => {
   );
 };
 
-export default MilkElement;
+export default ExpandElement;

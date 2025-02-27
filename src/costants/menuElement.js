@@ -500,6 +500,19 @@ export const latteVegetale = {
   tipi: ["Avena", "Soia", "Cocco", "Mandarla"],
   prezzo: "+0.50",
 };
+export const fullEnglishBreakfast = {
+  nome: "Full English breakfast",
+  tipi: [
+    "Scrambled eggs",
+    "Bacon",
+    "Beans",
+    "Mushroom ",
+    "Turkey sausage",
+    "Tomatoes",
+    "Bread",
+  ],
+  prezzo: "15",
+};
 export const birra = [
   // {
   //   nome: "Draught 40cl",
@@ -871,11 +884,11 @@ export const redWine = [
 ];
 
 export const whiteWine = [
-  {
-    nome: "Fiano Macchialupa",
-    bottleCost: 28,
-    glassCost: 7,
-  },
+  // {
+  //   nome: "Fiano Macchialupa",
+  //   bottleCost: 28,
+  //   glassCost: 7,
+  // },
   {
     nome: "Casa D'Ambra biancolella",
     bottleCost: 30,
@@ -957,8 +970,7 @@ export const bollicine = [
   // },
   {
     nome: "Franciacorta Camillucci Saten",
-    bottleCost: 50,
-    glassCost: 12,
+    bottleCost: 55,
   },
 
   {
@@ -968,6 +980,11 @@ export const bollicine = [
   {
     nome: "Brachetto Banfi",
     bottleCost: 30,
+  },
+  {
+    nome: "Franciacorta Berlucchi",
+    bottleCost: 50,
+    glassCost: 12,
   },
 ];
 

@@ -31,6 +31,7 @@ import {
   shot,
   sandwwich,
   focaccie,
+  fullEnglishBreakfast,
   nachos,
 } from "./menuElement";
 export {
@@ -68,4 +69,5 @@ export {
   focaccie,
   diageo,
   nachos,
+  fullEnglishBreakfast,
 };
