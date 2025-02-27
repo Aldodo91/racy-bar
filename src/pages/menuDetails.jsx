@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import * as menuElement from "../costants/allMenuElement";
 import "../style/menuDetails.css";
 import Hambuerger from "../components/hamburger";
-import ExpandElement from "../components/milkElement";
+import ExpandElement from "../components/expandElement";
 import SmallSection from "../components/smallSelection";
 import BigSelection from "../components/bigSelecion";
 import FoodSelection from "../components/foodSection";

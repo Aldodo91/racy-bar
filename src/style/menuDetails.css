@@ -1,48 +1,48 @@
-.category{
-    margin-top: 19px;
-    text-align: left;
-    display: flex;
-    justify-content: space-between;
-    padding-left: 20px;
-    font-family: 'Baskervville', serif;
-    padding-top: 30px;
-    padding-bottom: 4px;
-    font-size: 2rem;
-    width: 100vw;
-    max-width: 800px;
+.category {
+  margin-top: 19px;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  font-family: "Baskervville", serif;
+  padding-top: 30px;
+  padding-bottom: 4px;
+  font-size: 2rem;
+  width: 100vw;
+  max-width: 800px;
 }
-.cost{
-    padding-right: 20px;
-}
-
-.overflow{
-    height: calc(100vh - 120px);
-    position: fixed;
-    width: 100vw;
-    overflow: scroll;
-    bottom :0px;
+.cost {
+  padding-right: 20px;
 }
 
-.wineCard{
-    max-width: 800px;
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    padding: 14px 0px;
-}
-.wineName{
-    font-family: 'Merienda', cursive;
-    font-size: 20px;
-    padding-left: 20px;
-    white-space: nowrap;
+.overflow {
+  height: calc(100vh - 120px);
+  position: fixed;
+  width: 100vw;
+  overflow: scroll;
+  bottom: 0px;
 }
 
-.winePrice{
-    padding-right: 20px;
-    font-family: 'Merienda', cursive;
-    font-size: 25px;
+.wineCard {
+  max-width: 800px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 14px 0px;
 }
-.milkDetail{
-    font-size: small;
-    text-align: left;
+.wineName {
+  font-family: "Merienda", cursive;
+  font-size: 20px;
+  padding-left: 20px;
+  white-space: nowrap;
+}
+
+.winePrice {
+  padding-right: 20px;
+  font-family: "Merienda", cursive;
+  font-size: 25px;
+}
+.expandDetail {
+  font-size: small;
+  text-align: left;
 }
