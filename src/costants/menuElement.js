@@ -264,23 +264,23 @@ export const scothWisky = [
   },
   {
     nome: "Chivas 12 anni",
-    prezzo: 7,
+    prezzo: 8,
   },
   {
     nome: "Talisker 10YO",
-    prezzo: 9,
+    prezzo: 10,
   },
   {
     nome: "Caol ila 12 YO",
-    prezzo: 12,
+    prezzo: 13,
   },
   {
     nome: "Laphroaig 10yo",
-    prezzo: 9,
+    prezzo: 10,
   },
   {
     nome: "Monkey Shoulder",
-    prezzo: 9,
+    prezzo: 10,
   },
   {
     nome: "Macallan 18 double cask",
@@ -290,7 +290,15 @@ export const scothWisky = [
 export const usa = [
   {
     nome: "Bulleit Bourbon",
-    prezzo: 7,
+    prezzo: 8,
+  },
+  {
+    nome: "Bulleit Rye",
+    prezzo: 8,
+  },
+  {
+    nome: "Woodford",
+    prezzo: 9,
   },
   {
     nome: "Woodfort Reserve",
@@ -298,7 +306,7 @@ export const usa = [
   },
   {
     nome: "Makers's Mark",
-    prezzo: 7,
+    prezzo: 8,
   },
   {
     nome: "Makers's Mark 46",
@@ -306,32 +314,36 @@ export const usa = [
   },
   {
     nome: "Michter's Bourdon",
-    prezzo: 11,
+    prezzo: 12,
   },
   {
     nome: "Jack Daniel",
-    prezzo: 6,
+    prezzo: 7,
+  },
+  {
+    nome: "Jack Daniel Honey",
+    prezzo: 8,
   },
 ];
 export const japaniseWisky = [];
 export const irishWisky = [
   {
     nome: "Jameson",
-    prezzo: 6,
+    prezzo: 7,
   },
 ];
 export const cognac = [
   {
     nome: "Calvados Michel Biron",
-    prezzo: 5,
+    prezzo: 7,
   },
   {
     nome: "Leyrat",
-    prezzo: 5,
+    prezzo: 7,
   },
   {
     nome: "Remy Martin Vsop",
-    prezzo: 7,
+    prezzo: 9,
   },
   {
     nome: "Hennessy XO",
