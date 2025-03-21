@@ -325,7 +325,20 @@ export const usa = [
     prezzo: 8,
   },
 ];
-export const japaniseWisky = [];
+export const japaniseWisky = [
+  {
+    nome: "Kaikyo Hatozaki ",
+    prezzo: 13,
+  },
+  {
+    nome: "Suntory Toki",
+    prezzo: 9,
+  },
+  {
+    nome: "Nikka from the barrel",
+    prezzo: 12,
+  },
+];
 export const irishWisky = [
   {
     nome: "Jameson",
