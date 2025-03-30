@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import * as menuElement from "../costants/allMenuElement";
 import "../style/menuDetails.css";
 import Hambuerger from "../components/hamburger";
