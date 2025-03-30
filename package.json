@@ -34,6 +34,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build; netlify deploy --prod --dir=build;  notify-send  'Deploy Completed' -a Racy",
+    "build_only": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

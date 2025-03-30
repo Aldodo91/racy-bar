@@ -1,5 +1,4 @@
-import React from "react";
-import { useParams } from "react-router-dom";
+import React, { useEffect, useState } from "react";
 import * as menuElement from "../costants/allMenuElement";
 import "../style/menuDetails.css";
 import Hambuerger from "../components/hamburger";
@@ -14,10 +13,22 @@ import SpecialCoffie from "../components/coffieSpecial";
 import Allergeni from "../components/allergeni";
 import { signatureLabel, cornerLabel } from "../costants/labels";
 import Coriandoli from "../components/coriandoli";
+import { useLocation } from "react-router-dom/cjs/react-router-dom.min";
 
 const MenuDetails = () => {
-  const { lang } = useParams();
+  const location = useLocation();
+  const { lang, view } = location.state || {};
   const langIt = lang === "it";
+  console.log(location.state);
+
+  useEffect(() => {
+    if (view === "food") {
+      const foodSection = document.getElementById("food");
+      if (foodSection) {
+        foodSection.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  }, [view]);
 
   return (
     <>
@@ -201,7 +212,6 @@ const MenuDetails = () => {
             cost={""}
             isFood={true}
           />{" "}
-          <Allergeni />
         </div>
         <div id="dessert">
           <DessertSelection
@@ -210,6 +220,7 @@ const MenuDetails = () => {
             langIT={langIt}
           />
         </div>
+        <Allergeni />
       </div>
     </>
   );

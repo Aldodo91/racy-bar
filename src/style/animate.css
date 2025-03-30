@@ -12,6 +12,14 @@
   max-height: 220px;
 }
 
+.btnExpand {
+  display: flex;
+  flex-direction: row;
+  max-width: 70%;
+  align-items: center;
+  justify-content: space-around;
+}
+
 /*
 
 
