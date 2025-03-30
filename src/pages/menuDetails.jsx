@@ -17,7 +17,8 @@ import { useLocation } from "react-router-dom/cjs/react-router-dom.min";
 
 const MenuDetails = () => {
   const location = useLocation();
-  const { lang, view } = location.state || {};
+  const { view } = location.state || {};
+  const lang = location.pathname.split("/")[2];
   const langIt = lang === "it";
   console.log(location.state);
 
