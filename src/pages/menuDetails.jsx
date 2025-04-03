@@ -20,6 +20,7 @@ const MenuDetails = () => {
   const { view } = location.state || {};
   const lang = location.pathname.split("/")[2];
   const langIt = lang === "it";
+  console.log(langIt);
   console.log(location.state);
 
   useEffect(() => {

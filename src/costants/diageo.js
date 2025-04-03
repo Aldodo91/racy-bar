@@ -13,7 +13,7 @@ export const diageo = [
     img: images.lungo,
     nome: "Casamigos Paloma",
     ricetta: {
-      in: "Casamigos blanco, pompelmo rosa, lime, agave",
+      it: "Casamigos blanco, pompelmo rosa, lime, agave",
       en: "Casamigos blanco, pink grapefruit, fresh lime, agave",
     },
   },
