@@ -465,4 +465,13 @@ export const signature = [
   //ALL.fijian,
 ];
 
-export const negroniWeek = [];
+export const negroniWeek = [
+  // {
+  //   img: images.nudeCristal,
+  //   nome: "Winter bellini",
+  //   ricetta: {
+  //     it: "'Pesca invernale', prosecco, magia",
+  //     en: "'Winter peach', prosecco, magic",
+  //   },
+  // },
+];

@@ -34,7 +34,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build; netlify deploy --prod --dir=build;  notify-send  'Deploy Completed' -a Racy",
-    "build_only": "react-scripts build",
+    "build_only": "react-scripts build; xdg-open .; xdg-open 'https://app.netlify.com/sites/racy-demo/deploys'",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

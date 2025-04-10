@@ -1,5 +1,14 @@
 .img {
-    overflow: hidden;
-    border-radius: 50px;
-    animation: anim-in 0.3s linear;
+  overflow: hidden;
+  width: 50%;
+  border: none;
+  /* border-radius: 50px;
+  border: 6px solid #3e7487; */
+  /* animation: anim-in 0.3s linear; */
+}
+
+@media (max-width: 768px) {
+  .img {
+    width: 100%;
+  }
 }

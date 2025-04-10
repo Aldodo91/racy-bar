@@ -539,14 +539,14 @@ export const fullEnglishBreakfast = {
   prezzo: "15",
 };
 export const birra = [
-  // {
-  //   nome: "Draught 40cl",
-  //   prezzo: 7,
-  // },
-  // {
-  //   nome: "Draught 20cl",
-  //   prezzo: 4,
-  // },
+  {
+    nome: "Draught 40cl",
+    prezzo: 7,
+  },
+  {
+    nome: "Draught 20cl",
+    prezzo: 5,
+  },
   {
     nome: "Peroni Capri",
     prezzo: 6,
@@ -938,7 +938,7 @@ export const whiteWine = [
     glassCost: 7,
   },
   {
-    nome: "Pinot Grigio Collio Livion",
+    nome: "Pinot Grigio Lunardi",
     bottleCost: 30,
     glassCost: 8,
   },

@@ -1,5 +1,5 @@
 .home {
-  background: linear-gradient(rgb(255, 255, 255), antiquewhite);
+  background: linear-gradient(180deg, #fff 40%, #5d9eb57c);
   overflow: hidden;
   position: fixed;
   bottom: 0px;
@@ -75,7 +75,7 @@
   bottom: 0;
   justify-content: space-around;
   align-items: center;
-  height: 90px;
+  height: 5em;
   width: 90%;
   max-width: 800px;
   border-radius: 40px;
@@ -87,4 +87,43 @@
 .icon {
   color: black;
   background: rgba(241, 9, 9, 0);
+}
+.social > a {
+  all: unset;
+}
+.cat {
+  all: unset;
+  display: flex;
+  flex-direction: row-reverse;
+  padding-right: 10%;
+  font-size: 30px;
+  position: absolute;
+  bottom: 3.5em;
+  right: 2%;
+}
+.cat > a {
+  all: unset;
+  /* border: 1px solid; */
+  border-radius: 50%;
+  padding: 12px;
+  /* background-color: gray; */
+  background: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.447));
+  backdrop-filter: blur(3rem);
+  border: 1px solid beige;
+  -webkit-box-shadow: 10px 19px 22px -12px rgba(0, 0, 0, 0.13);
+  box-shadow: 10px 19px 22px -12px rgba(0, 0, 0, 0.13);
+  animation: fadeLoop 3s infinite alternate;
+  animation-delay: 2s;
+  opacity: 0;
+}
+@keyframes fadeLoop {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.2;
+  } /* Dopo 2s inizia a comparire */
+  100% {
+    opacity: 1;
+  }
 }

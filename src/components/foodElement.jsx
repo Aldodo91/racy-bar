@@ -11,7 +11,7 @@ const FoodElement = ({ element, langIT }) => {
   return (
     <>
       <div className="drinkSpace">
-        <div className="drinkCard">
+        <div style={{ alignItems: "baseline" }} className="drinkCard">
           <div className="details w-80">
             <div className="titleCard">{i18n(langIT, nome)}</div>
             <h5 className="recepie">{i18n(langIT, ricetta)}</h5>
