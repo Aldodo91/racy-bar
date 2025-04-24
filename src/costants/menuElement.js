@@ -852,8 +852,20 @@ export const redWine = [
     glassCost: 7,
   },
   {
+    nome: "Jungano San Salvatore",
+    bottleCost: 45,
+  },
+  {
     nome: "Barolo Lodali 2020",
     bottleCost: 55,
+  },
+  {
+    nome: "Merlot La Viarte riserva 2013",
+    bottleCost: 55,
+  },
+  {
+    nome: "Cabernet La Viarte riserva 2015 ",
+    bottleCost: 50,
   },
   {
     nome: "Moio 57",

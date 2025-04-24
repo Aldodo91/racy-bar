@@ -25,9 +25,9 @@ const Sidebar = ({ lang, menuElement }) => {
       <a className="menu-item" href="#diageo" onClick={close}>
         Diageo
       </a>
-      <a className="menu-item" href="#corner" onClick={close}>
+      {/* <a className="menu-item" href="#corner" onClick={close}>
         Shots
-      </a>
+      </a> */}
       <a className="menu-item" href="#noAlcol" onClick={close}>
         MockTails
       </a>

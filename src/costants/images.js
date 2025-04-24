@@ -24,6 +24,8 @@ import vasetto from "../assets/glass/vasetto.webp";
 import nudeFat from "../assets/glass/nudefat.jpg";
 import nudeCristal from "../assets/glass/nudeCristal.jpg";
 import fenicottero from "../assets/glass/fenicottero.jpg";
+import rame from "../assets/glass/rame.webp";
+import nero from "../assets/glass/nero.webp";
 
 export {
   question,
@@ -52,4 +54,6 @@ export {
   nudeFat,
   nudeCristal,
   fenicottero,
+  rame,
+  nero,
 };

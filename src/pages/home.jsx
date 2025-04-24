@@ -22,13 +22,12 @@ const Home = () => {
           </Link>
         </div>
         <div className="orari">
-          <p className="orari-inside orari-mb">Open</p>
-          <p className="orari-inside orari-mb">10.00 | 13.30 </p>
-          <p className="orari-inside orari-mb">‎ 16.30 | 01.00 </p>
-          <p style={{ marginTop: "12px" }} className="orari-inside">
+          <p className="orari-inside orari-mb">Open every day</p>
+          <p className="orari-inside orari-mb">09.00 am | 01.00 am </p>
+          <p className="orari-inside orari-mb">Thursday 09.00 am | 04.00 pm</p>
+          {/* <p style={{ marginTop: "12px" }} className="orari-inside">
             Closed on Thursday
-          </p>
-          {/* <div className="giorni">Closed on Thursday</div> */}
+          </p> */}
           {tempClosed && <TemporaryClosed />}
         </div>
         <div className="menuContainer">
