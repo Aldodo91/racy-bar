@@ -1,4 +1,4 @@
-import * as images from "./images";
+//import * as images from "./images";
 
 export const toShare = [
   // {
@@ -297,12 +297,8 @@ export const usa = [
     prezzo: 8,
   },
   {
-    nome: "Woodford",
-    prezzo: 9,
-  },
-  {
     nome: "Woodfort Reserve",
-    prezzo: 8,
+    prezzo: 9,
   },
   {
     nome: "Makers's Mark",
@@ -574,6 +570,18 @@ export const food = [
   {
     img: null,
     nome: {
+      it: "Pizza sott'e 'ngopp",
+      en: "Upside down Pizza",
+    },
+    prezzo: 10,
+    ricetta: {
+      it: "",
+      en: "",
+    },
+  },
+  {
+    img: null,
+    nome: {
       it: "Insalata caprese",
       en: "Caprese salad",
     },
@@ -586,7 +594,7 @@ export const food = [
   {
     img: null,
     nome: {
-      it: "Pata al pesto",
+      it: "Pasta al pesto",
       en: "Pesto Pasta",
     },
     prezzo: 14,
@@ -595,18 +603,18 @@ export const food = [
       en: "",
     },
   },
-  {
-    img: null,
-    nome: {
-      it: "Tagliolini ai Porcini",
-      en: "tagliolini with porcini mushrooms",
-    },
-    prezzo: 15,
-    ricetta: {
-      it: "",
-      en: "",
-    },
-  },
+  // {
+  //   img: null,
+  //   nome: {
+  //     it: "Tagliolini ai Porcini",
+  //     en: "tagliolini with porcini mushrooms",
+  //   },
+  //   prezzo: 15,
+  //   ricetta: {
+  //     it: "",
+  //     en: "",
+  //   },
+  // },
   {
     img: null,
     nome: {
@@ -643,18 +651,18 @@ export const food = [
   //     en: "Tomato & Mozzarella",
   //   },
   // },
-  {
-    img: null,
-    nome: {
-      it: "Salumi & Formaggi",
-      en: "Cold cuts & local cheese",
-    },
-    prezzo: 9,
-    ricetta: {
-      it: "",
-      en: "",
-    },
-  },
+  // {
+  //   img: null,
+  //   nome: {
+  //     it: "Salumi & Formaggi",
+  //     en: "Cold cuts & local cheese",
+  //   },
+  //   prezzo: 9,
+  //   ricetta: {
+  //     it: "",
+  //     en: "",
+  //   },
+  // },
   {
     img: null,
     nome: {
@@ -691,6 +699,54 @@ export const food = [
   //     en: "Served with butter croutons",
   //   },
   // },
+  {
+    img: null,
+    nome: {
+      it: "Pasta carbonara",
+      en: "Pasta carbonara",
+    },
+    prezzo: 14,
+    ricetta: {
+      it: "",
+      en: "",
+    },
+  },
+  {
+    img: null,
+    nome: {
+      it: "Tagliolini a limone",
+      en: "Tagliolini with lemon sauce",
+    },
+    prezzo: 16,
+    ricetta: {
+      it: "",
+      en: "",
+    },
+  },
+  {
+    img: null,
+    nome: {
+      it: "Risotto alla pescatora",
+      en: "Seafood risotto",
+    },
+    prezzo: 18,
+    ricetta: {
+      it: "",
+      en: "",
+    },
+  },
+  {
+    img: null,
+    nome: {
+      it: "Filetto pesce alla mediterranea",
+      en: "Mediterranean fish fillet ",
+    },
+    prezzo: 19,
+    ricetta: {
+      it: "",
+      en: "",
+    },
+  },
 ];
 export const sandwwich = [
   {
@@ -717,37 +773,37 @@ export const sandwwich = [
       en: "",
     },
   },
-  {
-    img: null,
-    nome: {
-      it: "Salmone affumicato",
-      en: "Smoked salmon sandwich",
-    },
-    prezzo: 10,
-    ricetta: {
-      it: "",
-      en: "",
-    },
-  },
+  // {
+  //   img: null,
+  //   nome: {
+  //     it: "Salmone affumicato",
+  //     en: "Smoked salmon sandwich",
+  //   },
+  //   prezzo: 10,
+  //   ricetta: {
+  //     it: "",
+  //     en: "",
+  //   },
+  // },
 ];
 export const focaccie = [
+  // {
+  //   img: null,
+  //   nome: {
+  //     it: "Stracciata, Mortadella e granella di pistacchio ",
+  //     en: "Stracciata cheese, mortadella and pistachios ",
+  //   },
+  //   prezzo: 12,
+  //   ricetta: {
+  //     it: "",
+  //     en: "",
+  //   },
+  // },
   {
     img: null,
     nome: {
-      it: "Stracciata, Mortadella e granella di pistacchio ",
-      en: "Stracciata cheese, mortadella and pistachios ",
-    },
-    prezzo: 12,
-    ricetta: {
-      it: "",
-      en: "",
-    },
-  },
-  {
-    img: null,
-    nome: {
-      it: "Stracciata, Crudo e Melanzane a filetto",
-      en: "Stracciata cheese, Parma ham and aubergine",
+      it: "Stracciata e Crudo",
+      en: "Stracciata cheese and Parma ",
     },
     prezzo: 12,
     ricetta: {
@@ -774,42 +830,42 @@ export const bruschette = {
     en: "Bruschette with:",
   },
   bruschette: [
-    {
-      it: "Tartufo",
-      en: "Truffles",
-    },
-    {
-      it: "Burro e alici",
-      en: "Anchovies and Butter",
-    },
-    {
-      it: "Salsiccia e friarielli ",
-      en: "Sausage and friarielli",
-    },
-    {
-      it: "Melanzane ",
-      en: "Aubergine",
-    },
-    {
-      it: "Pate' di olive nere",
-      en: "Black olives pate'",
-    },
-    {
-      it: "Crema di balisico ",
-      en: "Basil cream",
-    },
-    {
-      it: "Nduja calabrese",
-      en: "Spicy Nduja calabrese",
-    },
-    {
-      it: "Peperoni Arrostiti",
-      en: "Roasted Peppers",
-    },
-    {
-      it: "Patè di carciofini",
-      en: "Artichoes Patè",
-    },
+    // {
+    //   it: "Tartufo",
+    //   en: "Truffles",
+    // },
+    // {
+    //   it: "Burro e alici",
+    //   en: "Anchovies and Butter",
+    // },
+    // {
+    //   it: "Salsiccia e friarielli ",
+    //   en: "Sausage and friarielli",
+    // },
+    // {
+    //   it: "Melanzane ",
+    //   en: "Aubergine",
+    // },
+    // {
+    //   it: "Pate' di olive nere",
+    //   en: "Black olives pate'",
+    // },
+    // {
+    //   it: "Crema di balisico ",
+    //   en: "Basil cream",
+    // },
+    // {
+    //   it: "Nduja calabrese",
+    //   en: "Spicy Nduja calabrese",
+    // },
+    // {
+    //   it: "Peperoni Arrostiti",
+    //   en: "Roasted Peppers",
+    // },
+    // {
+    //   it: "Patè di carciofini",
+    //   en: "Artichoes Patè",
+    // },
   ],
 };
 
@@ -852,6 +908,10 @@ export const redWine = [
     glassCost: 7,
   },
   {
+    nome: "Valpolicella Masi",
+    bottleCost: 55,
+  },
+  {
     nome: "Jungano San Salvatore",
     bottleCost: 45,
   },
@@ -872,10 +932,10 @@ export const redWine = [
     bottleCost: 32,
     glassCost: 9,
   },
-  {
-    nome: "Barolo Prunotto 2019 ",
-    bottleCost: 55,
-  },
+  // {
+  //   nome: "Barolo Prunotto 2019 ",
+  //   bottleCost: 55,
+  // },
   {
     nome: "Chianti Classico Carpineto",
     bottleCost: 32,
@@ -928,7 +988,7 @@ export const whiteWine = [
   // },
   {
     nome: "Casa D'Ambra biancolella",
-    bottleCost: 30,
+    bottleCost: 37,
   },
   // {
   //   nome: "FiaGre Antonio Caggiano",
@@ -954,10 +1014,10 @@ export const whiteWine = [
     bottleCost: 30,
     glassCost: 8,
   },
-  {
-    nome: "Quintodecimo Exultet Fiano",
-    bottleCost: 60,
-  },
+  // {
+  //   nome: "Quintodecimo Exultet Fiano",
+  //   bottleCost: 60,
+  // },
 ];
 export const roseWine = [
   // {
@@ -1026,62 +1086,62 @@ export const bollicine = [
 ];
 
 export const hot = [
-  {
-    img: images.hot,
-    nome: "Apple brulè",
-    ricetta: {
-      it: "Dark rum, mela, chiodi di garofano, anice stellatona",
-      en: "Dark rum, apple, cloves, star anise",
-    },
-  },
-  {
-    img: images.hot,
-    nome: "Anacleto",
-    ricetta: {
-      it: "Espresso, Cioccolata, Zabaione, Panna",
-      en: "Espresso, Chocolate, Eggnog, Cream",
-    },
-  },
-  {
-    img: images.hot,
-    nome: "Afther 8",
-    ricetta: {
-      it: "Rum, Cioccolato Venchi 1878, menta",
-      en: "Rum, Venchi Chocolate 1878, mint",
-    },
-  },
   // {
   //   img: images.hot,
-  //   nome: "Chai Toddy",
+  //   nome: "Apple brulè",
   //   ricetta: {
-  //     it: "Bourbon, Chai tea, limone, miele",
-  //     en: "Bourbon, Chai tea, lemon, honey",
+  //     it: "Dark rum, mela, chiodi di garofano, anice stellatona",
+  //     en: "Dark rum, apple, cloves, star anise",
   //   },
   // },
-  {
-    img: images.hot,
-    nome: "Caribbean",
-    ricetta: {
-      it: "Rum, caffè, cocco & cannella ",
-      en: "Rum, caffè, cocco & cannella",
-    },
-  },
-  {
-    img: images.hot,
-    nome: "French kiss",
-    ricetta: {
-      it: "Calvados, Cioccolato fondente, Lamponi",
-      en: "Calvados, Dark chocolate, Raspberries",
-    },
-  },
-  {
-    img: images.hot,
-    nome: "Aperol Spritz Caldo",
-    ricetta: {
-      it: "Aperol, vino secco, spezie",
-      en: "Aperol, dry wine, spices",
-    },
-  },
+  // {
+  //   img: images.hot,
+  //   nome: "Anacleto",
+  //   ricetta: {
+  //     it: "Espresso, Cioccolata, Zabaione, Panna",
+  //     en: "Espresso, Chocolate, Eggnog, Cream",
+  //   },
+  // },
+  // {
+  //   img: images.hot,
+  //   nome: "Afther 8",
+  //   ricetta: {
+  //     it: "Rum, Cioccolato Venchi 1878, menta",
+  //     en: "Rum, Venchi Chocolate 1878, mint",
+  //   },
+  // },
+  // // {
+  // //   img: images.hot,
+  // //   nome: "Chai Toddy",
+  // //   ricetta: {
+  // //     it: "Bourbon, Chai tea, limone, miele",
+  // //     en: "Bourbon, Chai tea, lemon, honey",
+  // //   },
+  // // },
+  // {
+  //   img: images.hot,
+  //   nome: "Caribbean",
+  //   ricetta: {
+  //     it: "Rum, caffè, cocco & cannella ",
+  //     en: "Rum, caffè, cocco & cannella",
+  //   },
+  // },
+  // {
+  //   img: images.hot,
+  //   nome: "French kiss",
+  //   ricetta: {
+  //     it: "Calvados, Cioccolato fondente, Lamponi",
+  //     en: "Calvados, Dark chocolate, Raspberries",
+  //   },
+  // },
+  // {
+  //   img: images.hot,
+  //   nome: "Aperol Spritz Caldo",
+  //   ricetta: {
+  //     it: "Aperol, vino secco, spezie",
+  //     en: "Aperol, dry wine, spices",
+  //   },
+  // },
 ];
 export const shot = [
   // {

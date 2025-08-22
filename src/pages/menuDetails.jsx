@@ -181,16 +181,16 @@ const MenuDetails = () => {
           /> */}
         </div>
         <div id="food">
-          <Bruschette
+          {/* <Bruschette
             element={menuElement.bruschette}
             langIT={langIt}
             cost={"2€/pz"}
-          />
+          /> */}
           <FoodSelection
             category={menuElement.nachos}
             langIT={langIt}
             nome="Nachos"
-            cost={"6"}
+            cost={"7"}
             isFood={true}
           />
           <FoodSelection

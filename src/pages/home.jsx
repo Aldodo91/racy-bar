@@ -24,7 +24,7 @@ const Home = () => {
         <div className="orari">
           <p className="orari-inside orari-mb">Open every day</p>
           <p className="orari-inside orari-mb">09.00 am | 01.00 am </p>
-          <p className="orari-inside orari-mb">Thursday 09.00 am | 04.00 pm</p>
+          {/* <p className="orari-inside orari-mb">Thursday 09.00 am | 04.00 pm</p> */}
           {/* <p style={{ marginTop: "12px" }} className="orari-inside">
             Closed on Thursday
           </p> */}
