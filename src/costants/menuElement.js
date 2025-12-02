@@ -1,4 +1,4 @@
-//import * as images from "./images";
+import * as images from "./images";
 
 export const toShare = [
   // {
@@ -9,14 +9,14 @@ export const toShare = [
   //     en: "Racy Aperitivo, Prosecco, Fresh fruit",
   //   },
   // },
-  {
-    img: null,
-    nome: "50 Shades of Grey Goose",
-    ricetta: {
-      it: "Vodka, Lampone, Mirtillo, Prosecco",
-      en: "Vodka, Raspberry, Cranberry, Prosecco",
-    },
-  },
+  // {
+  //   img: null,
+  //   nome: "50 Shades of Grey Goose",
+  //   ricetta: {
+  //     it: "Vodka, Lampone, Mirtillo, Prosecco",
+  //     en: "Vodka, Raspberry, Cranberry, Prosecco",
+  //   },
+  // },
 ];
 
 export const gin = [
@@ -1086,14 +1086,14 @@ export const bollicine = [
 ];
 
 export const hot = [
-  // {
-  //   img: images.hot,
-  //   nome: "Apple brulè",
-  //   ricetta: {
-  //     it: "Dark rum, mela, chiodi di garofano, anice stellatona",
-  //     en: "Dark rum, apple, cloves, star anise",
-  //   },
-  // },
+  {
+    img: images.hot,
+    nome: "Apple brulè",
+    ricetta: {
+      it: "Mela limoncella, vodka, spezie natalizie",
+      en: "Apple limoncella, vodka, Christmas spices",
+    },
+  },
   // {
   //   img: images.hot,
   //   nome: "Anacleto",
@@ -1102,30 +1102,30 @@ export const hot = [
   //     en: "Espresso, Chocolate, Eggnog, Cream",
   //   },
   // },
+  {
+    img: images.hot,
+    nome: "Afther 8",
+    ricetta: {
+      it: "Rum, cioccolato e menta",
+      en: "Rum, chocolate, mint",
+    },
+  },
   // {
   //   img: images.hot,
-  //   nome: "Afther 8",
+  //   nome: "Chai Toddy",
   //   ricetta: {
-  //     it: "Rum, Cioccolato Venchi 1878, menta",
-  //     en: "Rum, Venchi Chocolate 1878, mint",
+  //     it: "Bourbon, Chai tea, limone, miele",
+  //     en: "Bourbon, Chai tea, lemon, honey",
   //   },
   // },
-  // // {
-  // //   img: images.hot,
-  // //   nome: "Chai Toddy",
-  // //   ricetta: {
-  // //     it: "Bourbon, Chai tea, limone, miele",
-  // //     en: "Bourbon, Chai tea, lemon, honey",
-  // //   },
-  // // },
-  // {
-  //   img: images.hot,
-  //   nome: "Caribbean",
-  //   ricetta: {
-  //     it: "Rum, caffè, cocco & cannella ",
-  //     en: "Rum, caffè, cocco & cannella",
-  //   },
-  // },
+  {
+    img: images.hot,
+    nome: "Caribbean",
+    ricetta: {
+      it: "Rum, caffè, cocco & cannella ",
+      en: "Rum, caffè, cocco & cannella",
+    },
+  },
   // {
   //   img: images.hot,
   //   nome: "French kiss",
@@ -1134,14 +1134,14 @@ export const hot = [
   //     en: "Calvados, Dark chocolate, Raspberries",
   //   },
   // },
-  // {
-  //   img: images.hot,
-  //   nome: "Aperol Spritz Caldo",
-  //   ricetta: {
-  //     it: "Aperol, vino secco, spezie",
-  //     en: "Aperol, dry wine, spices",
-  //   },
-  // },
+  {
+    img: images.hot,
+    nome: "Aperol Spritz Caldo",
+    ricetta: {
+      it: "Aperol, vino secco, spezie",
+      en: "Aperol, dry wine, spices",
+    },
+  },
 ];
 export const shot = [
   // {
