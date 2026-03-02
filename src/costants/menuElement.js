@@ -535,14 +535,14 @@ export const fullEnglishBreakfast = {
   prezzo: "15",
 };
 export const birra = [
-  {
-    nome: "Draught 40cl",
-    prezzo: 7,
-  },
-  {
-    nome: "Draught 20cl",
-    prezzo: 5,
-  },
+  // {
+  //   nome: "Draught 40cl",
+  //   prezzo: 7,
+  // },
+  // {
+  //   nome: "Draught 20cl",
+  //   prezzo: 5,
+  // },
   {
     nome: "Peroni Capri",
     prezzo: 6,
@@ -567,18 +567,18 @@ export const softDrink = [
   },
 ];
 export const food = [
-  {
-    img: null,
-    nome: {
-      it: "Pizza sott'e 'ngopp",
-      en: "Upside down Pizza",
-    },
-    prezzo: 10,
-    ricetta: {
-      it: "",
-      en: "",
-    },
-  },
+  // {
+  //   img: null,
+  //   nome: {
+  //     it: "Pizza sott'e 'ngopp",
+  //     en: "Upside down Pizza",
+  //   },
+  //   prezzo: 10,
+  //   ricetta: {
+  //     it: "",
+  //     en: "",
+  //   },
+  // },
   {
     img: null,
     nome: {

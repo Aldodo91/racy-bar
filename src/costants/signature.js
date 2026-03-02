@@ -25,6 +25,14 @@ const ALL = {
       en: "Aged Rum, indian chai, ginger beer",
     },
   },
+  mustacciolo: {
+    img: images.corto,
+    nome: "Quello con il Mustacciolo ",
+    ricetta: {
+      it: "Rum al Mustacciolo, cioccolato, cannella e panna",
+      en: "Mustacciolo rum, chocolate, cinnamon and cream",
+    },
+  },
   santaCokie: {
     img: images.corto,
     nome: "Santa's cookie",
@@ -463,7 +471,8 @@ const ALL = {
 
 export const signature = [
   ALL.roulette,
-  // ALL.xmas,
+  // ALL.mustacciolo,
+  ALL.xmas,
   //ALL.negroniTerraSirene,
   //ALL.winterBellini,
   ALL.tropicalOasis,
@@ -471,7 +480,7 @@ export const signature = [
   ALL.myTai,
   ALL.flowerPower,
   ALL.afterdinner,
-  // ALL.sydney2,
+  ALL.sydney2,
   //ALL.sydney,
   // ALL.winter,
   // ALL.candyCane,
