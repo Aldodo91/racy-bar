@@ -17,6 +17,14 @@ const ALL = {
       en: "Gin, Raspberries, berries",
     },
   },
+  nutellaMartini: {
+    img: images.martini,
+    nome: "Nutella Martini",
+    ricetta: {
+      it: "Vodka, Nutella",
+      en: "Vodka, Nutella",
+    },
+  },
   chai: {
     img: images.vino,
     nome: "Chai",
@@ -471,8 +479,9 @@ const ALL = {
 
 export const signature = [
   ALL.roulette,
+  ALL.nutellaMartini,
   // ALL.mustacciolo,
-  ALL.xmas,
+  //ALL.xmas,
   //ALL.negroniTerraSirene,
   //ALL.winterBellini,
   ALL.tropicalOasis,
