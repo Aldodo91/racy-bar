@@ -46,6 +46,11 @@ const Sidebar = ({ lang, menuElement }) => {
       <a className="menu-item" href="#dessert" onClick={close}>
         Dessert
       </a>
+      {menuElement.merch.length && (
+        <a className="menu-item" href="#merch" onClick={close}>
+          Merchandaising
+        </a>
+      )}
     </Menu>
   );
 };

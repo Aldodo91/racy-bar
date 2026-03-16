@@ -27,6 +27,11 @@ import fenicottero from "../assets/glass/fenicottero.jpg";
 import rame from "../assets/glass/rame.webp";
 import nero from "../assets/glass/nero.webp";
 
+import felpa from "../assets/merch/felpa.jpeg";
+import giub from "../assets/merch/giub.jpeg";
+import orologio from "../assets/merch/orologio.jpeg";
+import tshirt from "../assets/merch/tshirt.jpeg";
+
 export {
   question,
   lungoBlu,
@@ -56,4 +61,8 @@ export {
   fenicottero,
   rame,
   nero,
+  felpa,
+  giub,
+  orologio,
+  tshirt,
 };

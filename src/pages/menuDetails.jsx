@@ -14,6 +14,7 @@ import Allergeni from "../components/allergeni";
 import { signatureLabel, cornerLabel } from "../costants/labels";
 import Coriandoli from "../components/coriandoli";
 import { useLocation } from "react-router-dom/cjs/react-router-dom.min";
+import MerchSelection from "../components/merchSection";
 
 const MenuDetails = () => {
   const location = useLocation();
@@ -223,6 +224,14 @@ const MenuDetails = () => {
           />
         </div>
         <Allergeni />
+        <div id="merch">
+          <MerchSelection
+            category={menuElement.merch}
+            nome="Merchandise"
+            langIT={langIt}
+            label={{ it: "Merchandising", en: "Merchandise" }}
+          />
+        </div>
       </div>
     </>
   );

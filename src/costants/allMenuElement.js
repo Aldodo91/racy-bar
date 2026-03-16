@@ -33,6 +33,7 @@ import {
   focaccie,
   fullEnglishBreakfast,
   nachos,
+  merch,
 } from "./menuElement";
 export {
   signature,
@@ -70,4 +71,5 @@ export {
   diageo,
   nachos,
   fullEnglishBreakfast,
+  merch,
 };

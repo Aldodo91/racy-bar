@@ -1169,3 +1169,41 @@ export const shot = [
   //   },
   // },
 ];
+export const merch = [
+  // {
+  //   img: images.orologio,
+  //   nome: "Orologio",
+  //   cost: 10,
+  //   ricetta: {
+  //     it: "Elegante orologio da polso",
+  //     en: "Elegant wrist watch",
+  //   },
+  // },
+  // {
+  //   img: images.tshirt,
+  //   nome: "T-Shirt",
+  //   cost: 10,
+  //   ricetta: {
+  //     it: "T-shirt casual e comoda",
+  //     en: "Casual and comfortable t-shirt",
+  //   },
+  // },
+  // {
+  //   img: images.felpa,
+  //   nome: "Maglia",
+  //   cost: 10,
+  //   ricetta: {
+  //     it: "Felpa morbida e calda",
+  //     en: "Soft and warm sweatshirt",
+  //   },
+  // },
+  // {
+  //   img: images.giub,
+  //   nome: "Giubbino",
+  //   cost: 10,
+  //   ricetta: {
+  //     it: "Giubbino leggero e moderno",
+  //     en: "Light and stylish jacket",
+  //   },
+  // },
+];

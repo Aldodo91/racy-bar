@@ -25,6 +25,15 @@
   margin-left: 10px;
   width: 600px;
 }
+.detailsMerch {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding-right: 40px;
+  margin-left: 10px;
+  width: 250px;
+}
 .title {
   font-size: 20px;
 }
