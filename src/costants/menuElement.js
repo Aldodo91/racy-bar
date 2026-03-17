@@ -1171,7 +1171,7 @@ export const shot = [
 ];
 export const merch = [
   // {
-  //   img: images.orologio,
+  //   imgs: [images.orologio, images.tshirt, images.giub],
   //   nome: "Orologio",
   //   cost: 10,
   //   ricetta: {
@@ -1180,7 +1180,7 @@ export const merch = [
   //   },
   // },
   // {
-  //   img: images.tshirt,
+  //   imgs: [images.tshirt, images.tshirt, images.tshirt],
   //   nome: "T-Shirt",
   //   cost: 10,
   //   ricetta: {
@@ -1189,7 +1189,7 @@ export const merch = [
   //   },
   // },
   // {
-  //   img: images.felpa,
+  //   imgs: [images.felpa, images.felpa, images.felpa],
   //   nome: "Maglia",
   //   cost: 10,
   //   ricetta: {
@@ -1198,7 +1198,7 @@ export const merch = [
   //   },
   // },
   // {
-  //   img: images.giub,
+  //   imgs: [images.giub, images.giub, images.giub],
   //   nome: "Giubbino",
   //   cost: 10,
   //   ricetta: {

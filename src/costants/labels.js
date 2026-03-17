@@ -6,3 +6,7 @@ export const cornerLabel = {
   it: "🌶️ Delizioso dopo cena o piccante pre serata, a te la scelta 😉",
   en: "🌶️ Delicious after dinner or spicy pre night, you choose 😉",
 };
+export const merchLabel = {
+  it: "❤️ Wear your Passion ✨",
+  en: "❤️ Wear your Passion ✨",
+};

@@ -11,10 +11,11 @@ import DessertSelection from "../components/dessetSelection";
 import LuxurySelection from "../components/LuxurySelecion";
 import SpecialCoffie from "../components/coffieSpecial";
 import Allergeni from "../components/allergeni";
-import { signatureLabel, cornerLabel } from "../costants/labels";
+import * as labels from "../costants/labels";
 import Coriandoli from "../components/coriandoli";
 import { useLocation } from "react-router-dom/cjs/react-router-dom.min";
 import MerchSelection from "../components/merchSection";
+import Footer from "../components/footer";
 
 const MenuDetails = () => {
   const location = useLocation();
@@ -65,7 +66,7 @@ const MenuDetails = () => {
             nome="Signature Cocktails"
             langIT={langIt}
             cost={12}
-            label={signatureLabel}
+            label={labels.signatureLabel}
           />
           <div id="hot">
             <BigSelection
@@ -91,7 +92,7 @@ const MenuDetails = () => {
             nome={langIt ? "L'angolo del piacere" : "Temptation corner "}
             langIT={langIt}
             cost={4}
-            label={cornerLabel}
+            label={labels.cornerLabel}
           />
         </div>
         <BigSelection
@@ -229,7 +230,7 @@ const MenuDetails = () => {
             category={menuElement.merch}
             nome="Merchandise"
             langIT={langIt}
-            label={{ it: "Merchandising", en: "Merchandise" }}
+            label={labels.merchLabel}
           />
         </div>
       </div>

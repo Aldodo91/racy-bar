@@ -1,5 +1,6 @@
 import { i18n } from "../common/functions";
 import Category from "./category";
+import Footer from "./footer";
 import Label from "./label";
 import MenuMerchElement from "./menuMerchSection";
 
@@ -21,6 +22,7 @@ const MerchSelection = ({ category, nome, langIT, label }) => {
             ))}
           </div>
         </center>
+        <Footer show />
       </>
     )
   );

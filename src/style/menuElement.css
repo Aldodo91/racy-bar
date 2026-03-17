@@ -108,3 +108,84 @@
   color: black;
   /* white-space: nowrap; */
 }
+/* MERCH  */
+/* Overlay a tutto schermo */
+.carousel-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(255, 255, 255, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.carousel-container {
+  position: relative;
+  max-width: 90%;
+  max-height: 80%;
+}
+
+.carousel-image {
+  max-width: 100%;
+  max-height: 80vh;
+  border-radius: 8px;
+  object-fit: contain;
+  user-select: none;
+  -webkit-user-drag: none;
+  touch-action: none;
+
+  /* Definizione della transizione sull'opacità */
+  transition: opacity 0.5s ease-in-out;
+}
+
+/* Stato di dissolvenza in entrata (completamente visibile) */
+.fade-in {
+  opacity: 1;
+}
+
+/* Stato di dissolvenza in uscita (completamente trasparente) */
+.fade-out {
+  opacity: 0;
+}
+
+/* Pulsanti di navigazione */
+.nav-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.2);
+  color: black;
+  border: none;
+  padding: 15px;
+  cursor: pointer;
+  font-size: 24px;
+  border-radius: 50%;
+}
+
+.prev {
+  left: -60px;
+}
+.next {
+  right: -60px;
+}
+
+.close-btn {
+  position: fixed;
+  top: 100px;
+  right: 30px;
+  background: none;
+  color: black;
+  border: none;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.image-counter {
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+}
