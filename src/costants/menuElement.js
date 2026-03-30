@@ -1041,18 +1041,18 @@ export const bollicine = [
     nome: "Krug 169 edition brut",
     bottleCost: 410,
   },
-  {
-    nome: "CA del bosco",
-    bottleCost: 65,
-  },
+  // {
+  //   nome: "CA del bosco",
+  //   bottleCost: 65,
+  // },
   {
     nome: "Louis Roederer 242",
     bottleCost: 110,
   },
-  {
-    nome: "Laurent-Perrier Rosè",
-    bottleCost: 120,
-  },
+  // {
+  //   nome: "Laurent-Perrier Rosè",
+  //   bottleCost: 120,
+  // },
   {
     nome: "Bollinger special cuvee",
     bottleCost: 115,
