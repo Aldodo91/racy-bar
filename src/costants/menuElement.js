@@ -286,6 +286,10 @@ export const scothWisky = [
     nome: "Macallan 18 double cask",
     prezzo: 68,
   },
+  {
+    nome: "Caol Ila 18 y.o",
+    prezzo: 32,
+  },
 ];
 export const usa = [
   {
@@ -329,6 +333,10 @@ export const japaniseWisky = [
   {
     nome: "Suntory Toki",
     prezzo: 9,
+  },
+  {
+    nome: "AKASHI Blended",
+    prezzo: 12,
   },
   {
     nome: "Nikka from the barrel",
@@ -376,11 +384,11 @@ export const grappa = [
 export const caffetteria = [
   {
     nome: "Cornetto",
-    prezzo: 2,
+    prezzo: 2.5,
   },
   {
     nome: "Mini Cornetto",
-    prezzo: 1.5,
+    prezzo: 2,
   },
   {
     nome: "Espresso",
@@ -388,11 +396,11 @@ export const caffetteria = [
   },
   {
     nome: "Cappuccino",
-    prezzo: 3.5,
+    prezzo: 4,
   },
   {
     nome: "Latte Macchiato",
-    prezzo: 3.5,
+    prezzo: 4,
   },
   {
     nome: "Cortado",
@@ -400,15 +408,15 @@ export const caffetteria = [
   },
   {
     nome: "Americano",
-    prezzo: 3.5,
+    prezzo: 4,
   },
   {
     nome: "Doppio Espresso",
-    prezzo: 3.5,
+    prezzo: 4,
   },
   {
     nome: "Tea",
-    prezzo: 3.5,
+    prezzo: 4,
   },
   // {
   //   nome: "Caffe freddo",
@@ -422,10 +430,10 @@ export const caffetteria = [
     nome: "Soft drink",
     prezzo: 3.5,
   },
-  {
-    nome: "Flat white",
-    prezzo: 3.5,
-  },
+  // {
+  //   nome: "Flat white",
+  //   prezzo: 3.5,
+  // },
   {
     nome: "Spremuta",
     prezzo: 4,
@@ -488,6 +496,11 @@ export const specialCoffie = [
     desc: "Espresso, cioccolata, latte",
     prezzo: 4,
   },
+  {
+    nome: "Iced Coffee",
+    desc: "",
+    prezzo: 5,
+  },
 ];
 export const tisane = [
   {
@@ -535,14 +548,14 @@ export const fullEnglishBreakfast = {
   prezzo: "15",
 };
 export const birra = [
-  // {
-  //   nome: "Draught 40cl",
-  //   prezzo: 7,
-  // },
-  // {
-  //   nome: "Draught 20cl",
-  //   prezzo: 5,
-  // },
+  {
+    nome: "Draught 40cl",
+    prezzo: 7,
+  },
+  {
+    nome: "Draught 20cl",
+    prezzo: 5,
+  },
   {
     nome: "Peroni Capri",
     prezzo: 6,
@@ -567,18 +580,30 @@ export const softDrink = [
   },
 ];
 export const food = [
-  // {
-  //   img: null,
-  //   nome: {
-  //     it: "Pizza sott'e 'ngopp",
-  //     en: "Upside down Pizza",
-  //   },
-  //   prezzo: 10,
-  //   ricetta: {
-  //     it: "",
-  //     en: "",
-  //   },
-  // },
+  {
+    img: null,
+    nome: {
+      it: "Bruschette",
+      en: "Bruschette",
+    },
+    prezzo: "2/pz",
+    ricetta: {
+      it: "",
+      en: "",
+    },
+  },
+  {
+    img: null,
+    nome: {
+      it: "Pizza sott'e 'ngopp",
+      en: "Upside down Pizza",
+    },
+    prezzo: 10,
+    ricetta: {
+      it: "",
+      en: "",
+    },
+  },
   {
     img: null,
     nome: {
@@ -603,6 +628,66 @@ export const food = [
       en: "",
     },
   },
+  {
+    img: null,
+    nome: {
+      it: "Polpette al sugo",
+      en: "Meatballs in sauce",
+    },
+    prezzo: 14,
+    ricetta: {
+      it: "",
+      en: "",
+    },
+  },
+  {
+    img: null,
+    nome: {
+      it: "Spaghetti Racy",
+      en: "Pasta Racy style",
+    },
+    prezzo: 18,
+    ricetta: {
+      it: "Pomodoro, tequila, nduja, burrata",
+      en: "Tomato, tequila, nduja, burrata",
+    },
+  },
+  {
+    img: null,
+    nome: {
+      it: "Riso Nero",
+      en: "Black rice",
+    },
+    prezzo: 14,
+    ricetta: {
+      it: "Riso nero, pesto di basilico, pomodorini",
+      en: "Black rice, basil pesto, cherry tomatoes",
+    },
+  },
+  {
+    img: null,
+    nome: {
+      it: "Insalatona Salmone",
+      en: "Insalatona with salmon",
+    },
+    prezzo: 16,
+    ricetta: {
+      it: "Insalatona con salmone affumicato",
+      en: "Hearty Salad with smoked salmon",
+    },
+  },
+  {
+    img: null,
+    nome: {
+      it: "Insalatona Pollo",
+      en: "Chicken Salad",
+    },
+    prezzo: 14,
+    ricetta: {
+      it: "Insalatona con pollo",
+      en: "Hearty Salad with grilled",
+    },
+  },
   // {
   //   img: null,
   //   nome: {
@@ -622,6 +707,18 @@ export const food = [
       en: "Chicken curry",
     },
     prezzo: 16,
+    ricetta: {
+      it: "",
+      en: "",
+    },
+  },
+  {
+    img: null,
+    nome: {
+      it: "Lasagna gluten free",
+      en: "Gluten-free Lasagna",
+    },
+    prezzo: 14,
     ricetta: {
       it: "",
       en: "",
@@ -773,18 +870,18 @@ export const sandwwich = [
       en: "",
     },
   },
-  // {
-  //   img: null,
-  //   nome: {
-  //     it: "Salmone affumicato",
-  //     en: "Smoked salmon sandwich",
-  //   },
-  //   prezzo: 10,
-  //   ricetta: {
-  //     it: "",
-  //     en: "",
-  //   },
-  // },
+  {
+    img: null,
+    nome: {
+      it: "Salmone affumicato",
+      en: "Smoked salmon sandwich",
+    },
+    prezzo: 12,
+    ricetta: {
+      it: "",
+      en: "",
+    },
+  },
 ];
 export const focaccie = [
   // {
@@ -896,8 +993,43 @@ export const dessert = [
   {
     prezzo: 6,
     desc: {
-      it: "Dolce del giorno",
-      en: "Desset of the day",
+      it: "Tiramisu",
+      en: "Tiramisu",
+    },
+  },
+  {
+    prezzo: 6,
+    desc: {
+      it: "Sorbetto al limone",
+      en: "Lemon sorbet",
+    },
+  },
+  {
+    prezzo: 6,
+    desc: {
+      it: "Tortino al cioccolato",
+      en: "Chocolate cake",
+    },
+  },
+  {
+    prezzo: 6,
+    desc: {
+      it: "Affogato",
+      en: "Affogato",
+    },
+  },
+  {
+    prezzo: 6,
+    desc: {
+      it: "Pizza Nutella",
+      en: "Pizza Nutella",
+    },
+  },
+  {
+    prezzo: 6,
+    desc: {
+      it: "Pancake",
+      en: "Pancake",
     },
   },
 ];
@@ -947,11 +1079,11 @@ export const redWine = [
   // },
   {
     nome: "Amarone Costasera Masi 2017",
-    bottleCost: 68,
+    bottleCost: 95,
   },
   {
-    nome: "Amarone Villa Belvedere 2018",
-    bottleCost: 55,
+    nome: "Amarone Villa Santi",
+    bottleCost: 60,
   },
   // {
   //   nome: "Taurasi Feudi 2012",
@@ -1179,31 +1311,31 @@ export const merch = [
   //     en: "Elegant wrist watch",
   //   },
   // },
-  // {
-  //   imgs: [images.tshirt, images.tshirt, images.tshirt],
-  //   nome: "T-Shirt",
-  //   cost: 10,
-  //   ricetta: {
-  //     it: "T-shirt casual e comoda",
-  //     en: "Casual and comfortable t-shirt",
-  //   },
-  // },
-  // {
-  //   imgs: [images.felpa, images.felpa, images.felpa],
-  //   nome: "Maglia",
-  //   cost: 10,
-  //   ricetta: {
-  //     it: "Felpa morbida e calda",
-  //     en: "Soft and warm sweatshirt",
-  //   },
-  // },
-  // {
-  //   imgs: [images.giub, images.giub, images.giub],
-  //   nome: "Giubbino",
-  //   cost: 10,
-  //   ricetta: {
-  //     it: "Giubbino leggero e moderno",
-  //     en: "Light and stylish jacket",
-  //   },
-  // },
+  {
+    imgs: [images.tshirt, images.tshirt, images.tshirt],
+    nome: "T-Shirt",
+    cost: 12,
+    ricetta: {
+      it: "T-shirt casual e comoda",
+      en: "Casual and comfortable t-shirt",
+    },
+  },
+  {
+    imgs: [images.felpa, images.felpa, images.felpa],
+    nome: "Maglia",
+    cost: 28,
+    ricetta: {
+      it: "Felpa morbida e calda",
+      en: "Soft and warm sweatshirt",
+    },
+  },
+  {
+    imgs: [images.giub, images.giub, images.giub],
+    nome: "Giubbino",
+    cost: 55,
+    ricetta: {
+      it: "Giubbino leggero e moderno",
+      en: "Light and stylish jacket",
+    },
+  },
 ];

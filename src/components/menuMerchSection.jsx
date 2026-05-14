@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import "../style/menuElement.css";
 import { i18n } from "../common/functions";
 
@@ -63,13 +63,16 @@ const MenuMerchElement = ({ element, langIT }) => {
   return (
     <>
       <div className="drinkSpace">
-        <div className="drinkCard">
+        <div
+          className="drinkCard"
+          style={{ display: "flex", justifyContent: "left" }}
+        >
           <div
             className="imageSide"
             onClick={() => setIsOpen(true)}
             style={{ cursor: "pointer" }}
           >
-            <img className="image" src={imgs[0]} width="105px" alt={nome} />
+            <img className="image" src={imgs[0]} width="100px" alt={nome} />
             {/* {imgs.length > 1 && (
               <span className="badge-count">+{imgs.length - 1}</span>
             )} */}
@@ -79,7 +82,8 @@ const MenuMerchElement = ({ element, langIT }) => {
             style={{
               display: "flex",
               flexDirection: "row",
-              alignItems: "flex-start",
+              flex: 1,
+              justifyContent: "space-between",
             }}
           >
             <div className="detailsMerch">

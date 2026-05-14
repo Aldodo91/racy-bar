@@ -6,7 +6,6 @@ import ExpandElement from "../components/expandElement";
 import SmallSection from "../components/smallSelection";
 import BigSelection from "../components/bigSelecion";
 import FoodSelection from "../components/foodSection";
-import Bruschette from "../components/bruschette";
 import DessertSelection from "../components/dessetSelection";
 import LuxurySelection from "../components/LuxurySelecion";
 import SpecialCoffie from "../components/coffieSpecial";
@@ -15,7 +14,6 @@ import * as labels from "../costants/labels";
 import Coriandoli from "../components/coriandoli";
 import { useLocation } from "react-router-dom/cjs/react-router-dom.min";
 import MerchSelection from "../components/merchSection";
-import Footer from "../components/footer";
 
 const MenuDetails = () => {
   const location = useLocation();

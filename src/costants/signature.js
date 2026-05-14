@@ -479,6 +479,7 @@ const ALL = {
 
 export const signature = [
   ALL.roulette,
+  ALL.santagata,
   ALL.nutellaMartini,
   // ALL.mustacciolo,
   //ALL.xmas,
@@ -497,7 +498,6 @@ export const signature = [
   // ALL.nocciolaSour,
 
   //ALL.negroniMediterraneo,
-  // ALL.santagata,
   // ALL.montella,
   ALL.tiramisu,
   //ALL.malabar,
