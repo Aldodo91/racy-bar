@@ -1159,6 +1159,10 @@ export const roseWine = [
   // },
   {
     nome: "Tramari Rosé",
+    bottleCost: 39,
+  },
+  {
+    nome: "Idea Rosé",
     bottleCost: 32,
     glassCost: 9,
   },
