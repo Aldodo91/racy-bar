@@ -1,6 +1,6 @@
 import * as images from "./images";
 
-const ALL = {
+const All = {
   xmas: {
     img: images.lungo,
     nome: "Xmas",
@@ -475,23 +475,32 @@ const ALL = {
       en: "Rum, dark rum, orange, lemon, almond",
     },
   },
+  melonSpriz: {
+    img: images.vino,
+    nome: "Watermelon Spritz 🍉",
+    ricetta: {
+      it: "Anguria fresca, Aperol, Prosecco",
+      en: "Fresh Watermelon, Aperol, Prosecco",
+    },
+  },
 };
 
 export const signature = [
-  ALL.roulette,
-  ALL.santagata,
-  ALL.nutellaMartini,
+  All.roulette,
+  All.melonSpriz,
+  All.santagata,
+  All.nutellaMartini,
   // ALL.mustacciolo,
   //ALL.xmas,
   //ALL.negroniTerraSirene,
   //ALL.winterBellini,
-  ALL.tropicalOasis,
-  ALL.bitterTruth,
-  ALL.myTai,
-  ALL.flowerPower,
-  ALL.afterdinner,
-  ALL.sydney2,
-  //ALL.sydney,
+  All.sydney,
+  All.tropicalOasis,
+  All.bitterTruth,
+  All.myTai,
+  All.flowerPower,
+  All.afterdinner,
+  All.sydney2,
   // ALL.winter,
   // ALL.candyCane,
   //ALL.Jasmine75,
@@ -499,15 +508,15 @@ export const signature = [
 
   //ALL.negroniMediterraneo,
   // ALL.montella,
-  ALL.tiramisu,
+  All.tiramisu,
   //ALL.malabar,
   //ALL.firenze,
-  ALL.amsterdam,
-  ALL.cancun,
-  ALL.montreal,
+  All.amsterdam,
+  All.cancun,
+  All.montreal,
   //ALL.venice,
-  ALL.barcellona,
-  ALL.cuba,
+  All.barcellona,
+  All.cuba,
   //ALL.sunset,
   //ALL.fijian,
 ];
