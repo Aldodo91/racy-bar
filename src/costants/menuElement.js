@@ -586,7 +586,7 @@ export const food = [
       it: "Bruschette",
       en: "Bruschette",
     },
-    prezzo: "2/pz",
+    prezzo: "10",
     ricetta: {
       it: "",
       en: "",
@@ -1062,7 +1062,6 @@ export const redWine = [
   {
     nome: "Moio 57",
     bottleCost: 32,
-    glassCost: 9,
   },
   // {
   //   nome: "Barolo Prunotto 2019 ",
@@ -1322,6 +1321,15 @@ export const merch = [
     ricetta: {
       it: "T-shirt casual e comoda",
       en: "Casual and comfortable t-shirt",
+    },
+  },
+  {
+    imgs: [images.tshirt_white, images.tshirt_white, images.tshirt_white],
+    nome: "T-Shirt Bianca",
+    cost: 12,
+    ricetta: {
+      it: "T-shirt bianca casual e comoda",
+      en: "White casual and comfortable t-shirt",
     },
   },
   {

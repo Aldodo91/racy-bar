@@ -31,6 +31,7 @@ import felpa from "../assets/merch/felpa.jpeg";
 import giub from "../assets/merch/giub.jpeg";
 import orologio from "../assets/merch/orologio.jpeg";
 import tshirt from "../assets/merch/tshirt.jpeg";
+import tshirt_white from "../assets/merch/tshirt_white.jpeg";
 
 export {
   question,
@@ -65,4 +66,5 @@ export {
   giub,
   orologio,
   tshirt,
+  tshirt_white,
 };
