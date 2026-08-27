@@ -10,16 +10,15 @@ const Home = () => {
     <>
       <div className="home">
         <div className="indizzoContainer">
-          <Link
+          <a
             className="tdNone"
-            to={{
-              pathname: links.maps,
-            }}
+            href={links.maps}
             target="_blank"
+            rel="noopener noreferrer"
           >
             <div className="indirizzo i1">Corso S.Agata 28,</div>
             <div className="indirizzo i2">Massa Lubrense</div>
-          </Link>
+          </a>
         </div>
         <div className="orari">
           <p className="orari-inside orari-mb">Open every day</p>
@@ -42,6 +41,7 @@ const Home = () => {
     </>
   );
 };
+
 const TemporaryClosed = () => {
   return (
     <div

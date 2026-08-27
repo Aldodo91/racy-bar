@@ -1,6 +1,5 @@
-import React from "react";
 import "./App.css";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./pages/home";
 import Menu from "./pages/menu";
 import MenuDetails from "./pages/menuDetails";
@@ -11,15 +10,11 @@ function App() {
     <Router>
       <div className="App" id="outer-container">
         <Logo />
-        <Switch>
-          <Route path="/" exact>
-            <Home />
-          </Route>
-          <Route path="/menu" exact>
-            <Menu />
-          </Route>
-          <Route path="/menu-details/:lang" exact children={<MenuDetails />} />
-        </Switch>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/menu" element={<Menu />} />
+          <Route path="/menu-details/:lang" element={<MenuDetails />} />
+        </Routes>
       </div>
     </Router>
   );

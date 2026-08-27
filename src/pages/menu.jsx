@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import "../style/animate.css";
 import "../style/menu.css";
@@ -8,6 +8,7 @@ const Menu = () => {
   const [expandEn, setExpandEn] = useState(false);
   const [blurIt, setBlurIt] = useState(false);
   const [blurEn, setBlurEn] = useState(false);
+
   const handleExapandIt = () => {
     setExpandit(!expandIt);
     if (expandIt) {
@@ -19,6 +20,7 @@ const Menu = () => {
     setBlurEn(true);
     setBlurIt(false);
   };
+
   const handleExpandEn = () => {
     setExpandEn(!expandEn);
     if (expandEn) {
@@ -30,32 +32,29 @@ const Menu = () => {
     setBlurEn(false);
     setBlurIt(true);
   };
+
   return (
     <>
       <center>
         <div className="buttonContainer">
           <button
             className={`bigButton ${blurIt ? "blur" : ""}`}
-            onClick={() => handleExapandIt()}
+            onClick={handleExapandIt}
           >
             Italiano
           </button>
           <div className={`btnExpand animate ${expandIt ? "show" : ""}`}>
             <Link
-              to={{
-                pathname: "/menu-details/it",
-                state: { lang: "it", view: "drink" },
-              }}
+              to="/menu-details/it"
+              state={{ lang: "it", view: "drink" }}
               className="smallButton"
             >
               Drink
             </Link>
 
             <Link
-              to={{
-                pathname: "/menu-details/it",
-                state: { lang: "it", view: "food" },
-              }}
+              to="/menu-details/it"
+              state={{ lang: "it", view: "food" }}
               className="smallButton"
             >
               Food
@@ -64,26 +63,22 @@ const Menu = () => {
 
           <button
             className={`bigButton ${blurEn ? "blur" : ""} `}
-            onClick={() => handleExpandEn()}
+            onClick={handleExpandEn}
           >
             English
           </button>
           <div className={`btnExpand animate ${expandEn ? "show" : ""}`}>
             <Link
-              to={{
-                pathname: "/menu-details/en",
-                state: { lang: "en", view: "drink" },
-              }}
+              to="/menu-details/en"
+              state={{ lang: "en", view: "drink" }}
               className="smallButton"
             >
               Drink
             </Link>
 
             <Link
-              to={{
-                pathname: "/menu-details/en",
-                state: { lang: "en", view: "food" },
-              }}
+              to="/menu-details/en"
+              state={{ lang: "en", view: "food" }}
               className="smallButton"
             >
               Food

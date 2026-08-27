@@ -1,5 +1,3 @@
-import React from "react";
-import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { links } from "../costants/links";
 import {
@@ -11,91 +9,48 @@ const Social = () => {
   return (
     <>
       <div className="cat">
-        <Link
-          to={{
-            pathname: links.camillo,
-          }}
-          target="_blank"
-        >
+        <a href={links.camillo} target="_blank" rel="noopener noreferrer">
           😺
-          {/* <FontAwesomeIcon
-            size="lg"
-            className="icon"
-            icon={brands("instagram")}
-          /> */}
-        </Link>
+        </a>
       </div>
       <center>
         <div className="socialContainer">
           <div className="social">
-            <Link
-              to={{
-                pathname: links.fb,
-              }}
-              target="_blank"
-            >
+            <a href={links.fb} target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon
                 size="lg"
                 className="icon"
                 icon={brands("facebook")}
               />
-            </Link>
-            <Link
-              to={{
-                pathname: links.instagram,
-              }}
-              target="_blank"
-            >
+            </a>
+            <a href={links.instagram} target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon
                 size="lg"
                 className="icon"
                 icon={brands("instagram")}
               />
-            </Link>
-            <Link
-              to={{
-                pathname: links.tiktok,
-              }}
-              target="_blank"
-            >
+            </a>
+            <a href={links.tiktok} target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon
                 className="icon"
                 size="lg"
                 icon={brands("tiktok")}
               />
-            </Link>
-            <Link
-              to={{
-                pathname: links.maps,
-              }}
-              target="_blank"
-            >
+            </a>
+            <a href={links.maps} target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon
                 size="lg"
                 className="icon"
                 icon={regular("map")}
               />
-            </Link>
-            <Link
-              to={{
-                pathname: links.whatsapp,
-              }}
-              target="_blank"
-            >
+            </a>
+            <a href={links.whatsapp} target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon
                 size="lg"
                 className="icon"
                 icon={brands("whatsapp")}
               />
-            </Link>
-            {/* <Link
-            to={{
-              pathname: links.tel,
-            }}
-            target="_blank"
-          >
-            <FontAwesomeIcon size="lg" className="icon" icon={solid("phone")} />
-          </Link> */}
+            </a>
           </div>
         </div>
       </center>

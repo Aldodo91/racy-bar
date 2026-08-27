@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import "../style/logo.css";
 import logoW from "../assets/logoW.png";

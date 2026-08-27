@@ -12,7 +12,7 @@ import SpecialCoffie from "../components/coffieSpecial";
 import Allergeni from "../components/allergeni";
 import * as labels from "../costants/labels";
 import Coriandoli from "../components/coriandoli";
-import { useLocation } from "react-router-dom/cjs/react-router-dom.min";
+import { useLocation } from "react-router-dom";
 import MerchSelection from "../components/merchSection";
 
 const MenuDetails = () => {

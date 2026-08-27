@@ -1,4 +1,3 @@
-import React from "react";
 import "../style/menuElement.css";
 import { i18n } from "../common/functions";
 

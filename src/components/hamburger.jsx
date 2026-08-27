@@ -1,55 +1,113 @@
-import React from "react";
+import { useState } from "react";
 import { scaleDown as Menu } from "react-burger-menu";
 import "../style/hamburger.css";
 
 const Sidebar = ({ lang, menuElement }) => {
+  const [isOpen, setIsOpen] = useState(false);
   const it = lang === "it";
-  const close = () => {
-    document
-      .querySelector("#sidebar > div:nth-child(2) > div > button")
-      .click();
+
+  // Gestisce l'apertura/chiusura nativa del burger menu
+  const handleStateChange = (state) => {
+    setIsOpen(state.isOpen);
   };
+
+  // Funzione per lo scroll fluido e chiusura menu
+  const scrollToSection = (id) => {
+    setIsOpen(false); // Chiude il menu
+
+    // Attende un istante per permettere al menu di iniziare a chiudersi prima di scorrere
+    setTimeout(() => {
+      const element = document.getElementById(id);
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+    }, 150);
+  };
+
   return (
-    <Menu id="sidebar" isOpen={false}>
-      <a className="menu-item" href="#special" onClick={close}>
+    <Menu
+      id="sidebar"
+      isOpen={isOpen}
+      onStateChange={(state) => handleStateChange(state)}
+    >
+      <button
+        className="menu-item link-btn"
+        onClick={() => scrollToSection("special")}
+      >
         Luxury
-      </a>
-      <a className="menu-item" href="#signature" onClick={close}>
+      </button>
+      <button
+        className="menu-item link-btn"
+        onClick={() => scrollToSection("signature")}
+      >
         Signature
-      </a>
-      {menuElement.hot.length && (
-        <a className="menu-item" href="#hot" onClick={close}>
+      </button>
+
+      {Boolean(menuElement?.hot?.length) && (
+        <button
+          className="menu-item link-btn"
+          onClick={() => scrollToSection("hot")}
+        >
           Hot Cocktails
-        </a>
+        </button>
       )}
-      <a className="menu-item" href="#diageo" onClick={close}>
+
+      <button
+        className="menu-item link-btn"
+        onClick={() => scrollToSection("diageo")}
+      >
         Diageo
-      </a>
-      {/* <a className="menu-item" href="#corner" onClick={close}>
-        Shots
-      </a> */}
-      <a className="menu-item" href="#noAlcol" onClick={close}>
+      </button>
+
+      <button
+        className="menu-item link-btn"
+        onClick={() => scrollToSection("noAlcol")}
+      >
         MockTails
-      </a>
-      <a className="menu-item" href="#wine" onClick={close}>
+      </button>
+
+      <button
+        className="menu-item link-btn"
+        onClick={() => scrollToSection("wine")}
+      >
         {it ? "Vini" : "Wine"}
-      </a>
-      <a className="menu-item" href="#distillati" onClick={close}>
+      </button>
+
+      <button
+        className="menu-item link-btn"
+        onClick={() => scrollToSection("distillati")}
+      >
         {it ? "Distillati" : "Spirits"}
-      </a>
-      <a className="menu-item" href="#caffetteria" onClick={close}>
+      </button>
+
+      <button
+        className="menu-item link-btn"
+        onClick={() => scrollToSection("caffetteria")}
+      >
         {it ? "Caffetteria" : "Coffee"}
-      </a>
-      <a className="menu-item" href="#food" onClick={close}>
+      </button>
+
+      <button
+        className="menu-item link-btn"
+        onClick={() => scrollToSection("food")}
+      >
         Food
-      </a>
-      <a className="menu-item" href="#dessert" onClick={close}>
+      </button>
+
+      <button
+        className="menu-item link-btn"
+        onClick={() => scrollToSection("dessert")}
+      >
         Dessert
-      </a>
-      {menuElement.merch.length && (
-        <a className="menu-item" href="#merch" onClick={close}>
+      </button>
+
+      {Boolean(menuElement?.merch?.length) && (
+        <button
+          className="menu-item link-btn"
+          onClick={() => scrollToSection("merch")}
+        >
           Merchandaising
-        </a>
+        </button>
       )}
     </Menu>
   );

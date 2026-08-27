@@ -1,5 +1,3 @@
-import React from "react";
-
 const MultiLabel = ({ msg, langIT }) => {
   const computeMessageTitle = (msg, langIT) => {
     return langIT ? msg.title.it : msg.title.en;
