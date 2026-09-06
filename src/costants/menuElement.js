@@ -1043,10 +1043,10 @@ export const redWine = [
     nome: "Valpolicella Masi",
     bottleCost: 55,
   },
-  {
-    nome: "Jungano San Salvatore",
-    bottleCost: 45,
-  },
+  // {
+  //   nome: "Jungano San Salvatore",
+  //   bottleCost: 45,
+  // },
   {
     nome: "Barolo Lodali 2020",
     bottleCost: 55,
@@ -1055,9 +1055,13 @@ export const redWine = [
     nome: "Merlot La Viarte riserva 2013",
     bottleCost: 55,
   },
+  // {
+  //   nome: "Cabernet La Viarte riserva 2015 ",
+  //   bottleCost: 50,
+  // },
   {
-    nome: "Cabernet La Viarte riserva 2015 ",
-    bottleCost: 50,
+    nome: "Cabernet Cesare ",
+    bottleCost: 35,
   },
   {
     nome: "Moio 57",
@@ -1130,8 +1134,13 @@ export const whiteWine = [
   //   nome: "Biancolella Casa d'Ambra",
   //   bottleCost: 30,
   // },
+  // {
+  //   nome: "Chardonnay Cantina Mori",
+  //   bottleCost: 30,
+  //   glassCost: 8,
+  // },
   {
-    nome: "Chardonnay Cantina Mori",
+    nome: "Chardonnay Cesare",
     bottleCost: 30,
     glassCost: 8,
   },
