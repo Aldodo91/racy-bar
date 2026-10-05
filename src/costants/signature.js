@@ -487,14 +487,14 @@ const All = {
 
 export const signature = [
   All.roulette,
-  All.melonSpriz,
+  //All.melonSpriz,
   All.santagata,
   All.nutellaMartini,
   // ALL.mustacciolo,
   //ALL.xmas,
   //ALL.negroniTerraSirene,
   //ALL.winterBellini,
-  All.sydney,
+  //All.sydney,
   All.tropicalOasis,
   All.bitterTruth,
   All.myTai,
